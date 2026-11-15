@@ -1,0 +1,165 @@
+{
+  "6ac86b0e899bc6120ee1b72a947eb95e40562a43": {
+    "he": "כלניות",
+    "en": "Kalaniyot",
+    "aliases": [
+      "Kalaniot"
+    ],
+    "script": "HE"
+  },
+  "b6e404644d338a7af638c8acc11e5794d2a72f8c": {
+    "he": "ירושלים של זהב",
+    "en": "Yerushalayim Shel Zahav",
+    "aliases": [
+      "Jerusalem of Gold"
+    ],
+    "script": "HE"
+  },
+  "2ce664360d5a7e22e1a17ccc4e08db4c9cea0f2e": {
+    "he": "אני ואתה",
+    "en": "Ani Ve'ata",
+    "aliases": [
+      "Ani VeAta"
+    ],
+    "script": "HE"
+  },
+  "c241cb9ed9f395de174f89f79a3a5a06808597f8": {
+    "he": "יו יה",
+    "en": "Yo Ya",
+    "aliases": [],
+    "script": "HE"
+  },
+  "f82c63b18f8f6adf5b484487df1eb6888b0ca9cc": {
+    "he": "שוב",
+    "en": "Shuv",
+    "aliases": [],
+    "script": "HE"
+  },
+  "eef513822bcf14485bd250575bd598532bfe4db1": {
+    "he": "הפרח בגני",
+    "en": "Haperach Begani",
+    "aliases": [],
+    "script": "HE"
+  },
+  "c789f64510be5e7abe32771e275cd4ecb1a364ec": {
+    "he": "רכבת לילה לקהיר",
+    "en": "Rakevet Layla LeKahir",
+    "aliases": [
+      "רכבת לילה",
+      "Rakevet Layla"
+    ],
+    "script": "HE"
+  },
+  "e0c1de52680d2807b7625a44b60028049e8d1222": {
+    "he": "דיווה",
+    "en": "Diva",
+    "aliases": [],
+    "script": "HE"
+  },
+  "344a6a2ea263fcabf73ed9bc325b49569fa282ad": {
+    "he": "שירת הסטיקר",
+    "en": "Shirat HaSticker",
+    "aliases": [
+      "The Sticker Song",
+      "שיר הסטיקר"
+    ],
+    "script": "HE"
+  },
+  "d75fb5553b385040f4bb9142f83f45fcba77f848": {
+    "he": "תל אביב",
+    "en": "Tel Aviv",
+    "aliases": [],
+    "script": "HE"
+  },
+  "b538f99e73a33b1d95a2a89e7ddc47d7c3435e70": {
+    "he": "טודו בום",
+    "en": "Tudo Bom",
+    "aliases": [
+      "Todo Bom"
+    ],
+    "script": "HE"
+  },
+  "a2de438f26976ca91354b70c93c6968ad94bb3fe": {
+    "he": "טוי",
+    "en": "Toy",
+    "aliases": [],
+    "script": "EN"
+  },
+  "e009a7d481bba027e051007b5379f21f4b6ee092": {
+    "he": "האונד דוג",
+    "en": "Hound Dog",
+    "aliases": [],
+    "script": "EN"
+  },
+  "594d180a813aff5d85de00075aefc3f0cf5a7b5b": {
+    "he": "הלפ",
+    "en": "Help!",
+    "aliases": [],
+    "script": "EN"
+  },
+  "6cb0eb7fdbbe59b3f898bc30d6a83a18e966c5da": {
+    "he": "דנסינג קווין",
+    "en": "Dancing Queen",
+    "aliases": [],
+    "script": "EN"
+  },
+  "62bca0724e2fecd46ae55993f0976fda72059f01": {
+    "he": "99 לופטבלונס",
+    "en": "99 Luftballons",
+    "aliases": [
+      "Neunundneunzig Luftballons",
+      "99 Red Balloons"
+    ],
+    "script": "EN"
+  },
+  "d6e58e234ec4df88341c4eb38ed02d553e91bfc0": {
+    "he": "ויד אור ויתאאוט יו",
+    "en": "With or Without You",
+    "aliases": [],
+    "script": "EN"
+  },
+  "fba381e0d87d2458f512fea498556923a3ecdc78": {
+    "he": "סמלס לייק טין ספיריט",
+    "en": "Smells Like Teen Spirit",
+    "aliases": [],
+    "script": "EN"
+  },
+  "9535406a64666670ca2f13f92fc817bd3642bf64": {
+    "he": "סטופ",
+    "en": "Stop",
+    "aliases": [],
+    "script": "EN"
+  },
+  "43aa8ccdaedd1835307b5b8660a7636a155f2906": {
+    "he": "לוז יורסלף",
+    "en": "Lose Yourself",
+    "aliases": [],
+    "script": "EN"
+  },
+  "571e49c4ab7f49b4f4fdcc70b908d89da4856fb5": {
+    "he": "קרייזי אין לאב",
+    "en": "Crazy in Love",
+    "aliases": [],
+    "script": "EN"
+  },
+  "55b3efb03b2fa23d6e7d3f27629934c135af683b": {
+    "he": "שייפ אוף יו",
+    "en": "Shape of You",
+    "aliases": [],
+    "script": "EN"
+  },
+  "676341fe612030837953ecbc5c7bad1c19c7692d": {
+    "he": "7 רינגס",
+    "en": "7 Rings",
+    "aliases": [
+      "סבן רינגס"
+    ],
+    "script": "EN"
+  },
+  "fa332e1ff6449d881094dc2ddd7847399f1cc1f5": {
+    "he": "אורדינרי",
+    "en": "Ordinary",
+    "aliases": [],
+    "script": "EN"
+  }
+}

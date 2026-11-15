@@ -1,0 +1,63 @@
+# Popularity floors: the minimum Deezer popularity a matched song needs to stay
+# in the catalog, by origin and by chart-year era (since_2000: 2000+,
+# from_1970: 1970–1999, before_1970: up to 1969).
+#
+# Popularity = the highest Deezer "rank" among the song's acceptable versions
+# (rank exactly 100000 is Deezer's no-data placeholder and does not count).
+# Exempt: source "classics" and keys listed in keep.txt.
+#
+# Plan's starting values: INTL 300000 / 200000 / 100000, IL 100000 / 30000 / 10000.
+# Tuned in task 19 by reading the 20 songs on each side of every floor. Rule:
+# when "well known" and pool size conflict, the smaller pool wins. Deezer is
+# little used in Israel, so Israeli tracks rank far below international tracks
+# of the same fame; the IL cells are judged on whether the songs just below the
+# floor are still ones an Israeli family would recognise.
+
+[INTL]
+# Kept at 300000. Only 6 songs fall below, nearly all matches to an odd
+# version (a remix-only listing, a mixtape, a remake); just above sit Clocks,
+# Halo, Temperature, Airplanes, Cambio Dolor: still well known.
+since_2000 = 300000
+# Kept at 200000. Either side of the line is a mix of semi-forgotten hits
+# (Puppet Man, We Are Detective / Kenny Nolan, Vanity Fare, Blue Mink) with
+# a few still-known ones on both sides (Im Nin'alu above; Eagle, Hotstepper
+# below). There's no clearer cut-off, so the starting value stays.
+from_1970 = 200000
+# Kept at 100000. Below it are 1940s–50s hits only older listeners know (Baked a
+# Cake, Little Shoemaker, Hoop-Dee-Doo) along with a few famous ones (Volare,
+# Goodnight Irene, High Noon). Above it, the same level of fame (Tammy, Three
+# Coins, Sh-Boom). Lowering it would add more forgotten songs than known ones.
+before_1970 = 100000
+
+[IL]
+# Task 19 values were 20000 / 15000 / 10000; stage il-3000 took each to ¾ (see below). The task-19
+# notes are kept as the reading of the songs around those older lines.
+# since_2000: lowered from 100000 to 20000 in task 19. 30000–100000 is full of hits every Israeli knows
+# (החיים שלנו תותים, פרחים בקנה, נוף ילדות, הכוס הכחולה, עכשיו טוב); 20000–30000
+# still holds בתי קפה, ממי, בלילה. Below 20000 the songs thin out to lesser hits
+# (סודותיי, ימים טובים, על הברכיים).
+# Stage il-3000: the three IL floors lowered together to ¾ (from 20000 / 15000 / 10000), the
+# first step that keeps at least 3,200 Israeli songs once the whole Hebrew charts and the Hebrew
+# Wikipedia song articles joined the candidates (3,162 at the full floors, 3,263 at ¾).
+since_2000 = 15000
+# from_1970: lowered from 30000 to 15000 in task 19, now 11250 (¾). 15000–30000 holds בית חם, הצילו, גרה בשינקין,
+# אחותי רוחמה, הלילות שלנו, מחול מטורף. Below 15000 Deezer's numbers stop
+# meaning much: a few classics (למה לי לקחת ללב) sit among forgotten
+# festival entries. Those classics can go in keep.txt.
+from_1970 = 11250
+# before_1970: kept at 10000 in task 19, now 7500 (¾). All 19 songs above are well-known classics (עץ האלון, פראג,
+# איזה יום יפה). The 5 below are שיר לפנות ערב, הפרח הלבן, החור בדלי and two
+# rank-0 tracks (עם רדת יום, שריונים 69). They are left to keep.txt.
+before_1970 = 7500
+# Stage B: floors of their own for the Israeli chart rows (a Hebrew chart among their sources) and
+# album-page rows of 1960–1999. Chart rows: today's floors — the famous acts' rows (which skip the
+# floor) and the other acts' album rows already bring 1960–1999 far past the 2,100 target, so no floor
+# had to be lowered. Floors for 2000+ rows are unchanged.
+# Album rows of acts not on the famous list (fix round, controller's ruling): raised from 11250 / 7500
+# to 20000 / 13000. At today's floors the stage overshot its target twice over, and the review found
+# the low-popularity album tracks of other acts to be the least known rows: better-known songs are
+# preferred over more songs.
+chart_from_1970 = 11250
+chart_before_1970 = 7500
+album_from_1970 = 20000
+album_before_1970 = 13000

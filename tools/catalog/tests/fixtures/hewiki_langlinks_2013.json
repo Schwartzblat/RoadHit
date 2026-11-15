@@ -1,0 +1,532 @@
+{
+"batchcomplete": true,
+"query": {
+"pages": [
+{
+"ns": 0,
+"title": "Ho Hey",
+"missing": true
+},
+{
+"pageid": 40263,
+"ns": 0,
+"title": "אמינם",
+"langlinks": [
+{
+"lang": "en",
+"title": "Eminem"
+}
+]
+},
+{
+"pageid": 69706,
+"ns": 0,
+"title": "ג'סטין טימברלייק",
+"langlinks": [
+{
+"lang": "en",
+"title": "Justin Timberlake"
+}
+]
+},
+{
+"pageid": 142698,
+"ns": 0,
+"title": "דאפט פאנק",
+"langlinks": [
+{
+"lang": "en",
+"title": "Daft Punk"
+}
+]
+},
+{
+"pageid": 280337,
+"ns": 0,
+"title": "ריהאנה",
+"langlinks": [
+{
+"lang": "en",
+"title": "Rihanna"
+}
+]
+},
+{
+"pageid": 314922,
+"ns": 0,
+"title": "פינק",
+"langlinks": [
+{
+"lang": "en",
+"title": "Pink (singer)"
+}
+]
+},
+{
+"pageid": 323756,
+"ns": 0,
+"title": "ארקטיק מאנקיז",
+"langlinks": [
+{
+"lang": "en",
+"title": "Arctic Monkeys"
+}
+]
+},
+{
+"pageid": 378449,
+"ns": 0,
+"title": "אלישה קיז",
+"langlinks": [
+{
+"lang": "en",
+"title": "Alicia Keys"
+}
+]
+},
+{
+"pageid": 472741,
+"ns": 0,
+"title": "מיילי סיירוס",
+"langlinks": [
+{
+"lang": "en",
+"title": "Miley Cyrus"
+}
+]
+},
+{
+"pageid": 576208,
+"ns": 0,
+"title": "קייטי פרי",
+"langlinks": [
+{
+"lang": "en",
+"title": "Katy Perry"
+}
+]
+},
+{
+"pageid": 665861,
+"ns": 0,
+"title": "טיילור סוויפט",
+"langlinks": [
+{
+"lang": "en",
+"title": "Taylor Swift"
+}
+]
+},
+{
+"pageid": 674783,
+"ns": 0,
+"title": "ואן ריפאבליק",
+"langlinks": [
+{
+"lang": "en",
+"title": "OneRepublic"
+}
+]
+},
+{
+"pageid": 783556,
+"ns": 0,
+"title": "רובין ת'יק",
+"langlinks": [
+{
+"lang": "en",
+"title": "Robin Thicke"
+}
+]
+},
+{
+"pageid": 964025,
+"ns": 0,
+"title": "לנה דל ריי",
+"langlinks": [
+{
+"lang": "en",
+"title": "Lana Del Rey"
+}
+]
+},
+{
+"pageid": 1082558,
+"ns": 0,
+"title": "אביצ'י",
+"langlinks": [
+{
+"lang": "en",
+"title": "Avicii"
+}
+]
+},
+{
+"pageid": 1129145,
+"ns": 0,
+"title": "Roar",
+"langlinks": [
+{
+"lang": "en",
+"title": "Roar (song)"
+}
+]
+},
+{
+"pageid": 1129153,
+"ns": 0,
+"title": "Get Lucky",
+"langlinks": [
+{
+"lang": "en",
+"title": "Get Lucky (Daft Punk song)"
+}
+]
+},
+{
+"pageid": 1135856,
+"ns": 0,
+"title": "Wrecking Ball",
+"langlinks": [
+{
+"lang": "en",
+"title": "Wrecking Ball (Miley Cyrus song)"
+}
+]
+},
+{
+"pageid": 1136065,
+"ns": 0,
+"title": "איקונה פופ",
+"langlinks": [
+{
+"lang": "en",
+"title": "Icona Pop"
+}
+]
+},
+{
+"pageid": 1138069,
+"ns": 0,
+"title": "Royals",
+"langlinks": [
+{
+"lang": "en",
+"title": "Royals (song)"
+}
+]
+},
+{
+"pageid": 1138263,
+"ns": 0,
+"title": "ג'יימס ארתור (זמר)",
+"langlinks": [
+{
+"lang": "en",
+"title": "James Arthur"
+}
+]
+},
+{
+"pageid": 1150382,
+"ns": 0,
+"title": "ג'ון ניומן",
+"langlinks": [
+{
+"lang": "en",
+"title": "John Newman (singer)"
+}
+]
+},
+{
+"pageid": 1151295,
+"ns": 0,
+"title": "Stay (שיר של ריהאנה)",
+"langlinks": [
+{
+"lang": "en",
+"title": "Stay (Rihanna song)"
+}
+]
+},
+{
+"pageid": 1152691,
+"ns": 0,
+"title": "The Monster",
+"langlinks": [
+{
+"lang": "en",
+"title": "The Monster (song)"
+}
+]
+},
+{
+"pageid": 1153346,
+"ns": 0,
+"title": "לורד (זמרת)",
+"langlinks": [
+{
+"lang": "en",
+"title": "Lorde"
+}
+]
+},
+{
+"pageid": 1169691,
+"ns": 0,
+"title": "Imagine Dragons",
+"langlinks": [
+{
+"lang": "en",
+"title": "Imagine Dragons"
+}
+]
+},
+{
+"pageid": 1169718,
+"ns": 0,
+"title": "פסנג'ר",
+"langlinks": [
+{
+"lang": "en",
+"title": "Passenger (singer)"
+}
+]
+},
+{
+"pageid": 1246702,
+"ns": 0,
+"title": "Let Her Go",
+"langlinks": [
+{
+"lang": "en",
+"title": "Let Her Go"
+}
+]
+},
+{
+"pageid": 1283681,
+"ns": 0,
+"title": "I Knew You Were Trouble",
+"langlinks": [
+{
+"lang": "en",
+"title": "I Knew You Were Trouble"
+}
+]
+},
+{
+"pageid": 1447529,
+"ns": 0,
+"title": "Do I Wanna Know?",
+"langlinks": [
+{
+"lang": "en",
+"title": "Do I Wanna Know?"
+}
+]
+},
+{
+"pageid": 1520416,
+"ns": 0,
+"title": "Just Give Me a Reason",
+"langlinks": [
+{
+"lang": "en",
+"title": "Just Give Me a Reason"
+}
+]
+},
+{
+"pageid": 1662728,
+"ns": 0,
+"title": "Mirrors",
+"langlinks": [
+{
+"lang": "en",
+"title": "Mirrors (Justin Timberlake song)"
+}
+]
+},
+{
+"pageid": 1735990,
+"ns": 0,
+"title": "Young and Beautiful",
+"langlinks": [
+{
+"lang": "en",
+"title": "Young and Beautiful (Lana Del Rey song)"
+}
+]
+},
+{
+"pageid": 1738901,
+"ns": 0,
+"title": "Love Me Again (שיר של ג'ון ניומן)",
+"langlinks": [
+{
+"lang": "en",
+"title": "Love Me Again (John Newman song)"
+}
+]
+},
+{
+"pageid": 1747876,
+"ns": 0,
+"title": "Wake Me Up",
+"langlinks": [
+{
+"lang": "en",
+"title": "Wake Me Up (Avicii song)"
+}
+]
+},
+{
+"pageid": 1814159,
+"ns": 0,
+"title": "I Love It (שיר של איקונה פופ)",
+"langlinks": [
+{
+"lang": "en",
+"title": "I Love It (Icona Pop song)"
+}
+]
+},
+{
+"pageid": 1844031,
+"ns": 0,
+"title": "הלומינירז",
+"langlinks": [
+{
+"lang": "en",
+"title": "The Lumineers"
+}
+]
+},
+{
+"pageid": 1846713,
+"ns": 0,
+"title": "Girl on Fire (שיר)",
+"langlinks": [
+{
+"lang": "en",
+"title": "Girl on Fire (song)"
+}
+]
+},
+{
+"pageid": 1895683,
+"ns": 0,
+"title": "Thrift Shop",
+"langlinks": [
+{
+"lang": "en",
+"title": "Thrift Shop"
+}
+]
+},
+{
+"pageid": 1930257,
+"ns": 0,
+"title": "מאקלמור וראיין לואיס",
+"langlinks": [
+{
+"lang": "en",
+"title": "Macklemore & Ryan Lewis"
+}
+]
+},
+{
+"pageid": 1971783,
+"ns": 0,
+"title": "Radioactive (שיר של Imagine Dragons)",
+"langlinks": [
+{
+"lang": "en",
+"title": "Radioactive (Imagine Dragons song)"
+}
+]
+},
+{
+"pageid": 1976855,
+"ns": 0,
+"title": "Blurred Lines",
+"langlinks": [
+{
+"lang": "en",
+"title": "Blurred Lines"
+}
+]
+},
+{
+"pageid": 1994112,
+"ns": 0,
+"title": "Counting Stars",
+"langlinks": [
+{
+"lang": "en",
+"title": "Counting Stars"
+}
+]
+},
+{
+"pageid": 1995980,
+"ns": 0,
+"title": "Can't Hold Us",
+"langlinks": [
+{
+"lang": "en",
+"title": "Can't Hold Us"
+}
+]
+},
+{
+"pageid": 2039598,
+"ns": 0,
+"title": "Impossible (שיר של שונטל)",
+"langlinks": [
+{
+"lang": "en",
+"title": "Impossible (Shontelle song)"
+}
+]
+},
+{
+"pageid": 2196739,
+"ns": 0,
+"title": "Naughty Boy",
+"langlinks": [
+{
+"lang": "en",
+"title": "Naughty Boy"
+}
+]
+},
+{
+"pageid": 2210969,
+"ns": 0,
+"title": "I Wanna Be Yours",
+"langlinks": [
+{
+"lang": "en",
+"title": "I Wanna Be Yours"
+}
+]
+},
+{
+"pageid": 2264303,
+"ns": 0,
+"title": "La La La (שיר של Naughty Boy)",
+"langlinks": [
+{
+"lang": "en",
+"title": "La La La (Naughty Boy song)"
+}
+]
+}
+]
+},
+"limits": {
+"langlinks": 500
+}
+}

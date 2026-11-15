@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "songs": [
+    {
+      "id": "shoshana-damari-kalaniyot",
+      "title": {
+        "he": "כלניות",
+        "en": "Kalaniyot"
+      },
+      "artist": {
+        "he": "שושנה דמארי",
+        "en": "Shoshana Damari"
+      },
+      "titleAliases": [
+        "Kalaniot"
+      ],
+      "script": "HE",
+      "year": 1948,
+      "origin": "IL",
+      "genre": "OTHER",
+      "deezerId": 1932690,
+      "rank": 67801
+    },
+    {
+      "id": "shuli-natan-yerushalayim-shel-zahav",
+      "title": {
+        "he": "ירושלים של זהב",
+        "en": "Yerushalayim Shel Zahav"
+      },
+      "artist": {
+        "he": "שולי נתן",
+        "en": "Shuli Natan"
+      },
+      "titleAliases": [
+        "Jerusalem of Gold"
+      ],
+      "artistAliases": [
+        "Shuli Nathan"
+      ],
+      "script": "HE",
+      "year": 1967,
+      "origin": "IL",
+      "genre": "OTHER",
+      "deezerId": 991812942,
+      "rank": 65660
+    },
+    {
+      "id": "arik-einstein-ani-veata",
+      "title": {
+        "he": "אני ואתה",
+        "en": "Ani Ve'ata"
+      },
+      "artist": {
+        "he": "אריק איינשטיין",
+        "en": "Arik Einstein"
+      },
+      "titleAliases": [
+        "Ani VeAta"
+      ],
+      "script": "HE",
+      "year": 1971,
+      "origin": "IL",
+      "genre": "POP",
+      "deezerId": 115393722,
+      "rank": 202306
+    },
+    {
+      "id": "kaveret-yo-ya",
+      "title": {
+        "he": "יו יה",
+        "en": "Yo Ya"
+      },
+      "artist": {
+        "he": "כוורת",
+        "en": "Kaveret"
+      },
+      "artistAliases": [
+        "Poogy",
+        "פוגי"
+      ],
+      "script": "HE",
+      "year": 1973,
+      "origin": "IL",
+      "genre": "ROCK",
+      "deezerId": 736805752,
+      "rank": 133726
+    },
+    {
+      "id": "shmulik-kraus-shuv",
+      "title": {
+        "he": "שוב",
+        "en": "Shuv"
+      },
+      "artist": {
+        "he": "שמוליק קראוס",
+        "en": "Shmulik Kraus"
+      },
+      "artistAliases": [
+        "Shmulik Kraus & Josie Katz",
+        "שמוליק קראוס וג'וזי כץ"
+      ],
+      "script": "HE",
+      "year": 1976,
+      "origin": "IL",
+      "genre": "POP",
+      "deezerId": 621203552,
+      "rank": 52285
+    },
+    {
+      "id": "zohar-argov-haperach-begani",
+      "title": {
+        "he": "הפרח בגני",
+        "en": "Haperach Begani"
+      },
+      "artist": {
+        "he": "זוהר ארגוב",
+        "en": "Zohar Argov"
+      },
+      "script": "HE",
+      "year": 1982,
+      "origin": "IL",
+      "genre": "MIZRAHI",
+      "deezerId": 78459307,
+      "rank": 249738
+    },
+    {
+      "id": "mashina-rakevet-layla-lekahir",
+      "title": {
+        "he": "רכבת לילה לקהיר",
+        "en": "Rakevet Layla LeKahir"
+      },
+      "artist": {
+        "he": "משינה",
+        "en": "Mashina"
+      },
+      "titleAliases": [
+        "רכבת לילה",
+        "Rakevet Layla"
+      ],
+      "script": "HE",
+      "year": 1985,
+      "origin": "IL",
+      "genre": "ROCK",
+      "deezerId": 736986112,
+      "rank": 162489
+    },
+    {
+      "id": "dana-international-diva",
+      "title": {
+        "he": "דיווה",
+        "en": "Diva"
+      },
+      "artist": {
+        "he": "דנה אינטרנשיונל",
+        "en": "Dana International"
+      },
+      "script": "HE",
+      "year": 1998,
+      "origin": "IL",
+      "genre": "DANCE",
+      "deezerId": 3497558901,
+      "rank": 164931
+    },
+    {
+      "id": "hadag-nahash-shirat-hasticker",
+      "title": {
+        "he": "שירת הסטיקר",
+        "en": "Shirat HaSticker"
+      },
+      "artist": {
+        "he": "הדג נחש",
+        "en": "Hadag Nahash"
+      },
+      "titleAliases": [
+        "The Sticker Song",
+        "שיר הסטיקר"
+      ],
+      "script": "HE",
+      "year": 2004,
+      "origin": "IL",
+      "genre": "HIPHOP",
+      "deezerId": 66261449,
+      "rank": 87039
+    },
+    {
+      "id": "omer-adam-tel-aviv",
+      "title": {
+        "he": "תל אביב",
+        "en": "Tel Aviv"
+      },
+      "artist": {
+        "he": "עומר אדם",
+        "en": "Omer Adam"
+      },
+      "script": "HE",
+      "year": 2013,
+      "origin": "IL",
+      "genre": "MIZRAHI",
+      "deezerId": 611473222,
+      "rank": 715957
+    },
+    {
+      "id": "static-and-ben-el-tavori-tudo-bom",
+      "title": {
+        "he": "טודו בום",
+        "en": "Tudo Bom"
+      },
+      "artist": {
+        "he": "סטטיק ובן אל תבורי",
+        "en": "Static & Ben El Tavori"
+      },
+      "titleAliases": [
+        "Todo Bom"
+      ],
+      "artistAliases": [
+        "Static & Ben El",
+        "סטטיק ובן אל"
+      ],
+      "script": "HE",
+      "year": 2017,
+      "origin": "IL",
+      "genre": "POP",
+      "deezerId": 370967591,
+      "rank": 332210
+    },
+    {
+      "id": "netta-toy",
+      "title": {
+        "he": "טוי",
+        "en": "Toy"
+      },
+      "artist": {
+        "he": "נטע",
+        "en": "Netta"
+      },
+      "artistAliases": [
+        "Netta Barzilai",
+        "נטע ברזילי"
+      ],
+      "script": "EN",
+      "year": 2018,
+      "origin": "IL",
+      "genre": "POP",
+      "deezerId": 3782953802,
+      "rank": 556275
+    },
+    {
+      "id": "elvis-presley-hound-dog",
+      "title": {
+        "he": "האונד דוג",
+        "en": "Hound Dog"
+      },
+      "artist": {
+        "he": "אלביס פרסלי",
+        "en": "Elvis Presley"
+      },
+      "artistAliases": [
+        "Elvis",
+        "אלביס"
+      ],
+      "script": "EN",
+      "year": 1956,
+      "origin": "INTL",
+      "genre": "ROCK",
+      "deezerId": 17479889,
+      "rank": 561783
+    },
+    {
+      "id": "the-beatles-help",
+      "title": {
+        "he": "הלפ",
+        "en": "Help!"
+      },
+      "artist": {
+        "he": "הביטלס",
+        "en": "The Beatles"
+      },
+      "artistAliases": [
+        "ביטלס"
+      ],
+      "script": "EN",
+      "year": 1965,
+      "origin": "INTL",
+      "genre": "ROCK",
+      "deezerId": 116348610,
+      "rank": 801707
+    },
+    {
+      "id": "abba-dancing-queen",
+      "title": {
+        "he": "דנסינג קווין",
+        "en": "Dancing Queen"
+      },
+      "artist": {
+        "he": "אבבא",
+        "en": "ABBA"
+      },
+      "artistAliases": [
+        "אבא"
+      ],
+      "script": "EN",
+      "year": 1976,
+      "origin": "INTL",
+      "genre": "DANCE",
+      "deezerId": 884025,
+      "rank": 908295
+    },
+    {
+      "id": "nena-99-luftballons",
+      "title": {
+        "he": "99 לופטבלונס",
+        "en": "99 Luftballons"
+      },
+      "artist": {
+        "he": "נינה",
+        "en": "Nena"
+      },
+      "titleAliases": [
+        "Neunundneunzig Luftballons",
+        "99 Red Balloons"
+      ],
+      "script": "EN",
+      "year": 1983,
+      "origin": "INTL",
+      "genre": "POP",
+      "deezerId": 3786206112,
+      "rank": 759014
+    },
+    {
+      "id": "u2-with-or-without-you",
+      "title": {
+        "he": "ויד אור ויתאאוט יו",
+        "en": "With or Without You"
+      },
+      "artist": {
+        "he": "יו טו",
+        "en": "U2"
+      },
+      "artistAliases": [
+        "you too"
+      ],
+      "script": "EN",
+      "year": 1987,
+      "origin": "INTL",
+      "genre": "ROCK",
+      "deezerId": 912486,
+      "rank": 972705
+    },
+    {
+      "id": "nirvana-smells-like-teen-spirit",
+      "title": {
+        "he": "סמלס לייק טין ספיריט",
+        "en": "Smells Like Teen Spirit"
+      },
+      "artist": {
+        "he": "נירוונה",
+        "en": "Nirvana"
+      },
+      "script": "EN",
+      "year": 1991,
+      "origin": "INTL",
+      "genre": "ROCK",
+      "deezerId": 13791930,
+      "rank": 985641
+    },
+    {
+      "id": "spice-girls-stop",
+      "title": {
+        "he": "סטופ",
+        "en": "Stop"
+      },
+      "artist": {
+        "he": "ספייס גירלז",
+        "en": "Spice Girls"
+      },
+      "script": "EN",
+      "year": 1998,
+      "origin": "INTL",
+      "genre": "POP",
+      "deezerId": 3134156,
+      "rank": 586714
+    },
+    {
+      "id": "eminem-lose-yourself",
+      "title": {
+        "he": "לוז יורסלף",
+        "en": "Lose Yourself"
+      },
+      "artist": {
+        "he": "אמינם",
+        "en": "Eminem"
+      },
+      "script": "EN",
+      "year": 2002,
+      "origin": "INTL",
+      "genre": "HIPHOP",
+      "deezerId": 1109731,
+      "rank": 980436
+    },
+    {
+      "id": "beyonce-crazy-in-love",
+      "title": {
+        "he": "קרייזי אין לאב",
+        "en": "Crazy in Love"
+      },
+      "artist": {
+        "he": "ביונסה",
+        "en": "Beyoncé"
+      },
+      "artistAliases": [
+        "Beyonce",
+        "Beyoncé feat. Jay-Z"
+      ],
+      "script": "EN",
+      "year": 2003,
+      "origin": "INTL",
+      "genre": "RNB",
+      "deezerId": 609244,
+      "rank": 927130
+    },
+    {
+      "id": "ed-sheeran-shape-of-you",
+      "title": {
+        "he": "שייפ אוף יו",
+        "en": "Shape of You"
+      },
+      "artist": {
+        "he": "אד שירן",
+        "en": "Ed Sheeran"
+      },
+      "script": "EN",
+      "year": 2017,
+      "origin": "INTL",
+      "genre": "POP",
+      "deezerId": 139470659,
+      "rank": 968208
+    },
+    {
+      "id": "ariana-grande-7-rings",
+      "title": {
+        "he": "7 רינגס",
+        "en": "7 Rings"
+      },
+      "artist": {
+        "he": "אריאנה גרנדה",
+        "en": "Ariana Grande"
+      },
+      "titleAliases": [
+        "סבן רינגס"
+      ],
+      "script": "EN",
+      "year": 2019,
+      "origin": "INTL",
+      "genre": "POP",
+      "deezerId": 629899842,
+      "rank": 924859
+    },
+    {
+      "id": "alex-warren-ordinary",
+      "title": {
+        "he": "אורדינרי",
+        "en": "Ordinary"
+      },
+      "artist": {
+        "he": "אלכס וורן",
+        "en": "Alex Warren"
+      },
+      "script": "EN",
+      "year": 2025,
+      "origin": "INTL",
+      "genre": "POP",
+      "deezerId": 3210709941,
+      "rank": 990241
+    }
+  ]
+}

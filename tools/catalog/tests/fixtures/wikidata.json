@@ -1,0 +1,482 @@
+{
+ "search|en|Hey Jude": {
+  "search": [
+   {
+    "id": "Q607742",
+    "label": "Hey Jude",
+    "description": "original song written and composed by Lennon-McCartney; first recorded by The Beatles",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude"
+    }
+   },
+   {
+    "id": "Q60860674",
+    "label": "Hey Jude",
+    "description": "vocal track by The Beatles; 1968 studio recording",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude"
+    }
+   },
+   {
+    "id": "Q126884619",
+    "label": "Hey Jude",
+    "description": "vocal track by Wilson Pickett; 1969 studio recording; cover version",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude"
+    }
+   },
+   {
+    "id": "Q126884484",
+    "label": "Hey Jude",
+    "description": "vocal track by Mina; 1984 studio recording; cover version",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude"
+    }
+   },
+   {
+    "id": "Q10523798",
+    "label": "Hey Jude",
+    "description": "1969 studio album by Wilson Pickett",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude"
+    }
+   },
+   {
+    "id": "Q60696979",
+    "label": "Hey Jude / Revolution",
+    "description": "1968 US 7\" single by The Beatles; Apple Records ‎– 2276",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude / Revolution"
+    }
+   },
+   {
+    "id": "Q250064",
+    "label": "Hey Jude – The Beatles Again",
+    "description": "1970 collection of non-album singles and B-sides by the Beatles",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude – The Beatles Again"
+    }
+   },
+   {
+    "id": "Q60696782",
+    "label": "Hey Jude / Revolution",
+    "description": "1968 UK 7\" single by The Beatles; Apple Records ‎– R 5722",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude / Revolution"
+    }
+   },
+   {
+    "id": "Q39070927",
+    "label": "Hey Jude",
+    "description": "2018 film directed by Shyamaprasad",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey Jude"
+    }
+   },
+   {
+    "id": "Q115977685",
+    "label": "Hey jude",
+    "description": "sardana by Agustí Pedrico i Espàrzia",
+    "match": {
+     "type": "label",
+     "language": "en",
+     "text": "Hey jude"
+    }
+   }
+  ]
+ },
+ "entities|Q607742|Q60860674|Q126884619|Q126884484|Q10523798|Q250064|Q39070927|Q115977685": {
+  "entities": {
+   "Q607742": {
+    "id": "Q607742",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hey Jude"
+     },
+     "he": {
+      "language": "he",
+      "value": "Hey Jude"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "original song written and composed by Lennon-McCartney; first recorded by The Beatles"
+     },
+     "he": {
+      "language": "he",
+      "value": "סינגל מאת הביטלס"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q105543609"
+         }
+        }
+       }
+      }
+     ],
+     "P175": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q1299"
+         }
+        }
+       }
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q312270"
+         }
+        }
+       }
+      },
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q231156"
+         }
+        }
+       }
+      }
+     ],
+     "P577": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+1968-00-00T00:00:00Z",
+          "precision": 9
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q60860674": {
+    "id": "Q60860674",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hey Jude"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "vocal track by The Beatles; 1968 studio recording"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q55850593"
+         }
+        }
+       }
+      }
+     ],
+     "P175": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q1299"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q126884619": {
+    "id": "Q126884619",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hey Jude"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "vocal track by Wilson Pickett; 1969 studio recording; cover version"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q55850593"
+         }
+        }
+       }
+      }
+     ],
+     "P175": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q312270"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q126884484": {
+    "id": "Q126884484",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hey Jude"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "vocal track by Mina; 1984 studio recording; cover version"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q55850593"
+         }
+        }
+       }
+      }
+     ],
+     "P175": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q231156"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q10523798": {
+    "id": "Q10523798",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hey Jude"
+     },
+     "he": {
+      "language": "he",
+      "value": "Hey Jude"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "1969 studio album by Wilson Pickett"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q482994"
+         }
+        }
+       }
+      }
+     ],
+     "P175": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q312270"
+         }
+        }
+       }
+      }
+     ],
+     "P577": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+1969-02-00T00:00:00Z",
+          "precision": 10
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q250064": {
+    "id": "Q250064",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hey Jude – The Beatles Again"
+     },
+     "he": {
+      "language": "he",
+      "value": "Hey Jude"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "1970 collection of non-album singles and B-sides by the Beatles"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q482994"
+         }
+        }
+       }
+      }
+     ],
+     "P175": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q1299"
+         }
+        }
+       }
+      }
+     ],
+     "P577": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+1970-02-26T00:00:00Z",
+          "precision": 11
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q39070927": {
+    "id": "Q39070927",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hey Jude"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "2018 film directed by Shyamaprasad"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q11424"
+         }
+        }
+       }
+      }
+     ],
+     "P577": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "time": "+2018-02-02T00:00:00Z",
+          "precision": 11
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   "Q115977685": {
+    "id": "Q115977685",
+    "labels": {
+     "en": {
+      "language": "en",
+      "value": "Hey jude"
+     }
+    },
+    "descriptions": {
+     "en": {
+      "language": "en",
+      "value": "sardana by Agustí Pedrico i Espàrzia"
+     }
+    },
+    "claims": {
+     "P31": [
+      {
+       "mainsnak": {
+        "datavalue": {
+         "value": {
+          "id": "Q105543609"
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

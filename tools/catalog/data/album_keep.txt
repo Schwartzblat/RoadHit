@@ -1,0 +1,8 @@
+# Album pages of Hebrew Wikipedia that are taken as studio albums although a rule says otherwise
+# (see roadhit_catalog/hewiki_albums.py). One page title per line, exactly as the page is named;
+# "  #" starts a comment.
+
+# מתי כספי sings songs he composed for other singers: Wikipedia files these as cover-version
+# albums, but they are his own songs in his own well-known recordings.
+צד א' צד ב' (אלבום של מתי כספי)
+צד ג' צד ד'

@@ -1,0 +1,1497 @@
+{
+ "Elvis Presley Hound Dog": {
+  "data": [
+   {
+    "id": 17479889,
+    "title": "Hound Dog",
+    "title_short": "Hound Dog",
+    "title_version": "",
+    "rank": 561783,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/5/0/90547b289e408877fd423d91e81cd00b.mp3",
+    "artist": {
+     "id": 1125,
+     "name": "Elvis Presley"
+    },
+    "album": {
+     "id": 1634886,
+     "title": "Forrest Gump - The Soundtrack"
+    }
+   },
+   {
+    "id": 3842050641,
+    "title": "Hound Dog (EPiC Version)",
+    "title_short": "Hound Dog",
+    "title_version": "(EPiC Version)",
+    "rank": 304721,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/3/4/0/43413f35242998fed7f4a1cfce4992e1.mp3",
+    "artist": {
+     "id": 1125,
+     "name": "Elvis Presley"
+    },
+    "album": {
+     "id": 918078921,
+     "title": "EPiC: Elvis Presley in Concert - Original Motion Picture Soundtrack"
+    }
+   },
+   {
+    "id": 109602948,
+    "title": "Hound Dog (Live at the Honolulu International Center)",
+    "title_short": "Hound Dog",
+    "title_version": "(Live at the Honolulu International Center)",
+    "rank": 169030,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/9/0/8d98fae46baf6cef2f4ecca62b458f09.mp3",
+    "artist": {
+     "id": 1125,
+     "name": "Elvis Presley"
+    },
+    "album": {
+     "id": 11417948,
+     "title": "Aloha from Hawaii Via Satellite (Live)"
+    }
+   },
+   {
+    "id": 69405204,
+    "title": "Hound Dog (Live)",
+    "title_short": "Hound Dog",
+    "title_version": "(Live)",
+    "rank": 133331,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/4/0/af4454ad171a615a3abd5c28a5d9f085.mp3",
+    "artist": {
+     "id": 1125,
+     "name": "Elvis Presley"
+    },
+    "album": {
+     "id": 6803215,
+     "title": "Elvis: As Recorded at Madison Square Garden (Live)"
+    }
+   },
+   {
+    "id": 1075560,
+    "title": "Hound Dog (Live)",
+    "title_short": "Hound Dog",
+    "title_version": "(Live)",
+    "rank": 95995,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/8/3/0/68301ea130b66c49b1cb67411bde0a91.mp3",
+    "artist": {
+     "id": 1125,
+     "name": "Elvis Presley"
+    },
+    "album": {
+     "id": 116338,
+     "title": "Elvis In Concert (Live)"
+    }
+   },
+   {
+    "id": 783066172,
+    "title": "Hound Dog",
+    "title_short": "Hound Dog",
+    "title_version": "",
+    "rank": 79109,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/d/1/0/5d1b8f18851c38db82badb284d6f5bb1.mp3",
+    "artist": {
+     "id": 1125,
+     "name": "Elvis Presley"
+    },
+    "album": {
+     "id": 116148012,
+     "title": "Gonna Rock It Up"
+    }
+   }
+  ],
+  "total": 161
+ },
+ "The Beatles Here Comes the Sun": {
+  "data": [
+   {
+    "id": 116348464,
+    "title": "Here Comes The Sun (Remastered 2009)",
+    "title_short": "Here Comes The Sun",
+    "title_version": "(Remastered 2009)",
+    "rank": 886736,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/0/0/d702cdd1d89e261b22fc740f854c1a0f.mp3",
+    "artist": {
+     "id": 1,
+     "name": "The Beatles"
+    },
+    "album": {
+     "id": 12047952,
+     "title": "Abbey Road (Remastered 2009)"
+    }
+   },
+   {
+    "id": 760429452,
+    "title": "Here Comes The Sun (2019 Mix)",
+    "title_short": "Here Comes The Sun",
+    "title_version": "(2019 Mix)",
+    "rank": 627454,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/a/0/f8af82ae1d1aa931d10263f73f97df86.mp3",
+    "artist": {
+     "id": 1,
+     "name": "The Beatles"
+    },
+    "album": {
+     "id": 112126942,
+     "title": "Abbey Road (Super Deluxe Edition)"
+    }
+   },
+   {
+    "id": 126848601,
+    "title": "Here Comes The Sun / The Inner Light",
+    "title_short": "Here Comes The Sun / The Inner Light",
+    "title_version": "",
+    "rank": 296688,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/6/4/0/d644a2bee94c0cae8271b9c35452333c.mp3",
+    "artist": {
+     "id": 1,
+     "name": "The Beatles"
+    },
+    "album": {
+     "id": 13367057,
+     "title": "Love"
+    }
+   },
+   {
+    "id": 760429662,
+    "title": "Here Comes The Sun (Take 9)",
+    "title_short": "Here Comes The Sun",
+    "title_version": "(Take 9)",
+    "rank": 259835,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/5/5/0/6551f4cae6ae4d3c6b37b1c5224ae209.mp3",
+    "artist": {
+     "id": 1,
+     "name": "The Beatles"
+    },
+    "album": {
+     "id": 112126942,
+     "title": "Abbey Road (Super Deluxe Edition)"
+    }
+   },
+   {
+    "id": 116348470,
+    "title": "Sun King (Remastered 2009)",
+    "title_short": "Sun King",
+    "title_version": "(Remastered 2009)",
+    "rank": 528755,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/a/e/0/daef515972e86fd7dd4411c7900109de.mp3",
+    "artist": {
+     "id": 1,
+     "name": "The Beatles"
+    },
+    "album": {
+     "id": 12047952,
+     "title": "Abbey Road (Remastered 2009)"
+    }
+   },
+   {
+    "id": 2931788341,
+    "title": "Here Comes the Sun",
+    "title_short": "Here Comes the Sun",
+    "title_version": "",
+    "rank": 153946,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/8/0/56824d0b89ad8b6736799ee12f490e65.mp3",
+    "artist": {
+     "id": 10703247,
+     "name": "BPC - Beatles Para Crianças"
+    },
+    "album": {
+     "id": 624337671,
+     "title": "Beatles para Crianças"
+    }
+   },
+   {
+    "id": 3819495671,
+    "title": "Here Comes the Sun (Live)",
+    "title_short": "Here Comes the Sun",
+    "title_version": "(Live)",
+    "rank": 81535,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/3/0/f13915dc6fe334ffa370ea4d5a0358d0.mp3",
+    "artist": {
+     "id": 94217,
+     "name": "The Beatles Revival Band"
+    },
+    "album": {
+     "id": 910741351,
+     "title": "Live at the Alte Oper Frankfurt (Live)"
+    }
+   },
+   {
+    "id": 4540356,
+    "title": "Here Comes The Sun (as made famous by The Beatles)",
+    "title_short": "Here Comes The Sun (as made famous by The Beatles)",
+    "rank": 37541,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/d/c/0/cdced01499ea3b3bdde320e83c467488.mp3",
+    "artist": {
+     "id": 305020,
+     "name": "The Revolver Road Band"
+    },
+    "album": {
+     "id": 418714,
+     "title": "A Salute To The Beatles"
+    }
+   }
+  ],
+  "total": 183
+ },
+ "Leonard Cohen Hallelujah": {
+  "data": [
+   {
+    "id": 15218949,
+    "title": "Hallelujah",
+    "title_short": "Hallelujah",
+    "title_version": "",
+    "rank": 671883,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/1/0/0/0107c4cb269d70fb4bcbf44fc006aef7.mp3",
+    "artist": {
+     "id": 1834,
+     "name": "Leonard Cohen"
+    },
+    "album": {
+     "id": 1401919,
+     "title": "The Essential Leonard Cohen"
+    }
+   },
+   {
+    "id": 1565012,
+    "title": "Hallelujah",
+    "title_short": "Hallelujah",
+    "title_version": "",
+    "rank": 623886,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/9/2/0/992b3a2e1f2786e95cf9f819712e733b.mp3",
+    "artist": {
+     "id": 1515,
+     "name": "Rufus Wainwright"
+    },
+    "album": {
+     "id": 160601,
+     "title": "Shrek (Music From The Original Motion Picture)"
+    }
+   },
+   {
+    "id": 1769271107,
+    "title": "Hallelujah (Live at Glastonbury)",
+    "title_short": "Hallelujah (Live at Glastonbury)",
+    "title_version": "",
+    "rank": 585352,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/0/4/0/304e8cea6b15b21398b3a3cb84c5a266.mp3",
+    "artist": {
+     "id": 1834,
+     "name": "Leonard Cohen"
+    },
+    "album": {
+     "id": 322634767,
+     "title": "Hallelujah & Songs from His Albums"
+    }
+   },
+   {
+    "id": 76084576,
+    "title": "Hallelujah (Leonard Cohen)",
+    "title_short": "Hallelujah (Leonard Cohen)",
+    "title_version": "",
+    "rank": 376848,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/b/5/0/fb534ea8cd3d04fe2cd63d08e5766381.mp3",
+    "artist": {
+     "id": 740959,
+     "name": "SafetySuit"
+    },
+    "album": {
+     "id": 7542212,
+     "title": "Hallelujah"
+    }
+   },
+   {
+    "id": 2575955,
+    "title": "Hallelujah",
+    "title_short": "Hallelujah",
+    "title_version": "",
+    "rank": 196505,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/4/0/474eb94ccdaec60ac40ae85c957dea4e.mp3",
+    "artist": {
+     "id": 13310,
+     "name": "Katherine Jenkins"
+    },
+    "album": {
+     "id": 251674,
+     "title": "Sacred Arias"
+    }
+   }
+  ],
+  "total": 103
+ },
+ "שושנה דמארי כלניות": {
+  "data": [
+   {
+    "id": 741043302,
+    "title": "כלניות",
+    "title_short": "כלניות",
+    "title_version": "",
+    "rank": 13347,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/8/f/0/a8f81a3d3595abc1857ad3e7bdef5a44.mp3",
+    "artist": {
+     "id": 89231,
+     "name": "Shoshana Damari"
+    },
+    "album": {
+     "id": 109009862,
+     "title": "המיטב"
+    }
+   },
+   {
+    "id": 1720620517,
+    "title": "כלניות (הקלטה ישנה נדירה)",
+    "title_short": "כלניות (הקלטה ישנה נדירה)",
+    "title_version": "",
+    "rank": 18178,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/0/0/0/3003b64e25f2ed1b0c8fb8caf30abfab.mp3",
+    "artist": {
+     "id": 89231,
+     "name": "Shoshana Damari"
+    },
+    "album": {
+     "id": 310968917,
+     "title": "המלכה שושנה - פסקול הסרט (From \"Queen Shoshana\")"
+    }
+   },
+   {
+    "id": 621320812,
+    "title": "כלניות",
+    "title_short": "כלניות",
+    "title_version": "",
+    "rank": 61571,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/4/a/0/04a8aa3b2e09947a065618ca90ec688f.mp3",
+    "artist": {
+     "id": 89231,
+     "name": "Shoshana Damari"
+    },
+    "album": {
+     "id": 85085342,
+     "title": "השירים היפים"
+    }
+   }
+  ],
+  "total": 3
+ },
+ "כוורת שיר המכולת": {
+  "data": [
+   {
+    "id": 736805642,
+    "title": "שיר המכולת",
+    "title_short": "שיר המכולת",
+    "title_version": "",
+    "rank": 73553,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/8/0/2984db2d65714beb4c58b47e42c60a24.mp3",
+    "artist": {
+     "id": 10985362,
+     "name": "Kaveret"
+    },
+    "album": {
+     "id": 108231462,
+     "title": "סיפורי פוגי"
+    }
+   },
+   {
+    "id": 1789769887,
+    "title": "שיר המכולת (Remastered)",
+    "title_short": "שיר המכולת",
+    "title_version": "(Remastered)",
+    "rank": 34326,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/7/0/c57b355075095700a009dd93aaba5d50.mp3",
+    "artist": {
+     "id": 10985362,
+     "name": "Kaveret"
+    },
+    "album": {
+     "id": 327076697,
+     "title": "סיפורי פוגי (Remastered)"
+    }
+   },
+   {
+    "id": 736725952,
+    "title": "שיר המכולת (Live)",
+    "title_short": "שיר המכולת",
+    "title_version": "(Live)",
+    "rank": 38504,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/b/2/0/5b2fd09450aead81d681d1cbb8975d61.mp3",
+    "artist": {
+     "id": 10985362,
+     "name": "Kaveret"
+    },
+    "album": {
+     "id": 108215802,
+     "title": "כוורת בפארק (Live)"
+    }
+   },
+   {
+    "id": 737188372,
+    "title": "שיר המכולת (הופעה חיה בתיאטרון ירושלים 1974)",
+    "title_short": "שיר המכולת",
+    "title_version": "(הופעה חיה בתיאטרון ירושלים 1974)",
+    "rank": 15635,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/3/0/ec35e1857f228534f8e966287dae4c40.mp3",
+    "artist": {
+     "id": 10985362,
+     "name": "Kaveret"
+    },
+    "album": {
+     "id": 108289662,
+     "title": "כוורת בקופסא - אנתולוגיה / 1971-1976"
+    }
+   },
+   {
+    "id": 737183122,
+    "title": "שיר המכולת (Live)",
+    "title_short": "שיר המכולת",
+    "title_version": "(Live)",
+    "rank": 21416,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/e/0/e7e687fc2178bb8d5b66d28d94461486.mp3",
+    "artist": {
+     "id": 10985362,
+     "name": "Kaveret"
+    },
+    "album": {
+     "id": 108289352,
+     "title": "כוורת - המופע האחרון (Live)"
+    }
+   },
+   {
+    "id": 1708045377,
+    "title": "שיר המכולת (Live)",
+    "title_short": "שיר המכולת",
+    "title_version": "(Live)",
+    "rank": 21933,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/e/0/1ae7cd060f584218d733ab20bf40f363.mp3",
+    "artist": {
+     "id": 10985362,
+     "name": "Kaveret"
+    },
+    "album": {
+     "id": 308236157,
+     "title": "בהופעה חיה, קיץ 84"
+    }
+   }
+  ],
+  "total": 6
+ },
+ "מאור כהן הכי יפה בעולם": {
+  "data": [
+   {
+    "id": 134805670,
+    "title": "הכי יפה בעולם",
+    "title_short": "הכי יפה בעולם",
+    "title_version": "",
+    "rank": 137290,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/a/5/0/3a5dc9d5a8092a95caf7818236875ad0.mp3",
+    "artist": {
+     "id": 3795221,
+     "name": "Maor Cohen"
+    },
+    "album": {
+     "id": 14379942,
+     "title": "טוב לנו יחד"
+    }
+   }
+  ],
+  "total": 1
+ },
+ "רביב כנר רוצה שלום": {
+  "data": [],
+  "total": 0
+ },
+ "רוצה שלום": {
+  "data": [
+   {
+    "id": 1173030732,
+    "title": "רוצה שלום",
+    "title_short": "רוצה שלום",
+    "title_version": "",
+    "rank": 141507,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/6/f/0/56f08f3c57a779fc806dcae01d046320.mp3",
+    "artist": {
+     "id": 88179692,
+     "name": "Raviv Kaner"
+    },
+    "album": {
+     "id": 192398862,
+     "title": "רוצה שלום"
+    }
+   },
+   {
+    "id": 1405789342,
+    "title": "כל אחד רוצה",
+    "title_short": "כל אחד רוצה",
+    "title_version": "",
+    "rank": 51999,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/0/0/8502e990529a27037315169cd2619d7d.mp3",
+    "artist": {
+     "id": 116623,
+     "name": "Arik Einstein"
+    },
+    "album": {
+     "id": 237575972,
+     "title": "המיטב"
+    }
+   },
+   {
+    "id": 1368316292,
+    "title": "רוצה שלום",
+    "title_short": "רוצה שלום",
+    "title_version": "",
+    "rank": 1162,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/7/3/0/a73e166380782dec6b5d988e589bddd1.mp3",
+    "artist": {
+     "id": 122021552,
+     "name": "לישי"
+    },
+    "album": {
+     "id": 229110052,
+     "title": "רוצה שלום"
+    }
+   },
+   {
+    "id": 1923624027,
+    "title": "רוצה שלום",
+    "title_short": "רוצה שלום",
+    "title_version": "",
+    "rank": 2227,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/0/9/0/20983a51152e37b98c85b4611472add3.mp3",
+    "artist": {
+     "id": 14696837,
+     "name": "עידן בקשי"
+    },
+    "album": {
+     "id": 358585937,
+     "title": "הכוכב הבא 2021"
+    }
+   },
+   {
+    "id": 1619105532,
+    "title": "רוצה שלום (לייב)",
+    "title_short": "רוצה שלום",
+    "title_version": "(לייב)",
+    "rank": 444,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/1/0/1b12d62780a841a09bff6e8ef0a78e81.mp3",
+    "artist": {
+     "id": 155606112,
+     "name": "X Factor Israel to the Eurovision"
+    },
+    "album": {
+     "id": 287042052,
+     "title": "אקס פקטור לאירוויזיון - שלב ההכרעות (לייב)"
+    }
+   }
+  ],
+  "total": 16
+ },
+ "Single Version": {
+  "data": [
+   {
+    "id": 62548806,
+    "title": "Kein Zurück - Single Version (- Single Version)",
+    "title_short": "Kein Zurück - Single Version",
+    "title_version": "(- Single Version)",
+    "rank": 486044,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/f/6/0/1f6b2d62eee802ad4d113b576a53748d.mp3",
+    "artist": {
+     "id": 3418,
+     "name": "Wolfsheim"
+    },
+    "album": {
+     "id": 6140436,
+     "title": "Casting Shadows"
+    }
+   }
+  ],
+  "total": 300
+ },
+ "Minister Believe": {
+  "data": [
+   {
+    "id": 1393203852,
+    "title": "Believe Me",
+    "title_short": "Believe Me",
+    "title_version": "",
+    "rank": 210607,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/a/2/0/0a208f087c562dec8e3794b90e8b8428.mp3",
+    "artist": {
+     "id": 677,
+     "name": "Ministry"
+    },
+    "album": {
+     "id": 234793262,
+     "title": "Moral Hygiene"
+    }
+   }
+  ],
+  "total": 79
+ },
+ "Madonna American Life": {
+  "data": [
+   {
+    "id": 3667561,
+    "title": "American Pie",
+    "title_short": "American Pie",
+    "title_version": "",
+    "rank": 575852,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/5/8/0/d5807de8ef8b192c8e347df35037bef5.mp3",
+    "artist": {
+     "id": 290,
+     "name": "Madonna"
+    },
+    "album": {
+     "id": 345328,
+     "title": "Music"
+    }
+   }
+  ],
+  "total": 48
+ },
+ "Oasis Don't Look Back In Anger": {
+  "data": [
+   {
+    "id": 1635275372,
+    "title": "Don't Look Back in Anger",
+    "title_short": "Don't Look Back in Anger",
+    "title_version": "",
+    "rank": 205019,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/5/4/0/954143e30e5806ecebf4eaa3802c0b0b.mp3",
+    "artist": {
+     "id": 395883,
+     "name": "Ohasis"
+    },
+    "album": {
+     "id": 290776722,
+     "title": "Après Ski Partyhits - Best of Hüttengaudi (Die Mega Hits Partyedition - Das Beste für die Piste)"
+    }
+   }
+  ],
+  "total": 67
+ },
+ "Mariah Carey Hero": {
+  "data": [
+   {
+    "id": 1064722712,
+    "title": "Héroe",
+    "title_short": "Héroe",
+    "title_version": "",
+    "rank": 183300,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/4/0/1347013e45227e8662b448c7791cb5fb.mp3",
+    "artist": {
+     "id": 65,
+     "name": "Mariah Carey"
+    },
+    "album": {
+     "id": 170034522,
+     "title": "Mariah En Español EP"
+    }
+   }
+  ],
+  "total": 198
+ },
+ "Drift Away": {
+  "data": [
+   {
+    "id": 661836,
+    "title": "Drift Away",
+    "title_short": "Drift Away",
+    "title_version": "",
+    "rank": 453245,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/e/0/2dee70d6e8a5cab486542f3ad06881f2.mp3",
+    "artist": {
+     "id": 13129,
+     "name": "Uncle Kracker"
+    },
+    "album": {
+     "id": 80316,
+     "title": "No Stranger to Shame"
+    }
+   },
+   {
+    "id": 620021372,
+    "title": "Drift Away (Single Version)",
+    "title_short": "Drift Away",
+    "title_version": "(Single Version)",
+    "rank": 509035,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/7/0/0/470487837df9ddc90def169d4d446d3e.mp3",
+    "artist": {
+     "id": 5989,
+     "name": "Dobie Gray"
+    },
+    "album": {
+     "id": 84886062,
+     "title": "Ultimate Collection: Dobie Gray"
+    }
+   }
+  ],
+  "total": 286
+ },
+ "B.J. Thomas Raindrops Keep Fallin' on My Head": {
+  "data": [
+   {
+    "id": 108312866,
+    "title": "Raindrops Keep Fallin' On My Head",
+    "title_short": "Raindrops Keep Fallin' On My Head",
+    "title_version": "",
+    "rank": 570515,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/f/e/0/2fe609b3895099ce08ae074631319369.mp3",
+    "artist": {
+     "id": 166629,
+     "name": "B. J. Thomas"
+    },
+    "album": {
+     "id": 11295294,
+     "title": "Raindrops Keep Fallin' On My Head"
+    }
+   },
+   {
+    "id": 3996200,
+    "title": "Raindrops Keep Falling On My Head",
+    "title_short": "Raindrops Keep Falling On My Head",
+    "title_version": "",
+    "rank": 657972,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/5/0/ad56cb53fb0ff700905295300b3b16ce.mp3",
+    "artist": {
+     "id": 103378,
+     "name": "BJ Thomas"
+    },
+    "album": {
+     "id": 373094,
+     "title": "Raindrops….Always Raindrops"
+    }
+   },
+   {
+    "id": 6069361,
+    "title": "Raindrops Keep Fallin' on My Head (Rerecorded)",
+    "title_short": "Raindrops Keep Fallin' on My Head (Rerecorded)",
+    "title_version": "",
+    "rank": 453542,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/7/c/0/77c9ad0262448c06a54ce1de45344a9a.mp3",
+    "artist": {
+     "id": 5856,
+     "name": "B.J. Thomas"
+    },
+    "album": {
+     "id": 554083,
+     "title": "B.J. Thomas: All-Time Greatest Hits (Rerecorded Version)"
+    }
+   },
+   {
+    "id": 1280027322,
+    "title": "Raindrops Keep Fallin' On My Head (Live On The Ed Sullivan Show, January 25, 1970)",
+    "title_short": "Raindrops Keep Fallin' On My Head",
+    "title_version": "(Live On The Ed Sullivan Show, January 25, 1970)",
+    "rank": 91112,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/8/0/1a8c7bc91fb5a2d9fdb63a0d52e520bd.mp3",
+    "artist": {
+     "id": 5856,
+     "name": "B.J. Thomas"
+    },
+    "album": {
+     "id": 215914912,
+     "title": "Raindrops Keep Fallin' On My Head (Live On The Ed Sullivan Show, January 25, 1970)"
+    }
+   }
+  ],
+  "total": 48
+ },
+ "The Miracles Shop Around": {
+  "data": [
+   {
+    "id": 593726482,
+    "title": "Shop Around",
+    "title_short": "Shop Around",
+    "title_version": "",
+    "rank": 327920,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/b/0/c8bb41aeca4820c8cc24f2202834831f.mp3",
+    "artist": {
+     "id": 11617,
+     "name": "The Miracles"
+    },
+    "album": {
+     "id": 79887912,
+     "title": "Gold"
+    }
+   },
+   {
+    "id": 1255278,
+    "title": "Shop Around (Re-Recorded)",
+    "title_short": "Shop Around",
+    "title_version": "(Re-Recorded)",
+    "rank": 32095,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/6/c/0/76c6fd4756c35d12b1d3bfb695b3f909.mp3",
+    "artist": {
+     "id": 11617,
+     "name": "The Miracles"
+    },
+    "album": {
+     "id": 131903,
+     "title": "All Time Greatest Hits"
+    }
+   },
+   {
+    "id": 66583519,
+    "title": "Shop Around",
+    "title_short": "Shop Around",
+    "title_version": "",
+    "rank": 52483,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/0/f/0/70f99d2cad60677d8307d06c37b4da65.mp3",
+    "artist": {
+     "id": 1371254,
+     "name": "Smokey Robinson and The Miracles"
+    },
+    "album": {
+     "id": 6513690,
+     "title": "Shop Around"
+    }
+   },
+   {
+    "id": 77767381,
+    "title": "Shop Around (Live At The Carter Barron Amphitheatre/1972)",
+    "title_short": "Shop Around",
+    "title_version": "(Live At The Carter Barron Amphitheatre/1972)",
+    "rank": 3462,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/f/1/0/7f1979f852f4a68b755aabc1ec0dcc5c.mp3",
+    "artist": {
+     "id": 2940,
+     "name": "Smokey Robinson & The Miracles"
+    },
+    "album": {
+     "id": 7727688,
+     "title": "1957-1972"
+    }
+   },
+   {
+    "id": 69729711,
+    "title": "Shop Around",
+    "title_short": "Shop Around",
+    "title_version": "",
+    "rank": 29359,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/b/5/0/8b511048aa356e7329e379ffca272010.mp3",
+    "artist": {
+     "id": 11617,
+     "name": "The Miracles"
+    },
+    "album": {
+     "id": 6834846,
+     "title": "The Miracles Live"
+    }
+   },
+   {
+    "id": 1818464167,
+    "title": "Shop Around",
+    "title_short": "Shop Around",
+    "title_version": "",
+    "rank": 2226,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/7/0/3477f55a4c15f7663938b8e934ad3150.mp3",
+    "artist": {
+     "id": 11617,
+     "name": "The Miracles"
+    },
+    "album": {
+     "id": 334149167,
+     "title": "Treasured Collection (1950'S Golden Voices)"
+    }
+   }
+  ],
+  "total": 39
+ },
+ "Ini Kamoze Here Comes the Hotstepper": {
+  "data": [
+   {
+    "id": 13211888,
+    "title": "Here Comes the Hotstepper (Heartical Mix)",
+    "title_short": "Here Comes the Hotstepper",
+    "title_version": "(Heartical Mix)",
+    "rank": 754978,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/6/7/0/9678c788886723df426ddededbdd4fc2.mp3",
+    "artist": {
+     "id": 10574,
+     "name": "Ini Kamoze"
+    },
+    "album": {
+     "id": 1211447,
+     "title": "Here Comes The Hotstepper"
+    }
+   },
+   {
+    "id": 564869292,
+    "title": "Here Comes The Hotstepper",
+    "title_short": "Here Comes The Hotstepper",
+    "title_version": "",
+    "rank": 197863,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/e/9/0/8e982403c1c4a2aacf1ff24b47607f1d.mp3",
+    "artist": {
+     "id": 10574,
+     "name": "Ini Kamoze"
+    },
+    "album": {
+     "id": 75006122,
+     "title": "Mo'Applause Riddim (Riddims Galore Vol. 2)"
+    }
+   },
+   {
+    "id": 77406302,
+    "title": "Here Comes the Hotstepper (Edm Remix)",
+    "title_short": "Here Comes the Hotstepper (Edm Remix)",
+    "title_version": "",
+    "rank": 59991,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/b/5/0/8b525216fc8391404999a64e07961bf6.mp3",
+    "artist": {
+     "id": 10574,
+     "name": "Ini Kamoze"
+    },
+    "album": {
+     "id": 7691332,
+     "title": "Edm"
+    }
+   },
+   {
+    "id": 69056604,
+    "title": "Here Comes the Hotstepper (DnB Mix)",
+    "title_short": "Here Comes the Hotstepper (DnB Mix)",
+    "title_version": "",
+    "rank": 34691,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/0/0/ef0301f91210544b1c8a50ea384ef4cf.mp3",
+    "artist": {
+     "id": 10574,
+     "name": "Ini Kamoze"
+    },
+    "album": {
+     "id": 6767176,
+     "title": "Drum and Bass Beat Down Vol. 1"
+    }
+   },
+   {
+    "id": 15048710,
+    "title": "Here Comes the Hotstepper",
+    "title_short": "Here Comes the Hotstepper",
+    "title_version": "",
+    "rank": 53269,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/a/0/12adc8a1e37df7bc17aeee2994025131.mp3",
+    "artist": {
+     "id": 10574,
+     "name": "Ini Kamoze"
+    },
+    "album": {
+     "id": 1388000,
+     "title": "Down On The Dancefloor"
+    }
+   }
+  ],
+  "total": 15
+ },
+ "Eminem Cleaning Out My Closet": {
+  "data": [
+   {
+    "id": 399224112,
+    "title": "Cleaning Out My Closet",
+    "title_short": "Cleaning Out My Closet",
+    "rank": 233683,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/6/8/0/d688816986902550f06640288ee18b18.mp3",
+    "artist": {
+     "id": 13,
+     "name": "Eminem"
+    },
+    "album": {
+     "id": 46967492,
+     "title": "The Return of the 3 Kingz, Vol. 4"
+    }
+   },
+   {
+    "id": 1757177477,
+    "title": "Cleanin' Out My Closet (Instrumental)",
+    "title_short": "Cleanin' Out My Closet",
+    "title_version": "(Instrumental)",
+    "rank": 197655,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/c/1/0/dc17d48ca5da9630505c0d7b89880681.mp3",
+    "artist": {
+     "id": 13,
+     "name": "Eminem"
+    },
+    "album": {
+     "id": 320098917,
+     "title": "The Eminem Show (Expanded Edition)"
+    }
+   }
+  ],
+  "total": 15
+ },
+ "Cleaning Out My Closet Eminem": {
+  "data": [
+   {
+    "id": 916414,
+    "title": "Cleanin' Out My Closet",
+    "title_short": "Cleanin' Out My Closet",
+    "title_version": "",
+    "rank": 748879,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/0/0/b206ffb6c0228197b7c348a3d1b23907.mp3",
+    "artist": {
+     "id": 13,
+     "name": "Eminem"
+    },
+    "album": {
+     "id": 103248,
+     "title": "The Eminem Show"
+    }
+   },
+   {
+    "id": 1757177477,
+    "title": "Cleanin' Out My Closet (Instrumental)",
+    "title_short": "Cleanin' Out My Closet",
+    "title_version": "(Instrumental)",
+    "rank": 197655,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/c/1/0/dc17d48ca5da9630505c0d7b89880681.mp3",
+    "artist": {
+     "id": 13,
+     "name": "Eminem"
+    },
+    "album": {
+     "id": 320098917,
+     "title": "The Eminem Show (Expanded Edition)"
+    }
+   }
+  ],
+  "total": 13
+ },
+ "Lionel Richie All Night Long (All Night)": {
+  "data": [
+   {
+    "id": 920062,
+    "title": "All Night Long (All Night)",
+    "title_short": "All Night Long (All Night)",
+    "title_version": "",
+    "rank": 804457,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/8/0/f18be05d355637d2f0ae646201740027.mp3",
+    "artist": {
+     "id": 3445,
+     "name": "Lionel Richie"
+    },
+    "album": {
+     "id": 103599,
+     "title": "Can't Slow Down"
+    }
+   },
+   {
+    "id": 2177861,
+    "title": "All Night Long (All Night) (Single Version)",
+    "title_short": "All Night Long (All Night)",
+    "title_version": "(Single Version)",
+    "rank": 677532,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/a/0/faa0735dd76a9785ca26ce1c45804d62.mp3",
+    "artist": {
+     "id": 3445,
+     "name": "Lionel Richie"
+    },
+    "album": {
+     "id": 217868,
+     "title": "Back To Front"
+    }
+   },
+   {
+    "id": 7278905,
+    "title": "All Night Long (All Night) (12\" Version)",
+    "title_short": "All Night Long (All Night)",
+    "title_version": "(12\" Version)",
+    "rank": 241093,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/d/0/1bd37df46b4bcc90f5985d39f6acfc02.mp3",
+    "artist": {
+     "id": 3445,
+     "name": "Lionel Richie"
+    },
+    "album": {
+     "id": 671788,
+     "title": "Can't Slow Down (Deluxe Edition)"
+    }
+   },
+   {
+    "id": 16645493,
+    "title": "All Night Long",
+    "title_short": "All Night Long",
+    "title_version": "",
+    "rank": 213547,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/1/d/0/71d89845f15655302a7542b097546845.mp3",
+    "artist": {
+     "id": 3445,
+     "name": "Lionel Richie"
+    },
+    "album": {
+     "id": 1557960,
+     "title": "Tuskegee (Deluxe Version)"
+    }
+   }
+  ],
+  "total": 63
+ },
+ "CKay Love Nwantiti": {
+  "data": [
+   {
+    "id": 752155092,
+    "title": "love nwantiti (ah ah ah)",
+    "title_short": "love nwantiti (ah ah ah)",
+    "title_version": "",
+    "rank": 855914,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/c/0/f8c3288fb1688b75d87814a810f42e21.mp3",
+    "artist": {
+     "id": 903536,
+     "name": "CKay"
+    },
+    "album": {
+     "id": 110714612,
+     "title": "CKay The First"
+    }
+   },
+   {
+    "id": 1054036762,
+    "title": "love nwantiti (feat. Franglish) (French Remix)",
+    "title_short": "love nwantiti (feat. Franglish)",
+    "title_version": "(French Remix)",
+    "rank": 701499,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/3/0/0c3554b43ad6e9e185a63fc6529de879.mp3",
+    "artist": {
+     "id": 903536,
+     "name": "CKay"
+    },
+    "album": {
+     "id": 167835872,
+     "title": "love nwantiti (feat. Franglish) (French Remix)"
+    }
+   },
+   {
+    "id": 1513273482,
+    "title": "Love Nwantiti (Acoustic Version)",
+    "title_short": "Love Nwantiti (Acoustic Version)",
+    "title_version": "",
+    "rank": 624202,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/a/e/0/4aebe06289deb9b287226cb520824a42.mp3",
+    "artist": {
+     "id": 903536,
+     "name": "CKay"
+    },
+    "album": {
+     "id": 263569662,
+     "title": "Love Nwantiti (Acoustic Version)"
+    }
+   }
+  ],
+  "total": 133
+ },
+ "Love Nwantiti CKay": {
+  "data": [
+   {
+    "id": 752155092,
+    "title": "love nwantiti (ah ah ah)",
+    "title_short": "love nwantiti (ah ah ah)",
+    "title_version": "",
+    "rank": 855914,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/8/c/0/f8c3288fb1688b75d87814a810f42e21.mp3",
+    "artist": {
+     "id": 903536,
+     "name": "CKay"
+    },
+    "album": {
+     "id": 110714612,
+     "title": "CKay The First"
+    }
+   },
+   {
+    "id": 873962132,
+    "title": "love nwantiti (ah ah ah) [feat. Joeboy & Kuami Eugene] [Remix]",
+    "title_short": "love nwantiti (ah ah ah) [feat. Joeboy & Kuami Eugene] [Remix]",
+    "title_version": "",
+    "rank": 490944,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/0/7/0/a07f0d9dd69a6fe9bffe4062fc0ee67c.mp3",
+    "artist": {
+     "id": 903536,
+     "name": "CKay"
+    },
+    "album": {
+     "id": 131175222,
+     "title": "love nwantiti (ah ah ah) [feat. Joeboy & Kuami Eugene] [Remix]"
+    }
+   },
+   {
+    "id": 1573631792,
+    "title": "love nwantiti (feat. Jah Khalib)",
+    "title_short": "love nwantiti (feat. Jah Khalib)",
+    "title_version": "",
+    "rank": 37997,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/8/1/0/681802091780f328a97b93bbe0583075.mp3",
+    "artist": {
+     "id": 903536,
+     "name": "CKay"
+    },
+    "album": {
+     "id": 277058082,
+     "title": "love nwantiti (feat. Jah Khalib)"
+    }
+   }
+  ],
+  "total": 137
+ },
+ "Patti Page Tennessee Waltz": {
+  "data": [
+   {
+    "id": 5533930,
+    "title": "Tennessee Waltz (Plantation Re-Recording)",
+    "title_short": "Tennessee Waltz",
+    "title_version": "(Plantation Re-Recording)",
+    "rank": 208624,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/e/0/79e522ec583247dea7d9e6cbe5ce8a66.mp3",
+    "artist": {
+     "id": 12330,
+     "name": "Patti Page"
+    },
+    "album": {
+     "id": 506300,
+     "title": "Tennesse Waltz - 20 Smash Hits (Plantation Re-recordings)"
+    }
+   },
+   {
+    "id": 10821367,
+    "title": "Tennessee Waltz",
+    "title_short": "Tennessee Waltz",
+    "rank": 65247,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/7/0/28725c2ffa715f31c8fcc318bca97980.mp3",
+    "artist": {
+     "id": 12330,
+     "name": "Patti Page"
+    },
+    "album": {
+     "id": 988326,
+     "title": "A Country Legend"
+    }
+   },
+   {
+    "id": 6065047,
+    "title": "Tennessee Waltz (Rerecorded)",
+    "title_short": "Tennessee Waltz (Rerecorded)",
+    "title_version": "",
+    "rank": 147353,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/8/9/0/1897c81fcd8340f486442f65b91ddd90.mp3",
+    "artist": {
+     "id": 12330,
+     "name": "Patti Page"
+    },
+    "album": {
+     "id": 553836,
+     "title": "All Time Greatest Hits (Rerecorded Version)"
+    }
+   },
+   {
+    "id": 1586822042,
+    "title": "Tennessee Waltz",
+    "title_short": "Tennessee Waltz",
+    "title_version": "",
+    "rank": 100000,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/e/0/d4e10e2cfbf45e1c517afc49e396eed6.mp3",
+    "artist": {
+     "id": 12330,
+     "name": "Patti Page"
+    },
+    "album": {
+     "id": 279580962,
+     "title": "Patti Page on Stage"
+    }
+   }
+  ],
+  "total": 149
+ },
+ "Chubby Checker The Twist": {
+  "data": [
+   {
+    "id": 64638140,
+    "title": "The Twist",
+    "title_short": "The Twist",
+    "title_version": "",
+    "rank": 440153,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/f/0/4cfdece27dd35e0e8d0913bd9d0e0405.mp3",
+    "artist": {
+     "id": 2202,
+     "name": "Chubby Checker"
+    },
+    "album": {
+     "id": 6332442,
+     "title": "Chubby Checker Classics"
+    }
+   },
+   {
+    "id": 2800144,
+    "title": "The Twist",
+    "title_short": "The Twist",
+    "title_version": "",
+    "rank": 309086,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/e/0/28e8e8e9225204e47950d2624443ba68.mp3",
+    "artist": {
+     "id": 2202,
+     "name": "Chubby Checker"
+    },
+    "album": {
+     "id": 272096,
+     "title": "25 Original Greatest Hits- Cameo Parkway"
+    }
+   },
+   {
+    "id": 11476947,
+    "title": "The Twist",
+    "title_short": "The Twist",
+    "rank": 66477,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/f/f/0/dff89663b40933618fcee79ab5b38e7b.mp3",
+    "artist": {
+     "id": 2202,
+     "name": "Chubby Checker"
+    },
+    "album": {
+     "id": 1052896,
+     "title": "The Texas Twist with Texas Radio"
+    }
+   }
+  ],
+  "total": 158
+ },
+ "אתי אנקרי עוד יום שקט": {
+  "data": [
+   {
+    "id": 1397759382,
+    "title": "עוד יום שקט (Remastered)",
+    "title_short": "עוד יום שקט",
+    "title_version": "(Remastered)",
+    "rank": 10152,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/f/0/45fc2e2572eebd81db6e10b5a418481d.mp3",
+    "artist": {
+     "id": 1360478,
+     "name": "Etti Ankri"
+    },
+    "album": {
+     "id": 235839562,
+     "title": "רואה לך בעיניים (Remastered)"
+    }
+   },
+   {
+    "id": 1397759272,
+    "title": "עוד יום שקט (א-קפלה) (Remastered)",
+    "title_short": "עוד יום שקט (א-קפלה)",
+    "title_version": "(Remastered)",
+    "rank": 37390,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/b/4/0/ab48eb0aae54957ae6f562265675b2ad.mp3",
+    "artist": {
+     "id": 1360478,
+     "name": "Etti Ankri"
+    },
+    "album": {
+     "id": 235839562,
+     "title": "רואה לך בעיניים (Remastered)"
+    }
+   }
+  ],
+  "total": 2
+ },
+ "עוד יום שקט אתי אנקרי": {
+  "data": [
+   {
+    "id": 1397759382,
+    "title": "עוד יום שקט (Remastered)",
+    "title_short": "עוד יום שקט",
+    "title_version": "(Remastered)",
+    "rank": 10152,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/f/0/45fc2e2572eebd81db6e10b5a418481d.mp3",
+    "artist": {
+     "id": 1360478,
+     "name": "Etti Ankri"
+    },
+    "album": {
+     "id": 235839562,
+     "title": "רואה לך בעיניים (Remastered)"
+    }
+   },
+   {
+    "id": 1397759272,
+    "title": "עוד יום שקט (א-קפלה) (Remastered)",
+    "title_short": "עוד יום שקט (א-קפלה)",
+    "title_version": "(Remastered)",
+    "rank": 37390,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/b/4/0/ab48eb0aae54957ae6f562265675b2ad.mp3",
+    "artist": {
+     "id": 1360478,
+     "name": "Etti Ankri"
+    },
+    "album": {
+     "id": 235839562,
+     "title": "רואה לך בעיניים (Remastered)"
+    }
+   }
+  ],
+  "total": 2
+ },
+ "מאיר אריאל שיר לכל המשפחה": {
+  "data": [
+   {
+    "id": 1399118722,
+    "title": "שיר לכל המשפחה",
+    "title_short": "שיר לכל המשפחה",
+    "title_version": "",
+    "rank": 10009,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/0/1/0/c016a66d74dcdf3f251ba369ff305c14.mp3",
+    "artist": {
+     "id": 360333,
+     "name": "Meir Ariel"
+    },
+    "album": {
+     "id": 236172302,
+     "title": "ירוקות"
+    }
+   },
+   {
+    "id": 2393479185,
+    "title": "שיר לכל המשפחה (טייק 2)",
+    "title_short": "שיר לכל המשפחה",
+    "title_version": "(טייק 2)",
+    "rank": 21508,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/f/0/39f44ee050fb07a43582b2b8470760e3.mp3",
+    "artist": {
+     "id": 360333,
+     "name": "Meir Ariel"
+    },
+    "album": {
+     "id": 471609675,
+     "title": "ירוקות (Special Edition)"
+    }
+   }
+  ],
+  "total": 2
+ },
+ "שיר לכל המשפחה מאיר אריאל": {
+  "data": [
+   {
+    "id": 1399118722,
+    "title": "שיר לכל המשפחה",
+    "title_short": "שיר לכל המשפחה",
+    "title_version": "",
+    "rank": 10009,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/0/1/0/c016a66d74dcdf3f251ba369ff305c14.mp3",
+    "artist": {
+     "id": 360333,
+     "name": "Meir Ariel"
+    },
+    "album": {
+     "id": 236172302,
+     "title": "ירוקות"
+    }
+   },
+   {
+    "id": 2393479185,
+    "title": "שיר לכל המשפחה (טייק 2)",
+    "title_short": "שיר לכל המשפחה",
+    "title_version": "(טייק 2)",
+    "rank": 21508,
+    "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/f/0/39f44ee050fb07a43582b2b8470760e3.mp3",
+    "artist": {
+     "id": 360333,
+     "name": "Meir Ariel"
+    },
+    "album": {
+     "id": 471609675,
+     "title": "ירוקות (Special Edition)"
+    }
+   }
+  ],
+  "total": 2
+ }
+}

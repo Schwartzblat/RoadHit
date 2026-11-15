@@ -1,0 +1,1325 @@
+{
+ "deezer_artist_search|כוורת": {
+  "data": [
+   {
+    "id": 10985362,
+    "name": "Kaveret",
+    "nb_album": 11,
+    "nb_fan": 3821
+   }
+  ],
+  "total": 1
+ },
+ "deezer_artist_search|בנזין": {
+  "data": [
+   {
+    "id": 13680683,
+    "name": "Benzin",
+    "nb_album": 7,
+    "nb_fan": 1206
+   },
+   {
+    "id": 57986442,
+    "name": "בנזין",
+    "nb_album": 2,
+    "nb_fan": 56
+   }
+  ],
+  "total": 2
+ },
+ "deezer_artist_albums|10985362": {
+  "data": [
+   {
+    "id": 572136921,
+    "title": "אופרת פוגי - סיפור הארון",
+    "record_type": "album",
+    "release_date": "2024-04-19"
+   },
+   {
+    "id": 327076697,
+    "title": "סיפורי פוגי (Remastered)",
+    "record_type": "album",
+    "release_date": "1973-01-01"
+   },
+   {
+    "id": 327408557,
+    "title": "צפוף באוזן (Remastered)",
+    "record_type": "album",
+    "release_date": "1975-01-01"
+   },
+   {
+    "id": 327684697,
+    "title": "פוגי בפיתה (Remastered)",
+    "record_type": "album",
+    "release_date": "1974-01-01"
+   },
+   {
+    "id": 108289352,
+    "title": "כוורת - המופע האחרון (Live)",
+    "record_type": "album",
+    "release_date": "2013-11-24"
+   },
+   {
+    "id": 108289662,
+    "title": "כוורת בקופסא - אנתולוגיה / 1971-1976",
+    "record_type": "album",
+    "release_date": "2013-06-01"
+   },
+   {
+    "id": 108215802,
+    "title": "כוורת בפארק (Live)",
+    "record_type": "album",
+    "release_date": "1998-01-01"
+   },
+   {
+    "id": 108139502,
+    "title": "צפוף באוזן",
+    "record_type": "album",
+    "release_date": "2016-09-11"
+   },
+   {
+    "id": 108373562,
+    "title": "פוגי בפיתה",
+    "record_type": "album",
+    "release_date": "2016-09-11"
+   },
+   {
+    "id": 108231462,
+    "title": "סיפורי פוגי",
+    "record_type": "album",
+    "release_date": "1973-11-01"
+   },
+   {
+    "id": 558665332,
+    "title": "Poogy",
+    "record_type": "single",
+    "release_date": "1974-01-01"
+   }
+  ],
+  "total": 11
+ },
+ "deezer_album|108231462": {
+  "id": 108231462,
+  "title": "סיפורי פוגי",
+  "record_type": "album",
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 736805632,
+     "title": "סיפורי פוגי",
+     "title_short": "סיפורי פוגי",
+     "title_version": "",
+     "rank": 11909,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/3/0/d739fe379b7145fe225e2fcd7c5f281e.mp3?hdnea=exp=1794636443~acl=/api/1/1/d/7/3/0/d739fe379b7145fe225e2fcd7c5f281e.mp3*~data=user_id=0,application_id=42~hmac=0c5a7a8ac6127e9255e9bbdf06d8d91f43ba16f0186f3a8e6809223ca27609ef",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805642,
+     "title": "שיר המכולת",
+     "title_short": "שיר המכולת",
+     "title_version": "",
+     "rank": 73553,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/9/8/0/2984db2d65714beb4c58b47e42c60a24.mp3?hdnea=exp=1794636443~acl=/api/1/1/2/9/8/0/2984db2d65714beb4c58b47e42c60a24.mp3*~data=user_id=0,application_id=42~hmac=c37c823d204835856168de526769d61cf982f5bb8e2e17d155a33e67928bd768",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805652,
+     "title": "ביום ובלילה",
+     "title_short": "ביום ובלילה",
+     "title_version": "",
+     "rank": 55912,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/4/0/54412aa0e56610ab8ec1d174f16f4ab8.mp3?hdnea=exp=1794636443~acl=/api/1/1/5/4/4/0/54412aa0e56610ab8ec1d174f16f4ab8.mp3*~data=user_id=0,application_id=42~hmac=cc2a46deb1fb92d8323b44b18326d4bb8e1c77d5376d86cd736cb79cd6b27e6e",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805662,
+     "title": "שירות עצמי",
+     "title_short": "שירות עצמי",
+     "title_version": "",
+     "rank": 90346,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/4/7/0/c475588629314b870400fa4ca4cdc48f.mp3?hdnea=exp=1794636443~acl=/api/1/1/c/4/7/0/c475588629314b870400fa4ca4cdc48f.mp3*~data=user_id=0,application_id=42~hmac=795e56df3c22ff3c65063e31a9ea70dee9525a1d8635d6a874ca0dc87c805907",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805672,
+     "title": "ילד מזדקן",
+     "title_short": "ילד מזדקן",
+     "title_version": "",
+     "rank": 62177,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/d/0/c3dfa70f17be0f1a7ccc90720b1f956a.mp3?hdnea=exp=1794636443~acl=/api/1/1/c/3/d/0/c3dfa70f17be0f1a7ccc90720b1f956a.mp3*~data=user_id=0,application_id=42~hmac=c99c1707c60fca998457a1700ff86f86c494a48eba386e30977abde4230239cd",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805682,
+     "title": "למרות הכל",
+     "title_short": "למרות הכל",
+     "title_version": "",
+     "rank": 76336,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/d/0/26dcae216c7eb82198f95aeffbc21f19.mp3?hdnea=exp=1794636443~acl=/api/1/1/2/6/d/0/26dcae216c7eb82198f95aeffbc21f19.mp3*~data=user_id=0,application_id=42~hmac=367607d70d1cbfd19fdc87f93c331ed2b1fdacf4ffc938415d9f68896e824579",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805692,
+     "title": "פה קבור הכלב",
+     "title_short": "פה קבור הכלב",
+     "title_version": "",
+     "rank": 73691,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/f/5/0/cf5900afc3572c7aeb5031e983c58842.mp3?hdnea=exp=1794636443~acl=/api/1/1/c/f/5/0/cf5900afc3572c7aeb5031e983c58842.mp3*~data=user_id=0,application_id=42~hmac=5677d0b1fd5d6d875ee1157caf98972fb25019b5c11547fecefe45e83f94be96",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805702,
+     "title": "סיפור הארון",
+     "title_short": "סיפור הארון",
+     "title_version": "",
+     "rank": 32308,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/6/3/7/0/637b2c2c42d07cbcb4a0266a85d9d88e.mp3?hdnea=exp=1794636443~acl=/api/1/1/6/3/7/0/637b2c2c42d07cbcb4a0266a85d9d88e.mp3*~data=user_id=0,application_id=42~hmac=3e25979ae3f66fe7484614d6f1c6c5f7db43cd17859849f301bbce8537908928",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805712,
+     "title": "לא ידענו מה לעשות",
+     "title_short": "לא ידענו מה לעשות",
+     "title_version": "",
+     "rank": 21431,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/a/3/0/fa38dab7f030c0e26f608c3d2883d677.mp3?hdnea=exp=1794636443~acl=/api/1/1/f/a/3/0/fa38dab7f030c0e26f608c3d2883d677.mp3*~data=user_id=0,application_id=42~hmac=25ce8c60e89fea2d8d6ec3ccd429cdff5593b215b57e9dc241a1c2b7f092d561",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805722,
+     "title": "יוסי מה נשמע",
+     "title_short": "יוסי מה נשמע",
+     "title_version": "",
+     "rank": 59031,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/e/2/0/5e28bd96ae47f19a1daaf1113803389d.mp3?hdnea=exp=1794636443~acl=/api/1/1/5/e/2/0/5e28bd96ae47f19a1daaf1113803389d.mp3*~data=user_id=0,application_id=42~hmac=acced900e8f8a75b4c3d047d6162178bcc461d2389b2f5cb8fa3687aa3b56f06",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805732,
+     "title": "המגפיים של ברוך",
+     "title_short": "המגפיים של ברוך",
+     "title_version": "",
+     "rank": 115944,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/d/a/0/8da25a1c773d0d66ea09378259878239.mp3?hdnea=exp=1794636443~acl=/api/1/1/8/d/a/0/8da25a1c773d0d66ea09378259878239.mp3*~data=user_id=0,application_id=42~hmac=a2d8523c19a86948d123d79e4750ef991a7072d7765e90475c4132d8454bfdfd",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805742,
+     "title": "נחמד",
+     "title_short": "נחמד",
+     "title_version": "",
+     "rank": 58168,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/b/2/0/5b2a1c2956deb420640bfc21818806f6.mp3?hdnea=exp=1794636443~acl=/api/1/1/5/b/2/0/5b2a1c2956deb420640bfc21818806f6.mp3*~data=user_id=0,application_id=42~hmac=99c7a7adc4f6ddc047b45d17b7a8c1ea5dd31c81a6842bfa99f196efccf9a5b8",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805752,
+     "title": "יו יה",
+     "title_short": "יו יה",
+     "title_version": "",
+     "rank": 133726,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/c/f/0/ccf0d807bc7ac6d93c5473a423854bea.mp3?hdnea=exp=1794636443~acl=/api/1/1/c/c/f/0/ccf0d807bc7ac6d93c5473a423854bea.mp3*~data=user_id=0,application_id=42~hmac=21d92ce97cc14768f38380ee6130b9e5338b5560a018131295b983e70484ab9a",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805762,
+     "title": "פוגי 71 '",
+     "title_short": "פוגי 71 '",
+     "title_version": "",
+     "rank": 25699,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/4/0/0c4a51874f3d4a02d0c8686fd8ffc629.mp3?hdnea=exp=1794636443~acl=/api/1/1/0/c/4/0/0c4a51874f3d4a02d0c8686fd8ffc629.mp3*~data=user_id=0,application_id=42~hmac=04192fa6948ae43a1241bd8ed27d000f88e97acf66a9b9b2e04f18133db784a2",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805772,
+     "title": "מתימטיקה (פינות פוגי)",
+     "title_short": "מתימטיקה",
+     "title_version": "(פינות פוגי)",
+     "rank": 56124,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/0/e/0/80ec8f4758e9212969e3f703b09b8f56.mp3?hdnea=exp=1794636443~acl=/api/1/1/8/0/e/0/80ec8f4758e9212969e3f703b09b8f56.mp3*~data=user_id=0,application_id=42~hmac=25b1edd6e4e2cf286f9d900640f65c10f8e6ef9f428234e67bf05c697d26b0d6",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805782,
+     "title": "שעור פסנתר (פינות פוגי)",
+     "title_short": "שעור פסנתר",
+     "title_version": "(פינות פוגי)",
+     "rank": 33154,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/2/e/0/12eb9af02504f7445fa08f29895ee0ba.mp3?hdnea=exp=1794636443~acl=/api/1/1/1/2/e/0/12eb9af02504f7445fa08f29895ee0ba.mp3*~data=user_id=0,application_id=42~hmac=134e26525a7ddc38fd3a150188bb5b1717832404c194abf84078706ac198a3ae",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805792,
+     "title": "המגפיים של אפריים",
+     "title_short": "המגפיים של אפריים",
+     "title_version": "",
+     "rank": 37162,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/8/0/8a82d8e9dc48157483099f85574704ff.mp3?hdnea=exp=1794636443~acl=/api/1/1/8/a/8/0/8a82d8e9dc48157483099f85574704ff.mp3*~data=user_id=0,application_id=42~hmac=296beec5d1be2ab6944c2d226015f912e374a8c258a86401e542551ff0ea7ebe",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736805802,
+     "title": "היו לילות",
+     "title_short": "היו לילות",
+     "title_version": "",
+     "rank": 53477,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/a/0/17a97e839f25d08bb09571fe9a4bce40.mp3?hdnea=exp=1794636443~acl=/api/1/1/1/7/a/0/17a97e839f25d08bb09571fe9a4bce40.mp3*~data=user_id=0,application_id=42~hmac=ba15e48e02cca96ef152564ff94b4b9c582530c87e513382991a6c5388e94de8",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    }
+   ]
+  }
+ },
+ "deezer_album|327076697": {
+  "id": 327076697,
+  "title": "סיפורי פוגי (Remastered)",
+  "record_type": "album",
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 1789769877,
+     "title": "סיפורי פוגי (Remastered)",
+     "title_short": "סיפורי פוגי",
+     "title_version": "(Remastered)",
+     "rank": 6934,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/3/0/1a3beb9b32f8e50e80a86b5437048c1e.mp3?hdnea=exp=1794636443~acl=/api/1/1/1/a/3/0/1a3beb9b32f8e50e80a86b5437048c1e.mp3*~data=user_id=0,application_id=42~hmac=03c15943132298a3c63dc10d4d15aedaf5faffc619e1cdb928af7f025c8e303c",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769887,
+     "title": "שיר המכולת (Remastered)",
+     "title_short": "שיר המכולת",
+     "title_version": "(Remastered)",
+     "rank": 34326,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/5/7/0/c57b355075095700a009dd93aaba5d50.mp3?hdnea=exp=1794636443~acl=/api/1/1/c/5/7/0/c57b355075095700a009dd93aaba5d50.mp3*~data=user_id=0,application_id=42~hmac=1a0c68b445370dd9a6179d61215c217f52c7a1b06d6377ac30afd961be2f5406",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769897,
+     "title": "ביום ובלילה (Remastered)",
+     "title_short": "ביום ובלילה",
+     "title_version": "(Remastered)",
+     "rank": 33197,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/b/d/0/7bd9b4a52886381bd228025ca04b88c0.mp3?hdnea=exp=1794636443~acl=/api/1/1/7/b/d/0/7bd9b4a52886381bd228025ca04b88c0.mp3*~data=user_id=0,application_id=42~hmac=ad04008935891e433c8ab1111bebf90d5f97895db49bd5b2c1b2170f32bcadb7",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769907,
+     "title": "שירות עצמי (Remastered)",
+     "title_short": "שירות עצמי",
+     "title_version": "(Remastered)",
+     "rank": 21081,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/e/8/0/ae85e49a00b9693ae0de7621640a035b.mp3?hdnea=exp=1794636443~acl=/api/1/1/a/e/8/0/ae85e49a00b9693ae0de7621640a035b.mp3*~data=user_id=0,application_id=42~hmac=58a2bcdf570fca2c9aabd34e903b75e8e316b846887dc3ae44d6d6d512ee09d4",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769917,
+     "title": "ילד מזדקן (Remastered)",
+     "title_short": "ילד מזדקן",
+     "title_version": "(Remastered)",
+     "rank": 30171,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/a/e/0/daea16c4e3e4eb6bc7c3788bd066bd4a.mp3?hdnea=exp=1794636443~acl=/api/1/1/d/a/e/0/daea16c4e3e4eb6bc7c3788bd066bd4a.mp3*~data=user_id=0,application_id=42~hmac=86dc6188f7b1cec9c29ddf46b25e85997a7d2bc40eaf399addaa69a344fba60c",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769927,
+     "title": "למרות הכול (Remastered)",
+     "title_short": "למרות הכול",
+     "title_version": "(Remastered)",
+     "rank": 7359,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/7/d/0/d7d20c63e82e153679bc05adc1503733.mp3?hdnea=exp=1794636443~acl=/api/1/1/d/7/d/0/d7d20c63e82e153679bc05adc1503733.mp3*~data=user_id=0,application_id=42~hmac=99668d376118653515adb96cd74468f07a8e4badff78a75691f247fc579faae2",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769937,
+     "title": "פה קבור הכלב (Remastered)",
+     "title_short": "פה קבור הכלב",
+     "title_version": "(Remastered)",
+     "rank": 31463,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/6/0/28677284f364c0d6a3a0808d7dea1971.mp3?hdnea=exp=1794636443~acl=/api/1/1/2/8/6/0/28677284f364c0d6a3a0808d7dea1971.mp3*~data=user_id=0,application_id=42~hmac=313c2efd3ce2ce073eb71fc30fedd588a07307cf590f5f83ace2b18a8280707c",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769947,
+     "title": "סיפור הארון (Remastered)",
+     "title_short": "סיפור הארון",
+     "title_version": "(Remastered)",
+     "rank": 8788,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/f/9/0/cf926effb463b8a03f51ffa08534e389.mp3?hdnea=exp=1794636443~acl=/api/1/1/c/f/9/0/cf926effb463b8a03f51ffa08534e389.mp3*~data=user_id=0,application_id=42~hmac=3612bcaac634aa5571db67ac830e776154f34a82c5cf0e74ff5aca7007ae7644",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769957,
+     "title": "לא ידענו מה לעשות (Remastered)",
+     "title_short": "לא ידענו מה לעשות",
+     "title_version": "(Remastered)",
+     "rank": 18349,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/0/0/8409e7d4b38132182a82ef6ca742a500.mp3?hdnea=exp=1794636443~acl=/api/1/1/8/4/0/0/8409e7d4b38132182a82ef6ca742a500.mp3*~data=user_id=0,application_id=42~hmac=e518d36c45bb8b3c757b548ff17ac55126764a89c4cf77adcb97336263f93fc2",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769967,
+     "title": "יוסי מה נשמע (Remastered)",
+     "title_short": "יוסי מה נשמע",
+     "title_version": "(Remastered)",
+     "rank": 25300,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/6/0/ac66d1680e1ae7fdaebd8d88228317af.mp3?hdnea=exp=1794636443~acl=/api/1/1/a/c/6/0/ac66d1680e1ae7fdaebd8d88228317af.mp3*~data=user_id=0,application_id=42~hmac=3f6b62019604e221f88fa7f71d4918784c8e4015ced94e259182c702fc9f4910",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769977,
+     "title": "המגפיים של ברוך (Remastered)",
+     "title_short": "המגפיים של ברוך",
+     "title_version": "(Remastered)",
+     "rank": 18243,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/8/b/0/28bef3b234a7a6e9921bccfffe4b59c3.mp3?hdnea=exp=1794636443~acl=/api/1/1/2/8/b/0/28bef3b234a7a6e9921bccfffe4b59c3.mp3*~data=user_id=0,application_id=42~hmac=5d52c3ed93d96e6f129e27773c36f98bf4915cd0796c4108926b04f29f3dd30d",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769987,
+     "title": "נחמד (Remastered)",
+     "title_short": "נחמד",
+     "title_version": "(Remastered)",
+     "rank": 39405,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/5/6/0/85643aa7d09c5ddadf54e64a3d5b52e4.mp3?hdnea=exp=1794636443~acl=/api/1/1/8/5/6/0/85643aa7d09c5ddadf54e64a3d5b52e4.mp3*~data=user_id=0,application_id=42~hmac=c05d8c3bceb68de5a69aad73aa1dee847085c1b286a7dc06ce7666d227bc8423",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1789769997,
+     "title": "יו יה (Remastered)",
+     "title_short": "יו יה",
+     "title_version": "(Remastered)",
+     "rank": 32449,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/1/0/d91ae8dc48b174af02198cfe460f6840.mp3?hdnea=exp=1794636443~acl=/api/1/1/d/9/1/0/d91ae8dc48b174af02198cfe460f6840.mp3*~data=user_id=0,application_id=42~hmac=7293419a009b87e38798e6b1ba17a8c9bab776adac808451b3e6fecda44f4c78",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    }
+   ]
+  }
+ },
+ "deezer_album|108373562": {
+  "id": 108373562,
+  "title": "פוגי בפיתה",
+  "record_type": "album",
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 737566402,
+     "title": "נתתי לה חיי",
+     "title_short": "נתתי לה חיי",
+     "title_version": "",
+     "rank": 155149,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/4/5/0/945394f7236b80f57896254cac7f6509.mp3?hdnea=exp=1794636949~acl=/api/1/1/9/4/5/0/945394f7236b80f57896254cac7f6509.mp3*~data=user_id=0,application_id=42~hmac=57d834b957a46e3d17b8ce13aeea6aebfd1f1886ad90135412ad81d12cfa501e",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566412,
+     "title": "משה כן משה לא",
+     "title_short": "משה כן משה לא",
+     "title_version": "",
+     "rank": 3073,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/9/0/ac976118efe1428fafef09dc2b8c9530.mp3?hdnea=exp=1794636949~acl=/api/1/1/a/c/9/0/ac976118efe1428fafef09dc2b8c9530.mp3*~data=user_id=0,application_id=42~hmac=e8f7a2697eb6fc5bf349daef6c315faf12d1e8db69f0453e5cbbd70bbd1a06fc",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566422,
+     "title": "אוכל ת'ציפורניים",
+     "title_short": "אוכל ת'ציפורניים",
+     "title_version": "",
+     "rank": 63608,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/4/0/0/b4047028e25a6603fd241a3c8875087d.mp3?hdnea=exp=1794636949~acl=/api/1/1/b/4/0/0/b4047028e25a6603fd241a3c8875087d.mp3*~data=user_id=0,application_id=42~hmac=49363bf1b369e20dbe4f33dc408e1b366ea819a317ece7b99f666cb678528f87",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566432,
+     "title": "לאמור א'לאבי",
+     "title_short": "לאמור א'לאבי",
+     "title_version": "",
+     "rank": 52173,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/2/f/0/e2ff3a903690ce00156da010d993e365.mp3?hdnea=exp=1794636949~acl=/api/1/1/e/2/f/0/e2ff3a903690ce00156da010d993e365.mp3*~data=user_id=0,application_id=42~hmac=7fd224e71e0012278737610f3e277adfbef410e255f40e0eb21116ad254b4f2d",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566442,
+     "title": "סוכר בתה",
+     "title_short": "סוכר בתה",
+     "title_version": "",
+     "rank": 21787,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/8/4/0/584e2b3e77b59e5e86bc3e461ceef55a.mp3?hdnea=exp=1794636949~acl=/api/1/1/5/8/4/0/584e2b3e77b59e5e86bc3e461ceef55a.mp3*~data=user_id=0,application_id=42~hmac=f07ab309c9ecf6b7d319660c149b0148d1917e05fb0df43d057054ad9e36fd29",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566452,
+     "title": "הורה האחזות",
+     "title_short": "הורה האחזות",
+     "title_version": "",
+     "rank": 63714,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/6/0/386684d2c0bc6ee8759142a56782c84e.mp3?hdnea=exp=1794636949~acl=/api/1/1/3/8/6/0/386684d2c0bc6ee8759142a56782c84e.mp3*~data=user_id=0,application_id=42~hmac=2dc41534e6efb7b9766a4c3f528c85b8f4cb85bbeb18bd9f5b9a3c9daced991c",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566462,
+     "title": "התמנון האיטר",
+     "title_short": "התמנון האיטר",
+     "title_version": "",
+     "rank": 30448,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/b/c/0/9bc2c5ee12c3f0b27001416edf75d844.mp3?hdnea=exp=1794636949~acl=/api/1/1/9/b/c/0/9bc2c5ee12c3f0b27001416edf75d844.mp3*~data=user_id=0,application_id=42~hmac=56a6ffbca5d36aef006b9bc74b47c7effe75938d4743e6b222a851f101ad9352",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566472,
+     "title": "שיר המחירון",
+     "title_short": "שיר המחירון",
+     "title_version": "",
+     "rank": 13543,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/b/2/0/2b257af3b8640fc522451eaab8fede72.mp3?hdnea=exp=1794636949~acl=/api/1/1/2/b/2/0/2b257af3b8640fc522451eaab8fede72.mp3*~data=user_id=0,application_id=42~hmac=fb13441feac57ee11df651ae2152760ff8804fa6ce53b67237e10bc20e3304a2",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566482,
+     "title": "שיר מחאה (אנטיביוטיקה)",
+     "title_short": "שיר מחאה (אנטיביוטיקה)",
+     "title_version": "",
+     "rank": 13547,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/7/2/0/f72c78b45a1e88992ea383b8d30e220b.mp3?hdnea=exp=1794636949~acl=/api/1/1/f/7/2/0/f72c78b45a1e88992ea383b8d30e220b.mp3*~data=user_id=0,application_id=42~hmac=5849a02218954ffb6f275726806bfac2aed89dc55f097b5949d5846199ec6259",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566492,
+     "title": "הבלדה על ארי ודרצ'י",
+     "title_short": "הבלדה על ארי ודרצ'י",
+     "title_version": "",
+     "rank": 42813,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/5/0/8a529c4c2a8770af89cb9bfa0c01d3c0.mp3?hdnea=exp=1794636949~acl=/api/1/1/8/a/5/0/8a529c4c2a8770af89cb9bfa0c01d3c0.mp3*~data=user_id=0,application_id=42~hmac=852024beff94855402f40071a47931cd1ad018a3cd9da57dca5d2a4b56c9da67",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566502,
+     "title": "אם היה לי לב זהב",
+     "title_short": "אם היה לי לב זהב",
+     "title_version": "",
+     "rank": 18159,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/4/3/0/f43d09af51e3c1bc2b33805909e981df.mp3?hdnea=exp=1794636949~acl=/api/1/1/f/4/3/0/f43d09af51e3c1bc2b33805909e981df.mp3*~data=user_id=0,application_id=42~hmac=7e1f2d4bc7abc666bde332540a3bbcf5c713ce2a44faabde37ea4052a666a950",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566512,
+     "title": "הורה",
+     "title_short": "הורה",
+     "title_version": "",
+     "rank": 17818,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/4/2/0/c42609efef852982e461f453d5624537.mp3?hdnea=exp=1794636949~acl=/api/1/1/c/4/2/0/c42609efef852982e461f453d5624537.mp3*~data=user_id=0,application_id=42~hmac=dd2c9b004d520ab6ee0c58167d22581829252e0a657866430cd2d6fbc09f2883",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566522,
+     "title": "תנו לחיות",
+     "title_short": "תנו לחיות",
+     "title_version": "",
+     "rank": 15443,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/c/f/0/dcf01e5fe9da6ea50f047241c82a290a.mp3?hdnea=exp=1794636949~acl=/api/1/1/d/c/f/0/dcf01e5fe9da6ea50f047241c82a290a.mp3*~data=user_id=0,application_id=42~hmac=f887766e1691260e1db5acfd6f57d9d46793302a7ce5d7cc9a8555b3cd40adb6",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 737566532,
+     "title": "הפסקת חשמל",
+     "title_short": "הפסקת חשמל",
+     "title_version": "",
+     "rank": 25508,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/4/3/0/3434f97e92fa987bf55f958144255199.mp3?hdnea=exp=1794636949~acl=/api/1/1/3/4/3/0/3434f97e92fa987bf55f958144255199.mp3*~data=user_id=0,application_id=42~hmac=0d87d9fb3da2aaf2150f9fa49dfc7ae52d267f55fb2d3eb5db0681b884fd8158",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    }
+   ]
+  }
+ },
+ "deezer_album|327684697": {
+  "id": 327684697,
+  "title": "פוגי בפיתה (Remastered)",
+  "record_type": "album",
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 1792156927,
+     "title": "נתתי לה חיי (Remastered)",
+     "title_short": "נתתי לה חיי",
+     "title_version": "(Remastered)",
+     "rank": 30772,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/2/6/0/22609235c5c3f88d309fe6d641a22ba7.mp3?hdnea=exp=1794666994~acl=/api/1/1/2/2/6/0/22609235c5c3f88d309fe6d641a22ba7.mp3*~data=user_id=0,application_id=42~hmac=788ff4d21d427bdf61e2ea2edf4a7abf5b73854377803faffd019275286a0203",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792156937,
+     "title": "משה כן משה לא (Remastered)",
+     "title_short": "משה כן משה לא",
+     "title_version": "(Remastered)",
+     "rank": 20992,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/3/0/eb3722191588af4ce41517245e9fb79e.mp3?hdnea=exp=1794666994~acl=/api/1/1/e/b/3/0/eb3722191588af4ce41517245e9fb79e.mp3*~data=user_id=0,application_id=42~hmac=3321c918b35a60f3bb3bd98fcf60d449ad2c4fb26f2c3f829bc33ade3f2bf6d2",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792156947,
+     "title": "אוכל ת'ציפורניים (Remastered)",
+     "title_short": "אוכל ת'ציפורניים",
+     "title_version": "(Remastered)",
+     "rank": 34393,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/9/7/0/197d7b2da82cbd3fcd5acf9965060c0d.mp3?hdnea=exp=1794666994~acl=/api/1/1/1/9/7/0/197d7b2da82cbd3fcd5acf9965060c0d.mp3*~data=user_id=0,application_id=42~hmac=2e357e27a24461945f51356acf6ef2cc0f0338609be069e8fe2cfe03ec09c3ce",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792156957,
+     "title": "לאמור א'לאבי (Remastered)",
+     "title_short": "לאמור א'לאבי",
+     "title_version": "(Remastered)",
+     "rank": 25247,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/e/0/98ef406b31a0c2a62b30658131c5ebec.mp3?hdnea=exp=1794666994~acl=/api/1/1/9/8/e/0/98ef406b31a0c2a62b30658131c5ebec.mp3*~data=user_id=0,application_id=42~hmac=3ab17904dfb5e36f968944ef9f6757be360333e05c834137fab8174a347be750",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792156967,
+     "title": "סוכר בתה (Remastered)",
+     "title_short": "סוכר בתה",
+     "title_version": "(Remastered)",
+     "rank": 25778,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/4/a/0/e4a8adddb66e54313f5996cd6808ee8f.mp3?hdnea=exp=1794666994~acl=/api/1/1/e/4/a/0/e4a8adddb66e54313f5996cd6808ee8f.mp3*~data=user_id=0,application_id=42~hmac=4ae9712415a3be2cb41aaabb3b17474c654a2b822eab03d63b34a7271b12ded6",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792156977,
+     "title": "הורה היאחזות (Remastered)",
+     "title_short": "הורה היאחזות",
+     "title_version": "(Remastered)",
+     "rank": 33699,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/e/c/f/0/ecfe934d2468efe83fdbc81d1333aed6.mp3?hdnea=exp=1794666994~acl=/api/1/1/e/c/f/0/ecfe934d2468efe83fdbc81d1333aed6.mp3*~data=user_id=0,application_id=42~hmac=77e30e29cdeea75c566dc4bf1430df194fe9e34795e42760564419ed84b75ffa",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792156987,
+     "title": "התמנון האיטר (Remastered)",
+     "title_short": "התמנון האיטר",
+     "title_version": "(Remastered)",
+     "rank": 26103,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/9/4/0/c9429aba0fb9f29481c6ebbbf2960fa5.mp3?hdnea=exp=1794666994~acl=/api/1/1/c/9/4/0/c9429aba0fb9f29481c6ebbbf2960fa5.mp3*~data=user_id=0,application_id=42~hmac=af9bab87664259b50780a729c426773b98efddb9e7f9646afea750db65eaf63f",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792156997,
+     "title": "שיר המחירון (Remastered)",
+     "title_short": "שיר המחירון",
+     "title_version": "(Remastered)",
+     "rank": 27055,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/8/0/ac8623caba6e965a3618524daaf634f9.mp3?hdnea=exp=1794666994~acl=/api/1/1/a/c/8/0/ac8623caba6e965a3618524daaf634f9.mp3*~data=user_id=0,application_id=42~hmac=f1c037cdf35b4184c8fa3bf355723cfdcaa8d97802ef0f8a47b573ac490ecdd2",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792157007,
+     "title": "שיר מחאה (אנטיביוטיקה) (Remastered)",
+     "title_short": "שיר מחאה (אנטיביוטיקה)",
+     "title_version": "(Remastered)",
+     "rank": 52656,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/9/f/0/09ff5874464b129d1a2eb48ab25f6fc0.mp3?hdnea=exp=1794666994~acl=/api/1/1/0/9/f/0/09ff5874464b129d1a2eb48ab25f6fc0.mp3*~data=user_id=0,application_id=42~hmac=2ba16c7fe5d1686fb741f0d1c9f155e3cceb0effb6ffea9a6dee710c8a292977",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1792157017,
+     "title": "הבלדה על ארי ודרצ'י (Remastered)",
+     "title_short": "הבלדה על ארי ודרצ'י",
+     "title_version": "(Remastered)",
+     "rank": 18289,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/e/0/d8ec7576a08ad16da28db4b798ff9a26.mp3?hdnea=exp=1794666994~acl=/api/1/1/d/8/e/0/d8ec7576a08ad16da28db4b798ff9a26.mp3*~data=user_id=0,application_id=42~hmac=b1b0170676d0ef28077ddb77f9ff5798d8e4421411858ff2a1a12151bd109ab3",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    }
+   ]
+  }
+ },
+ "deezer_album|108139502": {
+  "id": 108139502,
+  "title": "צפוף באוזן",
+  "record_type": "album",
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 736267862,
+     "title": "גולית",
+     "title_short": "גולית",
+     "title_version": "",
+     "rank": 102446,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/2/0/7325bd99fc2fe01a946b2b91e27780bc.mp3?hdnea=exp=1794636967~acl=/api/1/1/7/3/2/0/7325bd99fc2fe01a946b2b91e27780bc.mp3*~data=user_id=0,application_id=42~hmac=e939e608c78bc1a847e8dd6b6b5aa6546383e130e46ff9a14c6ef402fc02a8d4",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267872,
+     "title": "שיר מלחים",
+     "title_short": "שיר מלחים",
+     "title_version": "",
+     "rank": 31050,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/c/3/0/dc3d0b4ef2aa7970e09702916de691c0.mp3?hdnea=exp=1794636967~acl=/api/1/1/d/c/3/0/dc3d0b4ef2aa7970e09702916de691c0.mp3*~data=user_id=0,application_id=42~hmac=14a2f56ef76ced918fc991ad109c688c0463a204edbb12c4c95c6c1160a4a437",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267882,
+     "title": "מדינה קטנה",
+     "title_short": "מדינה קטנה",
+     "title_version": "",
+     "rank": 88220,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/8/0/1b805b76abfe0573136e61ac9242c90f.mp3?hdnea=exp=1794636967~acl=/api/1/1/1/b/8/0/1b805b76abfe0573136e61ac9242c90f.mp3*~data=user_id=0,application_id=42~hmac=04d546d14bce5b648f3d5530f2699a897a31a9626be0cabfa0d47847429451e9",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267892,
+     "title": "טנגו צפרדעים",
+     "title_short": "טנגו צפרדעים",
+     "title_version": "",
+     "rank": 37750,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/f/0/7/0/f071c3e5decc6aad6223b3424dbadcc6.mp3?hdnea=exp=1794636967~acl=/api/1/1/f/0/7/0/f071c3e5decc6aad6223b3424dbadcc6.mp3*~data=user_id=0,application_id=42~hmac=7660f98877417c47e1c2da16060945adfe6f3f3860569b6fa369f8ede35476e9",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267902,
+     "title": "אינספקטור פקח",
+     "title_short": "אינספקטור פקח",
+     "title_version": "",
+     "rank": 21919,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/8/9/0/98993331bb71632208eed4f5ca019659.mp3?hdnea=exp=1794636967~acl=/api/1/1/9/8/9/0/98993331bb71632208eed4f5ca019659.mp3*~data=user_id=0,application_id=42~hmac=2491b8026d90128408636d8d74a99d92b950ab3900c5b513a403eee5bbb9da4b",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267912,
+     "title": "שעור מולדת",
+     "title_short": "שעור מולדת",
+     "title_version": "",
+     "rank": 123431,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/e/5/0/7e57adec130f2c6585b6419d269d6eaf.mp3?hdnea=exp=1794636967~acl=/api/1/1/7/e/5/0/7e57adec130f2c6585b6419d269d6eaf.mp3*~data=user_id=0,application_id=42~hmac=19bf8e64336782313dd45e8a3d811a892325e426841cee70d77f0fe7dc10d553",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267922,
+     "title": "העולם שמח",
+     "title_short": "העולם שמח",
+     "title_version": "",
+     "rank": 103832,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/d/0/73d34ce59e460dfaf20de14505bb12f3.mp3?hdnea=exp=1794636967~acl=/api/1/1/7/3/d/0/73d34ce59e460dfaf20de14505bb12f3.mp3*~data=user_id=0,application_id=42~hmac=9a2d3aa1af383c358e917b93a234a44f681b0120c142af7b16a36d7894962b17",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267932,
+     "title": "האיש הכי מהיר",
+     "title_short": "האיש הכי מהיר",
+     "title_version": "",
+     "rank": 37631,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/d/0/2dd84a12ca0af9ffd052cc25c90b64e9.mp3?hdnea=exp=1794636967~acl=/api/1/1/2/d/d/0/2dd84a12ca0af9ffd052cc25c90b64e9.mp3*~data=user_id=0,application_id=42~hmac=27639ad8e172bc88abf68a57bdbf38ef1e4918d26a291728584febac9dda58aa",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267942,
+     "title": "שיר הטמבל",
+     "title_short": "שיר הטמבל",
+     "title_version": "",
+     "rank": 78781,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/6/4/0/0649b7cb68f6ae80a3b6c4433f8a5e61.mp3?hdnea=exp=1794636967~acl=/api/1/1/0/6/4/0/0649b7cb68f6ae80a3b6c4433f8a5e61.mp3*~data=user_id=0,application_id=42~hmac=3b94456801b8a7eda8d240ec8aa11d4dc1a442c5b9ac683ed729453096801272",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267952,
+     "title": "לך ספר לסבתא",
+     "title_short": "לך ספר לסבתא",
+     "title_version": "",
+     "rank": 43182,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/c/c/0/4cc237a5ec6dbd5dd3e39e1f499496e3.mp3?hdnea=exp=1794636967~acl=/api/1/1/4/c/c/0/4cc237a5ec6dbd5dd3e39e1f499496e3.mp3*~data=user_id=0,application_id=42~hmac=9c5eadf813ac2be61e1d09d38298c8e8e789130cc48d22fb6029ee197a952e3b",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267962,
+     "title": "היא כל כך יפה",
+     "title_short": "היא כל כך יפה",
+     "title_version": "",
+     "rank": 117024,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/3/f/0/43fd5e9cbc1b43107950797ce7bad015.mp3?hdnea=exp=1794636967~acl=/api/1/1/4/3/f/0/43fd5e9cbc1b43107950797ce7bad015.mp3*~data=user_id=0,application_id=42~hmac=c7bc91ccb1095d335f1a3cb44b7a44758a0da5b2ed82981f51470acf1e2dd373",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267972,
+     "title": "לו לו",
+     "title_short": "לו לו",
+     "title_version": "",
+     "rank": 32499,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/9/1/0/79192608c7e189de7e6cca78cb432c2d.mp3?hdnea=exp=1794636967~acl=/api/1/1/7/9/1/0/79192608c7e189de7e6cca78cb432c2d.mp3*~data=user_id=0,application_id=42~hmac=be0878c654f5700fc994d6f3d9c3658cf35ccf8fdf74b0f569f1f81ab1de22f9",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267982,
+     "title": "סוף ההצגה הלילה",
+     "title_short": "סוף ההצגה הלילה",
+     "title_version": "",
+     "rank": 30154,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/1/7/0/d173d7929d3ec329237103382ba0842b.mp3?hdnea=exp=1794636967~acl=/api/1/1/d/1/7/0/d173d7929d3ec329237103382ba0842b.mp3*~data=user_id=0,application_id=42~hmac=7c87784fa9aae4660a2bae08e8444444374ba35c5607f6f8afab0a62f4c1d06e",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736267992,
+     "title": "ככה היא באמצע",
+     "title_short": "ככה היא באמצע",
+     "title_version": "",
+     "rank": 99057,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/3/3/f/0/33fd11dd56c82eedc223d0b0620357e9.mp3?hdnea=exp=1794636967~acl=/api/1/1/3/3/f/0/33fd11dd56c82eedc223d0b0620357e9.mp3*~data=user_id=0,application_id=42~hmac=24818dd4185d59361251b83cff4d04dd00926c38ab7c13c17812012c6c72e94c",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736268002,
+     "title": "צפוף באוזן",
+     "title_short": "צפוף באוזן",
+     "title_version": "",
+     "rank": 18651,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/7/0/bd72959512766130bb83bacb0fad3600.mp3?hdnea=exp=1794636967~acl=/api/1/1/b/d/7/0/bd72959512766130bb83bacb0fad3600.mp3*~data=user_id=0,application_id=42~hmac=dd7a976ae1681f7643c793916e9c607da5685e1fabfa4e8233038fdb8212858b",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 736268012,
+     "title": "מחכים לשולה",
+     "title_short": "מחכים לשולה",
+     "title_version": "",
+     "rank": 6879,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/8/7/0/0871faf024187b58e7a632afa3ac05aa.mp3?hdnea=exp=1794636967~acl=/api/1/1/0/8/7/0/0871faf024187b58e7a632afa3ac05aa.mp3*~data=user_id=0,application_id=42~hmac=d4abf2f8ad2fb856ff5fb6af52e82b64720d61cdaf162b89fa4340af3e0563fd",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    }
+   ]
+  }
+ },
+ "deezer_album|327408557": {
+  "id": 327408557,
+  "title": "צפוף באוזן (Remastered)",
+  "record_type": "album",
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 1791150757,
+     "title": "גוליית (Remastered)",
+     "title_short": "גוליית",
+     "title_version": "(Remastered)",
+     "rank": 181441,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/7/3/8/0/738ece1140108e5446c29525ae197a25.mp3?hdnea=exp=1794636961~acl=/api/1/1/7/3/8/0/738ece1140108e5446c29525ae197a25.mp3*~data=user_id=0,application_id=42~hmac=2006610cda15dbfd387f4d1991f25dc0a40cd192e92a9b10d1f55ba209c4e262",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150767,
+     "title": "שיר מלחים (Remastered)",
+     "title_short": "שיר מלחים",
+     "title_version": "(Remastered)",
+     "rank": 25062,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/a/0/c8a1cd3cd2603b286f082249df7e7f77.mp3?hdnea=exp=1794636961~acl=/api/1/1/c/8/a/0/c8a1cd3cd2603b286f082249df7e7f77.mp3*~data=user_id=0,application_id=42~hmac=2178eaed30dd63b1a9c96fc8f63cf028cbc58029fd90bc550c9a3a4c484acb3d",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150777,
+     "title": "מדינה קטנה (Remastered)",
+     "title_short": "מדינה קטנה",
+     "title_version": "(Remastered)",
+     "rank": 53257,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/4/9/0/2492c2b711d539c540b1c0844456a9b6.mp3?hdnea=exp=1794636961~acl=/api/1/1/2/4/9/0/2492c2b711d539c540b1c0844456a9b6.mp3*~data=user_id=0,application_id=42~hmac=fca7636abfeedc887404522b9dfcdd77d46731d1f2cfe0db95396101a97d0d06",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150787,
+     "title": "טנגו צפרדעים (Remastered)",
+     "title_short": "טנגו צפרדעים",
+     "title_version": "(Remastered)",
+     "rank": 26483,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/a/e/0/1ae3f47973a55523dbb768a987b92f1c.mp3?hdnea=exp=1794636961~acl=/api/1/1/1/a/e/0/1ae3f47973a55523dbb768a987b92f1c.mp3*~data=user_id=0,application_id=42~hmac=52584610b7bd86e3517bc9db4a583539d416c2a87c23e6466bb5df68a648f3ce",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150797,
+     "title": "אינספקטור פיקח (Remastered)",
+     "title_short": "אינספקטור פיקח",
+     "title_version": "(Remastered)",
+     "rank": 26967,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/d/0/afdbd21cf97007f82ba5a01cf06a8bab.mp3?hdnea=exp=1794636961~acl=/api/1/1/a/f/d/0/afdbd21cf97007f82ba5a01cf06a8bab.mp3*~data=user_id=0,application_id=42~hmac=2b4b479e9a6c13ae0e1e6695d7e26e570696513b2274b07bb23c3d8968bb1b15",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150807,
+     "title": "שיעור מולדת (Remastered)",
+     "title_short": "שיעור מולדת",
+     "title_version": "(Remastered)",
+     "rank": 68164,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/5/5/0/955d5c6726b7259e8ca7a78afb0f4a85.mp3?hdnea=exp=1794636961~acl=/api/1/1/9/5/5/0/955d5c6726b7259e8ca7a78afb0f4a85.mp3*~data=user_id=0,application_id=42~hmac=3953f9818356619561521facc01391666a007b7c8c95e712e00d84cc74eaacc2",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150817,
+     "title": "העולם שמח (Remastered)",
+     "title_short": "העולם שמח",
+     "title_version": "(Remastered)",
+     "rank": 64319,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/9/5/c/0/95c544a0a14a8c7789bad15c072a1c14.mp3?hdnea=exp=1794636961~acl=/api/1/1/9/5/c/0/95c544a0a14a8c7789bad15c072a1c14.mp3*~data=user_id=0,application_id=42~hmac=70a47ecb3c7c84e1efa58f9b28a9cea6c97b25b0d5e2707a869b7f44a74dabbf",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150827,
+     "title": "האיש הכי מהיר (Remastered)",
+     "title_short": "האיש הכי מהיר",
+     "title_version": "(Remastered)",
+     "rank": 44078,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/4/f/d/0/4fd6a56d43aefe1a002239cf39b657c1.mp3?hdnea=exp=1794636961~acl=/api/1/1/4/f/d/0/4fd6a56d43aefe1a002239cf39b657c1.mp3*~data=user_id=0,application_id=42~hmac=309ed224c6be3c2da08ce3c3845d6416b4bc8f133ea1f85ecf6d9dfba51fd352",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150837,
+     "title": "שיר הטמבל (Remastered)",
+     "title_short": "שיר הטמבל",
+     "title_version": "(Remastered)",
+     "rank": 20253,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/d/d/6/0/dd6f49eee322a371fc871a72de5ef0a4.mp3?hdnea=exp=1794636961~acl=/api/1/1/d/d/6/0/dd6f49eee322a371fc871a72de5ef0a4.mp3*~data=user_id=0,application_id=42~hmac=be8b1f0eed97f12f11affc25c902db620c1c511eb84c08a21cc071a410fc0014",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150847,
+     "title": "לך ספר לסבתא (Remastered)",
+     "title_short": "לך ספר לסבתא",
+     "title_version": "(Remastered)",
+     "rank": 29562,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/1/5/8/0/1580267c8a7c846172918220c599bdae.mp3?hdnea=exp=1794636961~acl=/api/1/1/1/5/8/0/1580267c8a7c846172918220c599bdae.mp3*~data=user_id=0,application_id=42~hmac=bbd03d9dad8a3fad70b916dfe3500681fc1fd1b5c84eeeba52285b1fca1f24b2",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150857,
+     "title": "היא כל כך יפה (Remastered)",
+     "title_short": "היא כל כך יפה",
+     "title_version": "(Remastered)",
+     "rank": 25351,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/1/0/0516ba85310d0a588c4e1dfe1f31e368.mp3?hdnea=exp=1794636961~acl=/api/1/1/0/5/1/0/0516ba85310d0a588c4e1dfe1f31e368.mp3*~data=user_id=0,application_id=42~hmac=3261ac5ff394d1aef032cac0561d745096d4413dd6e4f521aeeda93958e292f7",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150867,
+     "title": "לו לו (Remastered)",
+     "title_short": "לו לו",
+     "title_version": "(Remastered)",
+     "rank": 25190,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/0/2/e/0/02e344f937394dd7685c40cc62aae5a9.mp3?hdnea=exp=1794636961~acl=/api/1/1/0/2/e/0/02e344f937394dd7685c40cc62aae5a9.mp3*~data=user_id=0,application_id=42~hmac=9048f5eed1abd7daa79cbf2f711221dd7fea1430f2a679a2c70edbbf81fa35a3",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150877,
+     "title": "סוף ההצגה הלילה (Remastered)",
+     "title_short": "סוף ההצגה הלילה",
+     "title_version": "(Remastered)",
+     "rank": 6879,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/2/d/8/0/2d889f7bba867c74a5c8931ad84abd10.mp3?hdnea=exp=1794636961~acl=/api/1/1/2/d/8/0/2d889f7bba867c74a5c8931ad84abd10.mp3*~data=user_id=0,application_id=42~hmac=ce62939a6b6ebb84e1864d155af828d9a9547e65514b16e05a707ccf766683be",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    },
+    {
+     "id": 1791150887,
+     "title": "ככה היא באמצע (Remastered)",
+     "title_short": "ככה היא באמצע",
+     "title_version": "(Remastered)",
+     "rank": 52656,
+     "preview": "https://cdnt-preview.dzcdn.net/api/1/1/5/4/3/0/543f298ef6d521e3f36a27ee4ac2b038.mp3?hdnea=exp=1794636961~acl=/api/1/1/5/4/3/0/543f298ef6d521e3f36a27ee4ac2b038.mp3*~data=user_id=0,application_id=42~hmac=253ed455b7e2d0570727bf8aa738c4d6345032c50710f7c35b3c39a63639907e",
+     "artist": {
+      "id": 10985362,
+      "name": "Kaveret"
+     }
+    }
+   ]
+  }
+ },
+ "mb_artist|כוורת": {
+  "artists": [
+   {
+    "id": "6ac29708-9886-4cef-a81b-5d289f55645d",
+    "name": "כוורת",
+    "score": 100,
+    "country": "IL",
+    "aliases": [
+     {
+      "sort-name": "Kiveret B'Park",
+      "name": "Kiveret B'Park",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+     },
+     {
+      "sort-name": "Kaveret",
+      "name": "Kaveret",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+     },
+     {
+      "sort-name": "Poogy",
+      "name": "Poogy",
+      "locale": null,
+      "type": null,
+      "primary": null,
+      "begin-date": null,
+      "end-date": null
+     }
+    ]
+   }
+  ]
+ },
+ "mb_release_groups|6ac29708-9886-4cef-a81b-5d289f55645d": {
+  "release-group-count": 10,
+  "release-groups": [
+   {
+    "id": "02f076ab-b6fa-453b-b470-59e3ffbde046",
+    "title": "כוורת בפארק",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "1998"
+   },
+   {
+    "id": "04011117-7b0b-3967-8a97-8a1d272c75bb",
+    "title": "סיפורי פוגי",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1973-11"
+   },
+   {
+    "id": "0c333bc3-b954-44e6-888b-c26d30b32db6",
+    "title": "1990-10-04, כוורת נפרדת: פארק הירקון, תל אביב, ישראל",
+    "primary-type": "Broadcast",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": ""
+   },
+   {
+    "id": "27c44550-cacf-3533-846c-86108a081343",
+    "title": "פוגי בפיתה",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1974-07-14"
+   },
+   {
+    "id": "46ab4226-88cc-334a-b62c-1819d1870d95",
+    "title": "צפוף באוזן",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1975"
+   },
+   {
+    "id": "5123a2b1-bb1f-4f96-afe1-b20c65adc63e",
+    "title": "She Looked Me in the Eye / Morris and His Turtle",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1974"
+   },
+   {
+    "id": "b0da660b-e56d-474b-ab80-255b9df07019",
+    "title": "להקת כוורת (Kaveret 1973-1975)",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "2008"
+   },
+   {
+    "id": "c3f6ea48-74f2-449d-a5e1-4c0d88258ad2",
+    "title": "כוורת בקופסא: אנתולוגיה / 1971–1976",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "2013-06-17"
+   },
+   {
+    "id": "d1f028a2-c142-4f5b-abf4-16905d82ad5e",
+    "title": "המופע האחרון - תל-אביב, קיץ 2013",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "2013"
+   },
+   {
+    "id": "decaa6a6-36be-4b78-b7b6-921fb0a92c24",
+    "title": "בהופעה חיה (Live)",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "1998"
+   }
+  ]
+ }
+}

@@ -1,0 +1,645 @@
+{
+ "1634886": {
+  "id": 1634886,
+  "title": "Forrest Gump - The Soundtrack",
+  "genre_id": 152,
+  "artist": {
+   "id": 359528,
+   "name": "Original Motion Picture Soundtrack"
+  }
+ },
+ "918078921": {
+  "id": 918078921,
+  "title": "EPiC: Elvis Presley in Concert - Original Motion Picture Soundtrack",
+  "genre_id": 152,
+  "artist": {
+   "id": 1125,
+   "name": "Elvis Presley"
+  }
+ },
+ "11417948": {
+  "id": 11417948,
+  "title": "Aloha from Hawaii Via Satellite (Live)",
+  "genre_id": 152,
+  "artist": {
+   "id": 1125,
+   "name": "Elvis Presley"
+  }
+ },
+ "6803215": {
+  "id": 6803215,
+  "title": "Elvis: As Recorded at Madison Square Garden (Live)",
+  "genre_id": 132,
+  "artist": {
+   "id": 1125,
+   "name": "Elvis Presley"
+  }
+ },
+ "116338": {
+  "id": 116338,
+  "title": "Elvis In Concert (Live)",
+  "genre_id": 132,
+  "artist": {
+   "id": 1125,
+   "name": "Elvis Presley"
+  }
+ },
+ "116148012": {
+  "id": 116148012,
+  "title": "Gonna Rock It Up",
+  "genre_id": 152,
+  "artist": {
+   "id": 1125,
+   "name": "Elvis Presley"
+  }
+ },
+ "12047952": {
+  "id": 12047952,
+  "title": "Abbey Road (Remastered 2009)",
+  "genre_id": 152,
+  "artist": {
+   "id": 1,
+   "name": "The Beatles"
+  }
+ },
+ "112126942": {
+  "id": 112126942,
+  "title": "Abbey Road (Super Deluxe Edition)",
+  "genre_id": 152,
+  "artist": {
+   "id": 1,
+   "name": "The Beatles"
+  }
+ },
+ "13367057": {
+  "id": 13367057,
+  "title": "Love",
+  "genre_id": 152,
+  "artist": {
+   "id": 1,
+   "name": "The Beatles"
+  }
+ },
+ "624337671": {
+  "id": 624337671,
+  "title": "Beatles para Crianças",
+  "genre_id": 75,
+  "artist": {
+   "id": 10703247,
+   "name": "BPC - Beatles Para Crianças"
+  }
+ },
+ "910741351": {
+  "id": 910741351,
+  "title": "Live at the Alte Oper Frankfurt (Live)",
+  "genre_id": 132,
+  "artist": {
+   "id": 94217,
+   "name": "The Beatles Revival Band"
+  }
+ },
+ "418714": {
+  "id": 418714,
+  "title": "A Salute To The Beatles",
+  "genre_id": 152,
+  "artist": {
+   "id": 305020,
+   "name": "The Revolver Road Band"
+  }
+ },
+ "1401919": {
+  "id": 1401919,
+  "title": "The Essential Leonard Cohen",
+  "genre_id": 132,
+  "artist": {
+   "id": 1834,
+   "name": "Leonard Cohen"
+  }
+ },
+ "160601": {
+  "id": 160601,
+  "title": "Shrek (Music From The Original Motion Picture)",
+  "genre_id": 173,
+  "artist": {
+   "id": 108420982,
+   "name": "Various Artists"
+  }
+ },
+ "322634767": {
+  "id": 322634767,
+  "title": "Hallelujah & Songs from His Albums",
+  "genre_id": 132,
+  "artist": {
+   "id": 1834,
+   "name": "Leonard Cohen"
+  }
+ },
+ "7542212": {
+  "id": 7542212,
+  "title": "Hallelujah",
+  "genre_id": 132,
+  "artist": {
+   "id": 740959,
+   "name": "SafetySuit"
+  }
+ },
+ "251674": {
+  "id": 251674,
+  "title": "Sacred Arias",
+  "genre_id": 98,
+  "artist": {
+   "id": 13310,
+   "name": "Katherine Jenkins"
+  }
+ },
+ "109009862": {
+  "id": 109009862,
+  "title": "המיטב",
+  "genre_id": 466,
+  "artist": {
+   "id": 89231,
+   "name": "Shoshana Damari"
+  }
+ },
+ "310968917": {
+  "id": 310968917,
+  "title": "המלכה שושנה - פסקול הסרט (From \"Queen Shoshana\")",
+  "genre_id": -1,
+  "artist": {
+   "id": 5080,
+   "name": "Various Artists"
+  }
+ },
+ "85085342": {
+  "id": 85085342,
+  "title": "השירים היפים",
+  "genre_id": 466,
+  "artist": {
+   "id": 89231,
+   "name": "Shoshana Damari"
+  }
+ },
+ "108231462": {
+  "id": 108231462,
+  "title": "סיפורי פוגי",
+  "genre_id": 152,
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  }
+ },
+ "327076697": {
+  "id": 327076697,
+  "title": "סיפורי פוגי (Remastered)",
+  "genre_id": 152,
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  }
+ },
+ "108215802": {
+  "id": 108215802,
+  "title": "כוורת בפארק (Live)",
+  "genre_id": 152,
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  }
+ },
+ "108289662": {
+  "id": 108289662,
+  "title": "כוורת בקופסא - אנתולוגיה / 1971-1976",
+  "genre_id": 152,
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  }
+ },
+ "108289352": {
+  "id": 108289352,
+  "title": "כוורת - המופע האחרון (Live)",
+  "genre_id": 152,
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  }
+ },
+ "308236157": {
+  "id": 308236157,
+  "title": "בהופעה חיה, קיץ 84",
+  "genre_id": 152,
+  "artist": {
+   "id": 10985362,
+   "name": "Kaveret"
+  }
+ },
+ "14379942": {
+  "id": 14379942,
+  "title": "טוב לנו יחד",
+  "genre_id": 85,
+  "artist": {
+   "id": 3795221,
+   "name": "Maor Cohen"
+  }
+ },
+ "192398862": {
+  "id": 192398862,
+  "title": "רוצה שלום",
+  "genre_id": 132,
+  "artist": {
+   "id": 88179692,
+   "name": "Raviv Kaner"
+  }
+ },
+ "237575972": {
+  "id": 237575972,
+  "title": "המיטב",
+  "genre_id": 152,
+  "artist": {
+   "id": 116623,
+   "name": "Arik Einstein"
+  }
+ },
+ "229110052": {
+  "id": 229110052,
+  "title": "רוצה שלום",
+  "genre_id": 132,
+  "artist": {
+   "id": 122021552,
+   "name": "לישי"
+  }
+ },
+ "358585937": {
+  "id": 358585937,
+  "title": "הכוכב הבא 2021",
+  "genre_id": 132,
+  "artist": {
+   "id": 80351862,
+   "name": "הכוכב הבא"
+  }
+ },
+ "287042052": {
+  "id": 287042052,
+  "title": "אקס פקטור לאירוויזיון - שלב ההכרעות (לייב)",
+  "genre_id": 132,
+  "artist": {
+   "id": 155606112,
+   "name": "X Factor Israel to the Eurovision"
+  }
+ },
+ "6140436": {
+  "id": 6140436,
+  "title": "Casting Shadows",
+  "genre_id": 132,
+  "artist": {
+   "id": 3418,
+   "name": "Wolfsheim"
+  }
+ },
+ "11295294": {
+  "id": 11295294,
+  "title": "Raindrops Keep Fallin' On My Head",
+  "genre_id": 132,
+  "release_date": "2009-07-03",
+  "artist": {
+   "id": 166629,
+   "name": "B. J. Thomas"
+  }
+ },
+ "373094": {
+  "id": 373094,
+  "title": "Raindrops….Always Raindrops",
+  "genre_id": -1,
+  "release_date": "2008-07-28",
+  "artist": {
+   "id": 103378,
+   "name": "BJ Thomas"
+  }
+ },
+ "554083": {
+  "id": 554083,
+  "title": "B.J. Thomas: All-Time Greatest Hits (Rerecorded Version)",
+  "genre_id": 132,
+  "release_date": "2002-03-01",
+  "artist": {
+   "id": 5856,
+   "name": "B.J. Thomas"
+  }
+ },
+ "215914912": {
+  "id": 215914912,
+  "title": "Raindrops Keep Fallin' On My Head (Live On The Ed Sullivan Show, January 25, 1970)",
+  "genre_id": 132,
+  "release_date": "2021-03-26",
+  "artist": {
+   "id": 5856,
+   "name": "B.J. Thomas"
+  }
+ },
+ "79887912": {
+  "id": 79887912,
+  "title": "Gold",
+  "genre_id": 165,
+  "artist": {
+   "id": 2940,
+   "name": "Smokey Robinson & The Miracles"
+  }
+ },
+ "131903": {
+  "id": 131903,
+  "title": "All Time Greatest Hits",
+  "genre_id": 165,
+  "artist": {
+   "id": 11617,
+   "name": "The Miracles"
+  }
+ },
+ "6513690": {
+  "id": 6513690,
+  "title": "Shop Around",
+  "genre_id": 165,
+  "artist": {
+   "id": 16528,
+   "name": "Smokey Robinson"
+  }
+ },
+ "7727688": {
+  "id": 7727688,
+  "title": "1957-1972",
+  "genre_id": 165,
+  "artist": {
+   "id": 2940,
+   "name": "Smokey Robinson & The Miracles"
+  }
+ },
+ "6834846": {
+  "id": 6834846,
+  "title": "The Miracles Live",
+  "genre_id": 132,
+  "artist": {
+   "id": 11617,
+   "name": "The Miracles"
+  }
+ },
+ "334149167": {
+  "id": 334149167,
+  "title": "Treasured Collection (1950'S Golden Voices)",
+  "genre_id": 165,
+  "artist": {
+   "id": 11617,
+   "name": "The Miracles"
+  }
+ },
+ "1211447": {
+  "id": 1211447,
+  "title": "Here Comes The Hotstepper",
+  "genre_id": 132,
+  "artist": {
+   "id": 10574,
+   "name": "Ini Kamoze"
+  }
+ },
+ "75006122": {
+  "id": 75006122,
+  "title": "Mo'Applause Riddim (Riddims Galore Vol. 2)",
+  "genre_id": 144,
+  "artist": {
+   "id": 5080,
+   "name": "Various Artists"
+  }
+ },
+ "7691332": {
+  "id": 7691332,
+  "title": "Edm",
+  "genre_id": 113,
+  "artist": {
+   "id": 10574,
+   "name": "Ini Kamoze"
+  }
+ },
+ "6767176": {
+  "id": 6767176,
+  "title": "Drum and Bass Beat Down Vol. 1",
+  "genre_id": 106,
+  "artist": {
+   "id": 10574,
+   "name": "Ini Kamoze"
+  }
+ },
+ "1388000": {
+  "id": 1388000,
+  "title": "Down On The Dancefloor",
+  "genre_id": 132,
+  "artist": {
+   "id": 5080,
+   "name": "Various Artists"
+  }
+ },
+ "46967492": {
+  "id": 46967492,
+  "title": "The Return of the 3 Kingz, Vol. 4",
+  "genre_id": 116,
+  "artist": {
+   "id": 5080,
+   "name": "Various Artists"
+  }
+ },
+ "320098917": {
+  "id": 320098917,
+  "title": "The Eminem Show (Expanded Edition)",
+  "genre_id": 116,
+  "artist": {
+   "id": 13,
+   "name": "Eminem"
+  }
+ },
+ "103248": {
+  "id": 103248,
+  "title": "The Eminem Show",
+  "genre_id": 116,
+  "artist": {
+   "id": 13,
+   "name": "Eminem"
+  }
+ },
+ "900546242": {
+  "id": 900546242,
+  "title": "Toy - #NotYourToy Remix",
+  "genre_id": 132,
+  "artist": {
+   "id": 426995971,
+   "name": "Netta"
+  }
+ },
+ "103599": {
+  "id": 103599,
+  "title": "Can't Slow Down",
+  "genre_id": 165,
+  "artist": {
+   "id": 3445,
+   "name": "Lionel Richie"
+  }
+ },
+ "217868": {
+  "id": 217868,
+  "title": "Back To Front",
+  "genre_id": 132,
+  "artist": {
+   "id": 3445,
+   "name": "Lionel Richie"
+  }
+ },
+ "671788": {
+  "id": 671788,
+  "title": "Can't Slow Down (Deluxe Edition)",
+  "genre_id": 165,
+  "artist": {
+   "id": 3445,
+   "name": "Lionel Richie"
+  }
+ },
+ "1557960": {
+  "id": 1557960,
+  "title": "Tuskegee (Deluxe Version)",
+  "genre_id": -1,
+  "artist": {
+   "id": 3445,
+   "name": "Lionel Richie"
+  }
+ },
+ "110714612": {
+  "id": 110714612,
+  "title": "CKay The First",
+  "genre_id": 2,
+  "artist": {
+   "id": 903536,
+   "name": "CKay"
+  }
+ },
+ "167835872": {
+  "id": 167835872,
+  "title": "love nwantiti (feat. Franglish) (French Remix)",
+  "genre_id": 2,
+  "artist": {
+   "id": 903536,
+   "name": "CKay"
+  }
+ },
+ "263569662": {
+  "id": 263569662,
+  "title": "Love Nwantiti (Acoustic Version)",
+  "genre_id": 2,
+  "artist": {
+   "id": 903536,
+   "name": "CKay"
+  }
+ },
+ "131175222": {
+  "id": 131175222,
+  "title": "love nwantiti (ah ah ah) [feat. Joeboy & Kuami Eugene] [Remix]",
+  "genre_id": 2,
+  "artist": {
+   "id": 903536,
+   "name": "CKay"
+  }
+ },
+ "277058082": {
+  "id": 277058082,
+  "title": "love nwantiti (feat. Jah Khalib)",
+  "genre_id": 2,
+  "artist": {
+   "id": 903536,
+   "name": "CKay"
+  }
+ },
+ "506300": {
+  "id": 506300,
+  "title": "Tennesse Waltz - 20 Smash Hits (Plantation Re-recordings)",
+  "genre_id": 152,
+  "artist": {
+   "id": 12330,
+   "name": "Patti Page"
+  }
+ },
+ "988326": {
+  "id": 988326,
+  "title": "A Country Legend",
+  "genre_id": 132,
+  "artist": {
+   "id": 12330,
+   "name": "Patti Page"
+  }
+ },
+ "553836": {
+  "id": 553836,
+  "title": "All Time Greatest Hits (Rerecorded Version)",
+  "genre_id": -1,
+  "artist": {
+   "id": 12330,
+   "name": "Patti Page"
+  }
+ },
+ "279580962": {
+  "id": 279580962,
+  "title": "Patti Page on Stage",
+  "genre_id": -1,
+  "artist": {
+   "id": 12330,
+   "name": "Patti Page"
+  }
+ },
+ "6332442": {
+  "id": 6332442,
+  "title": "Chubby Checker Classics",
+  "genre_id": 106,
+  "artist": {
+   "id": 2202,
+   "name": "Chubby Checker"
+  }
+ },
+ "272096": {
+  "id": 272096,
+  "title": "25 Original Greatest Hits- Cameo Parkway",
+  "genre_id": 132,
+  "artist": {
+   "id": 108420982,
+   "name": "Various Artists"
+  }
+ },
+ "1052896": {
+  "id": 1052896,
+  "title": "The Texas Twist with Texas Radio",
+  "genre_id": 116,
+  "artist": {
+   "id": 2202,
+   "name": "Chubby Checker"
+  }
+ },
+ "235839562": {
+  "id": 235839562,
+  "title": "רואה לך בעיניים (Remastered)",
+  "genre_id": 132,
+  "artist": {
+   "id": 1360478,
+   "name": "Etti Ankri"
+  }
+ },
+ "236172302": {
+  "id": 236172302,
+  "title": "ירוקות",
+  "genre_id": 132,
+  "artist": {
+   "id": 360333,
+   "name": "Meir Ariel"
+  }
+ },
+ "471609675": {
+  "id": 471609675,
+  "title": "ירוקות (Special Edition)",
+  "genre_id": 466,
+  "artist": {
+   "id": 360333,
+   "name": "Meir Ariel"
+  }
+ }
+}
