@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Launcher icon foreground: the logo's note and question mark (see ic_logo), scaled to 0.8 and
+  centred so they stay inside the 66dp circle every launcher mask keeps (108dp canvas).
+  Also the themed (monochrome) icon: the system uses only its shape.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="10.8"
+        android:translateY="16.4">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M38,22L62,16L62,60A10,8 0,1 1,56,52.6L56,30L44,33L44,66A10,8 0,1 1,38,58.6Z" />
+        <path
+            android:fillColor="#FFC94D"
+            android:pathData="M70,62a7,7 0,1 1,14,0c0,4 -5,5 -5,9l-4,0c0,-6 5,-6 5,-9a3,3 0,1 0,-6,0zM75,74l4,0l0,4l-4,0z" />
+    </group>
+</vector>

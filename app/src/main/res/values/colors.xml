@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The logo's purple (ic_logo), behind the launcher icon. -->
+    <color name="ic_launcher_background">#5B2A86</color>
+</resources>
