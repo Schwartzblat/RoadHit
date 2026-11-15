@@ -14,30 +14,30 @@ internal class SetupDialogue(
     private val store: GameStore,
     private val songs: SongSource,
 ) {
-    /**
-     * "Continue the saved game, or a new one?" A save from the last turn's verdict points one round
-     * past the last; it is named as the last round (continuing it reads the ranking).
-     */
-    suspend fun askContinue(saved: SavedGame): Choice? =
-        ask({ it.askContinue(saved.settings, saved.round.coerceAtMost(saved.settings.rounds)) }) {
-            parseChoice(it, io.phrases.continueWords, io.phrases.newGameWords)
-        }
+    /** "Continue the saved game, or a new one?" (the game's settings and round are not read out). */
+    suspend fun askContinue(): Choice? =
+        ask({ it.askContinue() }) { parseChoice(it, io.phrases.continueWords, io.phrases.newGameWords) }
 
-    /** Last time's settings or the full set of questions; saves and announces the result. */
+    /**
+     * Last time's settings ("start", without reading them out) or the full set of questions; saves
+     * the result. "Let's start" is said only when something was asked.
+     */
     suspend fun run(): GameSettings? {
         val last = store.loadSettings()
         var reuse: GameSettings? = null
         if (last != null) {
-            val choice = ask({ it.lastTime(last) }) {
+            val choice = ask({ it.startOrChange() }) {
                 parseChoice(it, io.phrases.startWords, io.phrases.changeWords)
             } ?: return null
             if (choice == Choice.FIRST) reuse = last
         }
+        var asked = reuse == null
         var s = reuse ?: askEverything() ?: return null
         while (true) {
             val have = songs.count(s)
             val need = s.players * s.rounds
             if (have >= need) break
+            asked = true
             val widest = songs.count(widest(s))
             if (widest >= need) {
                 io.say { it.tooFewSongs(have, need) }
@@ -49,9 +49,8 @@ internal class SetupDialogue(
             s = askFilter(s) ?: return null
         }
         store.saveSettings(s)
-        val chosen = s
-        io.say { it.summary(chosen) }
-        return chosen
+        if (asked) io.say { it.letsStart() }
+        return s
     }
 
     private suspend fun askEverything(): GameSettings? {

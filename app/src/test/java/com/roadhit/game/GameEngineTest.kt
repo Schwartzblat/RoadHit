@@ -156,7 +156,7 @@ class GameEngineTest {
 
         val texts = h.speaker.texts
         assertEquals(1, h.speaker.beeps)
-        assertEquals(texts.indexOf(h.p.turn(h.names(1)[0])) + 1, texts.indexOf(h.p.verdict(FieldMatches(true, true, true), 5)))
+        assertEquals(texts.indexOf(h.p.answerRule()) + 1, texts.indexOf(h.p.verdict(FieldMatches(true, true, true), 5)))
         assertEquals(listOf(5), h.finalScores)
         assertEquals(0, h.listener.remaining)
     }
@@ -292,21 +292,20 @@ class GameEngineTest {
         h.right(RINGS)
         h.engine.run()
 
-        assertTrue(h.speaker.texts.contains(h.p.askContinue(savedGame.settings, 2)))
+        assertTrue(h.speaker.texts.contains(h.p.askContinue()))
         assertEquals(RINGS, h.clips.played.first())
         assertEquals(listOf(4, 7), h.finalScores)
         assertTrue(h.store.settingsSaves.isEmpty())
     }
 
-    @Test fun savedGamePastTheLastRoundNeverNamesARoundBeyondTheLast() = runTest {
+    @Test fun continuingASavedGamePastTheLastRoundReadsTheRanking() = runTest {
         // Stopped during the last turn's verdict: the save points one round past the last.
         val finished = savedGame.copy(round = 3, playerIndex = 0, currentSongId = null)
         val h = Harness(listOf(SHAPE, RINGS), game = finished)
         h.listener.speech("continue")
         h.engine.run()
 
-        assertEquals(1, h.speaker.count(h.p.askContinue(finished.settings, 2)))
-        assertEquals(0, h.speaker.count(h.p.askContinue(finished.settings, 3)))
+        assertEquals(1, h.speaker.count(h.p.askContinue()))
         assertTrue(h.clips.played.isEmpty())
         assertTrue(h.speaker.texts.contains(h.p.ranking(h.names(2), listOf(4, 2))))
         assertEquals(listOf(4, 2), h.finalScores)
@@ -510,7 +509,7 @@ class GameEngineTest {
         val tooFew = texts.indexOf(h.p.tooFewSongs(24, 160))
         assertTrue(tooFew >= 0)
         assertEquals(h.p.askPlayers(), texts[tooFew + 1])
-        assertFalse(texts.contains(h.p.summary(GameSettings(players = 8, rounds = 20))))
+        assertEquals(1, h.speaker.count(h.p.letsStart())) // the settings changed by voice
         assertEquals(listOf(GameSettings(players = 1, rounds = 1)), h.store.settingsSaves)
         assertEquals(1, h.clips.played.size)
         assertEquals(listOf(0), h.finalScores)
@@ -526,8 +525,8 @@ class GameEngineTest {
 
         val s = GameSettings(players = 1, rounds = 1)
         val texts = h.speaker.texts
-        assertTrue(texts.contains(h.p.lastTime(s)))
-        assertTrue(texts.contains(h.p.summary(s)))
+        assertTrue(texts.contains(h.p.startOrChange()))
+        assertFalse(texts.contains(h.p.letsStart())) // last time's settings: nothing more to say
         for (q in listOf(h.p.askPlayers(), h.p.askPool(), h.p.askDecades(), h.p.askGenre(), h.p.askRounds())) {
             assertFalse(q, texts.contains(q))
         }
@@ -543,6 +542,7 @@ class GameEngineTest {
         h.right(RINGS)
         h.engine.run()
         assertEquals(1, h.speaker.count(h.p.askPlayers()))
+        assertEquals(1, h.speaker.count(h.p.letsStart()))
         assertEquals(listOf(GameSettings(players = 2, rounds = 1)), h.store.settingsSaves)
         assertEquals(listOf(5, 5), h.finalScores)
     }
@@ -605,9 +605,10 @@ class GameEngineTest {
     }
 
     @Test fun blankPlayerNameFallsBackToDefault() = runTest {
-        val h = Harness(listOf(SHAPE), prefs = Prefs(playerNames = listOf(" ")))
-        h.quickStart(1, 1)
+        val h = Harness(listOf(SHAPE, RINGS), prefs = Prefs(playerNames = listOf(" ")))
+        h.quickStart(2, 1)
         h.right(SHAPE)
+        h.right(RINGS)
         h.engine.run()
         assertTrue(h.speaker.texts.contains(h.p.turn(h.p.defaultPlayerName(1))))
     }
@@ -651,12 +652,11 @@ class GameEngineTest {
         assertEquals(1, h.clips.stops)
         assertEquals(Phase.PAUSED, h.display.last.phase)
         assertFalse(h.clips.isPlaying)
-        val turnText = h.p.turn(h.p.defaultPlayerName(1))
-        assertEquals(1, h.speaker.count(turnText))
+        assertEquals(listOf(SHAPE, SHAPE), h.clips.played)
 
         h.engine.onButton(Button.PLAY)
         advanceUntilIdle()
-        assertEquals(2, h.speaker.count(turnText))
+        assertEquals(listOf(SHAPE, SHAPE, SHAPE), h.clips.played) // the turn started again
         assertTrue(h.clips.isPlaying)
         h.clips.release()
         advanceUntilIdle()
@@ -690,11 +690,12 @@ class GameEngineTest {
     }
 
     @Test fun pauseDuringSpeechTakesEffectWhenUtteranceEnds() = runTest {
-        val h = Harness(listOf(SHAPE))
-        h.quickStart(1, 1)
+        val h = Harness(listOf(SHAPE, RINGS))
+        h.quickStart(2, 1)
         val turnText = h.p.turn(h.p.defaultPlayerName(1))
         h.speaker.holdOn = turnText
         h.right(SHAPE)
+        h.right(RINGS)
         launchRun(h)
         advanceUntilIdle()
         assertTrue(h.speaker.isHolding)
@@ -711,8 +712,8 @@ class GameEngineTest {
         h.engine.onButton(Button.PLAY)
         advanceUntilIdle()
         assertEquals(2, h.speaker.count(turnText))
-        assertEquals(listOf(SHAPE), h.clips.played)
-        assertEquals(listOf(5), h.finalScores)
+        assertEquals(listOf(SHAPE, RINGS), h.clips.played)
+        assertEquals(listOf(5, 5), h.finalScores)
     }
 
     @Test fun pauseDuringSetupTakesEffectBeforeNextQuestion() = runTest {
@@ -740,11 +741,12 @@ class GameEngineTest {
     // ---- final review C1: a PLAY while a PAUSE is pending resumes without another button ----
 
     @Test fun pauseThenPlayDuringHeldAnnouncementRestartsTurnByItself() = runTest {
-        val h = Harness(listOf(SHAPE))
-        h.quickStart(1, 1)
+        val h = Harness(listOf(SHAPE, RINGS))
+        h.quickStart(2, 1)
         val turnText = h.p.turn(h.p.defaultPlayerName(1))
         h.speaker.holdOn = turnText
         h.right(SHAPE)
+        h.right(RINGS)
         val job = launchRun(h)
         advanceUntilIdle()
         assertTrue(h.speaker.isHolding)
@@ -757,9 +759,9 @@ class GameEngineTest {
 
         assertTrue(job.isCompleted)
         assertEquals(2, h.speaker.count(turnText)) // the turn started again
-        assertEquals(listOf(SHAPE), h.clips.played)
+        assertEquals(listOf(SHAPE, RINGS), h.clips.played)
         assertTrue(h.phases.none { it == Phase.PAUSED })
-        assertEquals(listOf(5), h.finalScores)
+        assertEquals(listOf(5, 5), h.finalScores)
     }
 
     @Test fun pauseThenPlayDuringHeldListenReplaysSameSongByItself() = runTest {
@@ -785,11 +787,12 @@ class GameEngineTest {
     }
 
     @Test fun pausePlayPauseInsideOneUtteranceEndsPaused() = runTest {
-        val h = Harness(listOf(SHAPE))
-        h.quickStart(1, 1)
+        val h = Harness(listOf(SHAPE, RINGS))
+        h.quickStart(2, 1)
         val turnText = h.p.turn(h.p.defaultPlayerName(1))
         h.speaker.holdOn = turnText
         h.right(SHAPE)
+        h.right(RINGS)
         val job = launchRun(h)
         advanceUntilIdle()
 
@@ -807,7 +810,7 @@ class GameEngineTest {
         advanceUntilIdle()
         assertTrue(job.isCompleted)
         assertEquals(2, h.speaker.count(turnText))
-        assertEquals(listOf(5), h.finalScores)
+        assertEquals(listOf(5, 5), h.finalScores)
     }
 
     @Test fun pauseThenPlayInsideSetupListenAsksNextQuestionByItself() = runTest {
@@ -1097,7 +1100,7 @@ class GameEngineTest {
         assertEquals(savedGame, h.store.game)
         assertTrue(h.store.gameSaves.isEmpty())
         assertTrue(h.store.settingsSaves.isEmpty())
-        assertEquals(3, h.speaker.count(h.p.askContinue(savedGame.settings, 2)))
+        assertEquals(3, h.speaker.count(h.p.askContinue()))
     }
 
     @Test fun nobodyAnswersSetupQuestion() = runTest {
@@ -1181,7 +1184,7 @@ class GameEngineTest {
         assertEquals(listOf(0, 5), h.finalScores)
     }
 
-    @Test fun verdictThenRevealThenTotal() = runTest {
+    @Test fun verdictThenRevealThenRanking() = runTest {
         val h = Harness(listOf(SHAPE))
         h.quickStart(1, 1)
         h.right(SHAPE)
@@ -1191,11 +1194,35 @@ class GameEngineTest {
         val expected = listOf(
             h.p.verdict(FieldMatches(true, true, true), 5),
             *h.p.reveal(song).map { it.text }.toTypedArray(),
-            h.p.total(h.p.defaultPlayerName(1), 5),
             h.p.ranking(h.names(1), listOf(5)),
         )
         assertEquals(expected, h.speaker.texts.takeLast(expected.size))
-        assertEquals(h.p.reveal(song), h.speaker.said[h.speaker.said.size - 3])
+        assertEquals(h.p.reveal(song), h.speaker.said[h.speaker.said.size - 2])
+    }
+
+    // ---- shorter speech ----
+
+    @Test fun onePlayerHearsNoTurnAnnouncement() = runTest {
+        val h = Harness(listOf(SHAPE))
+        h.quickStart(1, 1)
+        h.right(SHAPE)
+        h.engine.run()
+
+        assertEquals(listOf(h.p.startOrChange(), h.p.answerRule()), h.speaker.texts.take(2))
+        assertEquals(0, h.speaker.count(h.p.turn(h.p.defaultPlayerName(1))))
+        assertTrue(h.display.views.any { it.phase == Phase.CLIP }) // the screen still shows the turn
+    }
+
+    @Test fun noRunningTotalAfterATurn() = runTest {
+        val h = Harness(listOf(SHAPE, RINGS))
+        h.quickStart(2, 1)
+        h.right(SHAPE)
+        h.right(RINGS)
+        h.engine.run()
+
+        val texts = h.speaker.texts
+        val revealEnd = texts.indexOf(h.p.reveal(seedSong(SHAPE)).last().text)
+        assertEquals(h.p.turn(h.names(2)[1]), texts[revealEnd + 1]) // straight to the next turn
     }
 
     // ---- saves ----

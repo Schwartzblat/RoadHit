@@ -78,7 +78,7 @@ class GameEngine(
     private suspend fun start(): Game? {
         val saved = store.loadGame()
         if (saved != null) {
-            when (setup.askContinue(saved) ?: return null) {
+            when (setup.askContinue() ?: return null) {
                 Choice.FIRST -> return Game(
                     saved.settings,
                     MutableList(saved.settings.players) { saved.scores.getOrElse(it) { 0 } },
@@ -141,7 +141,7 @@ class GameEngine(
         private suspend fun attempt(): Attempt {
             if (io.pausePending) return Attempt.PAUSED
             io.show(view(game, Phase.CLIP))
-            io.say { it.turn(name(game.player)) }
+            if (game.settings.players > 1) io.say { it.turn(name(game.player)) } // alone, it is always your turn
             if (io.pausePending) return Attempt.PAUSED
             while (true) {
                 val loaded = playClip()
@@ -299,7 +299,10 @@ class GameEngine(
             return judge.judge(song, first + second, tolerance)
         }
 
-        /** Scores, saves, then verdict, reveal and total; a pause cuts the rest of that speech short. */
+        /**
+         * Scores, saves, then verdict and reveal; a pause cuts the rest of that speech short. No running
+         * total: "score" says it on request, and the ranking at the end.
+         */
         private suspend fun settle(m: FieldMatches): Attempt {
             val points = score(m)
             game.scores[game.player] += points
@@ -307,7 +310,6 @@ class GameEngine(
             io.show(view(game, Phase.REVEAL, song))
             io.say { it.verdict(m, points) }
             if (!io.pausePending) io.sayParts(io.phrases.reveal(song))
-            if (!io.pausePending) io.say { it.total(name(game.player), game.scores[game.player]) }
             return Attempt.SCORED
         }
     }

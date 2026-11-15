@@ -23,20 +23,16 @@ class PhrasesTest {
 
     /** Every String-returning method, with sample inputs. Player names are Latin so they never add Hebrew. */
     private fun texts(p: Phrases): Map<String, String> = mapOf(
-        "lastTime" to p.lastTime(GameSettings()),
-        "lastTimeOneDecade" to p.lastTime(GameSettings(players = 1, pool = Pool.ISRAELI, fromDecade = 1980, toDecade = 1980, genre = Genre.ROCK, rounds = 1)),
-        "lastTimeRange" to p.lastTime(GameSettings(players = 3, pool = Pool.INTERNATIONAL, fromDecade = 1980, toDecade = 2000, genre = Genre.MIZRAHI)),
-        "lastTimeExactYears" to p.lastTime(GameSettings(fromYear = 1987, toYear = 1994)),
+        "startOrChange" to p.startOrChange(),
         "askPlayers" to p.askPlayers(),
         "askPool" to p.askPool(),
         "askDecades" to p.askDecades(),
         "askGenre" to p.askGenre(),
         "genreList" to p.genreList(),
         "askRounds" to p.askRounds(),
-        "summary" to p.summary(GameSettings()),
-        "summaryRange" to p.summary(GameSettings(players = 1, pool = Pool.ISRAELI, fromDecade = 1990, toDecade = 2010, genre = Genre.POP, rounds = 10)),
+        "letsStart" to p.letsStart(),
         "tooFewSongs" to p.tooFewSongs(3, 10),
-        "askContinue" to p.askContinue(GameSettings(players = 3), 4),
+        "askContinue" to p.askContinue(),
         "turn" to p.turn(p.defaultPlayerName(2)),
         "defaultPlayerName" to p.defaultPlayerName(2),
         "answerRule" to p.answerRule(),
@@ -45,7 +41,6 @@ class PhrasesTest {
         "againUsed" to p.againUsed(),
         "confirmStop" to p.confirmStop(),
         "verdict" to p.verdict(FieldMatches(true, false, true), 3),
-        "total" to p.total(p.defaultPlayerName(1), 7),
         "scores" to p.scores(listOf("A", "B"), listOf(3, 9)),
         "ranking" to p.ranking(listOf("A", "B", "C"), listOf(3, 9, 5)),
         "rankingSingle" to p.ranking(listOf("A"), listOf(4)),
@@ -101,42 +96,40 @@ class PhrasesTest {
 
     @Test fun tieForFirstIsAnnouncedAsATieNamingEveryTopScorer() {
         assertEquals(
-            "Game over! It's a tie! The winners are A and C, with 9 points each. Well done! Third, B, 5 points.",
+            "Game over! A tie: A and C, 9 points each. Third, B, 5 points.",
             EnglishPhrases.ranking(listOf("A", "B", "C"), listOf(9, 5, 9)),
         )
         assertEquals(
-            "סוף המשחק! תיקו במקום הראשון: A ו-C, עם 9 נקודות כל אחד. כל הכבוד! במקום השלישי, B, 5 נקודות.",
+            "סוף המשחק! תיקו במקום הראשון: A ו-C, 9 נקודות כל אחד. במקום השלישי B, 5 נקודות.",
             HebrewPhrases.ranking(listOf("A", "B", "C"), listOf(9, 5, 9)),
         )
     }
 
     @Test fun threeWayTieAndEveryoneTied() {
         assertEquals(
-            "Game over! It's a tie! The winners are A, B and C, with 4 points each. Well done!",
+            "Game over! A tie: A, B and C, 4 points each.",
             EnglishPhrases.ranking(listOf("A", "B", "C"), listOf(4, 4, 4)),
         )
         assertEquals(
-            "סוף המשחק! תיקו במקום הראשון: A, B ו-C, עם 4 נקודות כל אחד. כל הכבוד!",
+            "סוף המשחק! תיקו במקום הראשון: A, B ו-C, 4 נקודות כל אחד.",
             HebrewPhrases.ranking(listOf("A", "B", "C"), listOf(4, 4, 4)),
         )
     }
 
-    @Test fun singleWinnerWordingUnchanged() {
+    @Test fun singleWinnerWording() {
         assertEquals(
-            "Game over! The winner is B, with 9 points. Well done! Second, C, 5 points. Third, A, 3 points.",
+            "Game over! B wins with 9 points. Second, C, 5 points. Third, A, 3 points.",
             EnglishPhrases.ranking(listOf("A", "B", "C"), listOf(3, 9, 5)),
         )
         assertEquals(
-            "סוף המשחק! במקום הראשון, B, עם 9 נקודות. כל הכבוד! במקום השני, C, 5 נקודות. במקום השלישי, A, 3 נקודות.",
+            "סוף המשחק! במקום הראשון B, 9 נקודות. במקום השני C, 5 נקודות. במקום השלישי A, 3 נקודות.",
             HebrewPhrases.ranking(listOf("A", "B", "C"), listOf(3, 9, 5)),
         )
     }
 
-    @Test fun rankingSinglePlayerMentionsScore() {
-        for (p in both) {
-            val r = p.ranking(listOf("A"), listOf(14))
-            assertTrue(r.isNotBlank() && r.contains("14"))
-        }
+    @Test fun rankingSinglePlayerIsJustTheScore() {
+        assertEquals("סוף המשחק! 14 נקודות.", HebrewPhrases.ranking(listOf("A"), listOf(14)))
+        assertEquals("Game over! 14 points.", EnglishPhrases.ranking(listOf("A"), listOf(14)))
     }
 
     @Test fun scoresInInputOrder() {
@@ -146,26 +139,57 @@ class PhrasesTest {
         }
     }
 
-    @Test fun verdictContainsPoints() {
+    @Test fun verdictContainsPointsUnlessNothingWasRight() {
         for (p in both) {
             assertTrue(p.verdict(FieldMatches(true, true, true), 5).contains("5"))
-            allCombos.forEach { m ->
+            allCombos.filter { it != FieldMatches(false, false, false) }.forEach { m ->
                 val v = p.verdict(m, 7)
                 assertTrue("$m: $v", v.isNotBlank() && v.contains("7"))
+            }
+            assertFalse(p.verdict(FieldMatches(false, false, false), 0).contains("0"))
+        }
+    }
+
+    @Test fun shortWording() {
+        assertEquals("מושלם! 5 נקודות!", HebrewPhrases.verdict(FieldMatches(true, true, true), 5))
+        assertEquals("השיר והאמן נכונים, שתי נקודות.", HebrewPhrases.verdict(FieldMatches(true, true, false), 2))
+        assertEquals("השנה נכונה, נקודה 1.", HebrewPhrases.verdict(FieldMatches(false, false, true), 1))
+        assertEquals("לא הפעם.", HebrewPhrases.verdict(FieldMatches(false, false, false), 0))
+        assertEquals("Perfect! 5 points!", EnglishPhrases.verdict(FieldMatches(true, true, true), 5))
+        assertEquals("Song and artist correct, 2 points.", EnglishPhrases.verdict(FieldMatches(true, true, false), 2))
+        assertEquals("Not this time.", EnglishPhrases.verdict(FieldMatches(false, false, false), 0))
+
+        assertEquals("מתחילים, או לשנות?", HebrewPhrases.startOrChange())
+        assertEquals("מתחילים!", HebrewPhrases.letsStart())
+        assertEquals("להמשיך את המשחק, או משחק חדש?", HebrewPhrases.askContinue())
+        assertEquals("כשמחליטים, תגידו: התשובה היא.", HebrewPhrases.answerRule())
+        assertEquals("כמה שחקנים?", HebrewPhrases.askPlayers())
+        assertEquals("כמה סיבובים לכל שחקן?", HebrewPhrases.askRounds())
+        assertEquals("איזה ז'אנר, או הכול?", HebrewPhrases.askGenre())
+        assertEquals("לא הבנתי.", HebrewPhrases.didNotUnderstand())
+
+        assertEquals("של ${kalaniyot.artist.he}, ${kalaniyot.year}", HebrewPhrases.reveal(kalaniyot)[1].text)
+        assertEquals("by ${shapeOfYou.artist.en}, ${shapeOfYou.year}", EnglishPhrases.reveal(shapeOfYou)[1].text)
+    }
+
+    @Test fun settingsAreNeverSpoken() {
+        for (p in both) {
+            for (t in listOf(p.startOrChange(), p.letsStart(), p.askContinue())) {
+                assertFalse(t, t.any { it.isDigit() })
             }
         }
     }
 
     @Test fun hebrewTwoPointsAreSaidInWordsAndOtherNumbersKeepTheirDigits() {
         // The Hebrew voice reads "2 נקודות" as "שתיים נקודות"; exactly two is "שתי נקודות".
-        assertEquals("השיר והשנה נכונים. שתי נקודות.", HebrewPhrases.verdict(FieldMatches(true, false, true), 2))
-        assertEquals("A, סך הכול שתי נקודות.", HebrewPhrases.total("A", 2))
+        assertEquals("השיר והשנה נכונים, שתי נקודות.", HebrewPhrases.verdict(FieldMatches(true, false, true), 2))
+        assertEquals("סוף המשחק! שתי נקודות.", HebrewPhrases.ranking(listOf("A"), listOf(2)))
         assertTrue(HebrewPhrases.scores(listOf("A", "B"), listOf(2, 3)).contains("A, שתי נקודות. B, 3 נקודות"))
-        assertFalse(HebrewPhrases.total("A", 12).contains("שתי"))
-        assertEquals("A, סך הכול 12 נקודות.", HebrewPhrases.total("A", 12))
-        assertEquals("A, סך הכול נקודה 1.", HebrewPhrases.total("A", 1))
-        assertEquals("A, סך הכול 0 נקודות.", HebrewPhrases.total("A", 0))
-        assertTrue(EnglishPhrases.total("A", 2).contains("2")) // English keeps the digit
+        assertFalse(HebrewPhrases.ranking(listOf("A"), listOf(12)).contains("שתי"))
+        assertEquals("סוף המשחק! 12 נקודות.", HebrewPhrases.ranking(listOf("A"), listOf(12)))
+        assertEquals("סוף המשחק! נקודה 1.", HebrewPhrases.ranking(listOf("A"), listOf(1)))
+        assertEquals("סוף המשחק! 0 נקודות.", HebrewPhrases.ranking(listOf("A"), listOf(0)))
+        assertTrue(EnglishPhrases.ranking(listOf("A"), listOf(2)).contains("2")) // English keeps the digit
     }
 
     @Test fun verdictWordingDiffersPerCombination() {
@@ -182,27 +206,6 @@ class PhrasesTest {
     @Test fun defaultPlayerNames() {
         assertEquals("שחקן 2", HebrewPhrases.defaultPlayerName(2))
         assertEquals("Player 2", EnglishPhrases.defaultPlayerName(2))
-    }
-
-    @Test fun exactYearsAreSpokenInsteadOfTheDecades() {
-        val range = GameSettings(fromYear = 1987, toYear = 1994)
-        assertTrue(HebrewPhrases.summary(range), HebrewPhrases.summary(range).contains("משנת 1987 עד 1994"))
-        assertTrue(EnglishPhrases.summary(range), EnglishPhrases.summary(range).contains("1987 to 1994"))
-        val one = GameSettings(fromYear = 1990, toYear = 1990)
-        assertTrue(HebrewPhrases.lastTime(one), HebrewPhrases.lastTime(one).contains("רק שנת 1990"))
-        assertTrue(EnglishPhrases.lastTime(one), EnglishPhrases.lastTime(one).contains("just 1990"))
-    }
-
-    @Test fun englishLastTimeMentionsPlayersAndRounds() {
-        val t = EnglishPhrases.lastTime(GameSettings())
-        assertTrue(t, t.contains("2") && t.contains("5"))
-    }
-
-    @Test fun askContinueMentionsRound() {
-        for (p in both) {
-            val t = p.askContinue(GameSettings(players = 3, rounds = 5), 4)
-            assertTrue(t, t.contains("3") && t.contains("4") && t.contains("5"))
-        }
     }
 
     @Test fun wordListsNonEmptyAndShared() {
