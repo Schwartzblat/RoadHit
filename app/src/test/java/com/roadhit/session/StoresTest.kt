@@ -5,6 +5,7 @@ import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
+import com.roadhit.game.Difficulty
 import com.roadhit.game.GameSettings
 import com.roadhit.game.Genre
 import com.roadhit.game.Lang
@@ -80,6 +81,21 @@ class StoresTest {
         val b = open()
         assertEquals(settings, b.loadSettings())
         assertEquals(game, b.loadGame())
+    }
+
+    @Test
+    fun settingsSavedBeforeDifficultyExistedLoadAsHard() = runBlocking {
+        writeRaw("settings", """{"players":3,"pool":"ISRAELI","rounds":7}""")
+        val loaded = open().loadSettings()
+        assertEquals(GameSettings(players = 3, pool = Pool.ISRAELI, rounds = 7), loaded)
+        assertEquals(Difficulty.HARD, loaded?.difficulty)
+    }
+
+    @Test
+    fun difficultySurvivesReopen() = runBlocking {
+        open().saveSettings(settings.copy(difficulty = Difficulty.EASY))
+        closeAll()
+        assertEquals(Difficulty.EASY, open().loadSettings()?.difficulty)
     }
 
     @Test

@@ -49,6 +49,10 @@ interface UiStrings {
     /** The next game's choices that the screen can set; the voice setup offers them first. */
     val nextGame: String
     val nextGameHint: String
+    val difficulty: String
+    val difficultyEasy: String
+    val difficultyMedium: String
+    val difficultyHard: String
     val playerCount: String
     fun players(n: Int): String
     val roundCount: String
@@ -123,6 +127,10 @@ object HebrewUi : UiStrings {
     override val english = "אנגלית"
     override val nextGame = "המשחק הבא"
     override val nextGameHint = "אפשר לשנות גם בקול: אומרים \"לשנות\" בתחילת המשחק."
+    override val difficulty = "רמת קושי"
+    override val difficultyEasy = "קל: רק השירים הכי מוכרים"
+    override val difficultyMedium = "בינוני: שירים מוכרים"
+    override val difficultyHard = "קשה: כל השירים"
     override val playerCount = "מספר שחקנים"
     override fun players(n: Int) = if (n == 1) "שחקן אחד" else "$n שחקנים"
     override val roundCount = "סיבובים לכל שחקן"
@@ -199,6 +207,10 @@ object EnglishUi : UiStrings {
     override val english = "English"
     override val nextGame = "Next game"
     override val nextGameHint = "You can also change these by voice: say \"change\" when a game starts."
+    override val difficulty = "Difficulty"
+    override val difficultyEasy = "Easy: only the best-known songs"
+    override val difficultyMedium = "Medium: well-known songs"
+    override val difficultyHard = "Hard: all songs"
     override val playerCount = "Number of players"
     override fun players(n: Int) = if (n == 1) "1 player" else "$n players"
     override val roundCount = "Rounds per player"

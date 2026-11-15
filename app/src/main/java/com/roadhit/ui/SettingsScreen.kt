@@ -45,6 +45,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.roadhit.game.Difficulty
 import com.roadhit.game.GameSettings
 import com.roadhit.game.Genre
 import com.roadhit.game.Lang
@@ -141,6 +142,21 @@ fun SettingsScreen(
             tag = "rounds",
         ) { v -> onGameChange { it.copy(rounds = v) } }
         Text(strings.nextGameHint, fontSize = 16.sp)
+
+        // Only here: the voice never asks for or mentions the difficulty.
+        Text(strings.difficulty, fontSize = 20.sp)
+        Column(Modifier.selectableGroup()) {
+            val levels = listOf(
+                Triple(Difficulty.EASY, strings.difficultyEasy, "difficulty-easy"),
+                Triple(Difficulty.MEDIUM, strings.difficultyMedium, "difficulty-medium"),
+                Triple(Difficulty.HARD, strings.difficultyHard, "difficulty-hard"),
+            )
+            for ((level, label, tag) in levels) {
+                RadioOption(label, game.difficulty == level, tag) {
+                    if (game.difficulty != level) onGameChange { it.copy(difficulty = level) }
+                }
+            }
+        }
         HorizontalDivider()
 
         IntSlider(

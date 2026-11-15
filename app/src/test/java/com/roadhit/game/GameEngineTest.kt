@@ -558,6 +558,18 @@ class GameEngineTest {
         assertEquals(listOf(GameSettings(players = 2, rounds = 1)), h.store.settingsSaves)
     }
 
+    @Test fun changingByVoiceKeepsTheDifficultyChosenInSettings() = runTest {
+        val h = Harness(listOf(SHAPE, RINGS))
+        // Two songs of one origin and decade: medium keeps both (easy would keep one, too few for two turns).
+        h.store.settings = GameSettings(players = 1, rounds = 1, difficulty = Difficulty.MEDIUM)
+        h.listener.speech("change")
+        listOf("2", "mixed", "all", "all", "1").forEach { h.listener.speech(it) }
+        h.right(SHAPE)
+        h.right(RINGS)
+        h.engine.run()
+        assertEquals(listOf(GameSettings(players = 2, rounds = 1, difficulty = Difficulty.MEDIUM)), h.store.settingsSaves)
+    }
+
     @Test fun exactYearsWithTooFewSongsAreWidenedByTheFilterQuestions() = runTest {
         val h = Harness(emptyList(), allSongs = true)
         h.store.settings = GameSettings(players = 2, rounds = 5, fromYear = 2002, toYear = 2004) // 3 songs, 10 needed

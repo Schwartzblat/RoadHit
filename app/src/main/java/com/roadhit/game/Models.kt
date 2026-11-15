@@ -12,6 +12,13 @@ enum class Genre { POP, ROCK, HIPHOP, DANCE, RNB, MIZRAHI, OTHER }
 
 enum class Lang { HE, EN }
 
+/**
+ * How well-known a game's songs are, each song ranked by popularity against the songs of its own
+ * origin and decade: easy keeps the best-known third, medium two thirds, hard every song.
+ * Chosen only on the settings screen; never asked or spoken.
+ */
+enum class Difficulty { EASY, MEDIUM, HARD }
+
 /** A name in two scripts: [he] is always Hebrew-script, [en] always Latin-script. */
 @Serializable
 data class Names(val he: String, val en: String)
@@ -50,6 +57,7 @@ data class GameSettings(
     val rounds: Int = 5,
     val fromYear: Int? = null,
     val toYear: Int? = null,
+    val difficulty: Difficulty = Difficulty.HARD,
 )
 
 /** The years a game's songs come from: the exact range when one is set, else the whole decades. */

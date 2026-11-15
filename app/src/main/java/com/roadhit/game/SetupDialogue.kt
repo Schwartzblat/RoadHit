@@ -32,7 +32,7 @@ internal class SetupDialogue(
             if (choice == Choice.FIRST) reuse = last
         }
         var asked = reuse == null
-        var s = reuse ?: askEverything() ?: return null
+        var s = reuse ?: askEverything(last?.difficulty ?: Difficulty.HARD) ?: return null
         while (true) {
             val have = songs.count(s)
             val need = s.players * s.rounds
@@ -53,9 +53,10 @@ internal class SetupDialogue(
         return s
     }
 
-    private suspend fun askEverything(): GameSettings? {
+    /** Every question; the [difficulty] is never asked (it is chosen on the settings screen). */
+    private suspend fun askEverything(difficulty: Difficulty): GameSettings? {
         val players = askPlayers() ?: return null
-        val filtered = askFilter(GameSettings(players = players)) ?: return null
+        val filtered = askFilter(GameSettings(players = players, difficulty = difficulty)) ?: return null
         val rounds = askRounds() ?: return null
         return filtered.copy(rounds = rounds)
     }
@@ -70,7 +71,7 @@ internal class SetupDialogue(
     private suspend fun askPlayers() = ask({ it.askPlayers() }) { parseCount(it, PLAYERS) }
     private suspend fun askRounds() = ask({ it.askRounds() }) { parseCount(it, ROUNDS) }
 
-    /** [s] with the widest filter: every pool, decade and genre, and no exact years. */
+    /** [s] with the widest filter: every pool, decade and genre, and no exact years (the difficulty stays). */
     private fun widest(s: GameSettings): GameSettings {
         val all = GameSettings()
         return s.copy(

@@ -1,8 +1,13 @@
 package com.roadhit.catalog
 
+import com.roadhit.game.Difficulty
 import com.roadhit.game.GameSettings
+import com.roadhit.game.Genre
+import com.roadhit.game.Lang
+import com.roadhit.game.Names
 import com.roadhit.game.Origin
 import com.roadhit.game.Pool
+import com.roadhit.game.Song
 import java.io.File
 import java.lang.Character.UnicodeScript
 import org.junit.Assert.assertEquals
@@ -49,6 +54,47 @@ class CatalogTest {
             assertFalse("${song.id}: title.en ${song.title.en}", song.title.en.hasScript(UnicodeScript.HEBREW))
             assertFalse("${song.id}: artist.en ${song.artist.en}", song.artist.en.hasScript(UnicodeScript.HEBREW))
         }
+    }
+
+    @Test
+    fun difficultyKeepsTheBestKnownPartOfEachOriginAndDecade() {
+        assertEquals(bundled.songs.size, bundled.filter(GameSettings()).size) // hard, the default: every song
+        for ((difficulty, thirds) in listOf(Difficulty.EASY to 1, Difficulty.MEDIUM to 2)) {
+            val kept = bundled.filter(GameSettings(difficulty = difficulty)).map { it.id }.toSet()
+            for ((group, songs) in bundled.songs.groupBy { it.origin to it.year / 10 * 10 }) {
+                val (inside, outside) = songs.partition { it.id in kept }
+                assertEquals("$difficulty $group", (songs.size * thirds + 2) / 3, inside.size)
+                if (outside.isNotEmpty()) {
+                    assertTrue("$difficulty $group", inside.minOf { it.rank } >= outside.maxOf { it.rank })
+                }
+            }
+        }
+        val easyOldIsraeli = GameSettings(pool = Pool.ISRAELI, fromDecade = 1960, toDecade = 1960, difficulty = Difficulty.EASY)
+        assertTrue(bundled.filter(easyOldIsraeli).size >= 60)
+    }
+
+    @Test
+    fun difficultyRanksASongOnlyAgainstItsOwnOriginAndDecade() {
+        fun song(id: String, origin: Origin, year: Int, rank: Int) = Song(
+            id = id, title = Names("ש", "s"), artist = Names("א", "a"), script = Lang.EN, year = year,
+            origin = origin, genre = Genre.POP, deezerId = id.hashCode().toLong(), rank = rank,
+        )
+        val c = Catalog(
+            listOf(
+                song("il80-a", Origin.IL, 1981, 30_000), song("il80-b", Origin.IL, 1985, 20_000),
+                song("il80-c", Origin.IL, 1989, 10_000),
+                song("intl80-a", Origin.INTL, 1982, 900_000), song("intl80-b", Origin.INTL, 1983, 800_000),
+                song("intl80-c", Origin.INTL, 1984, 700_000),
+                song("il20-a", Origin.IL, 2021, 500_000),
+            ),
+        )
+        fun ids(d: Difficulty) = c.filter(GameSettings(difficulty = d)).map { it.id }.toSet()
+        // The best-known Israeli 1980s song stays on easy although international songs rank far higher.
+        assertEquals(setOf("il80-a", "intl80-a", "il20-a"), ids(Difficulty.EASY))
+        assertEquals(setOf("il80-a", "il80-b", "intl80-a", "intl80-b", "il20-a"), ids(Difficulty.MEDIUM))
+        assertEquals(7, ids(Difficulty.HARD).size)
+        val exact = GameSettings(fromYear = 1985, toYear = 1989, difficulty = Difficulty.EASY)
+        assertEquals(emptyList<Song>(), c.filter(exact)) // ranked within the whole decade, not the chosen years
     }
 
     @Test
