@@ -1,3 +1,5 @@
+<img src="screenshots/icon.png" width="96" alt="RoadHit icon">
+
 # RoadHit
 
 A hands-free "guess the song" party game for the car and the phone. The app plays a short clip of
@@ -8,6 +10,7 @@ song before the answer is judged.
 <p>
   <img src="screenshots/car-playing.png" width="49%" alt="Android Auto: a clip is playing, waiting for player 1's answer">
   <img src="screenshots/car-answer.png" width="49%" alt="Android Auto: the answer is revealed">
+  <img src="screenshots/car-launcher.png" width="99%" alt="Android Auto: RoadHit in the app launcher">
 </p>
 
 <p>
