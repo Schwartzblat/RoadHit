@@ -1,0 +1,159 @@
+{
+ "קטגוריה:שירים בעברית|page|": {
+  "batchcomplete": true,
+  "continue": {
+   "cmcontinue": "page|d790d7a320d790d797d7aa|1757880",
+   "continue": "-||"
+  },
+  "query": {
+   "categorymembers": [
+    {
+     "pageid": 447090,
+     "ns": 0,
+     "title": "עד שתבין אותי"
+    },
+    {
+     "pageid": 677672,
+     "ns": 0,
+     "title": "שלל שרב"
+    },
+    {
+     "pageid": 914194,
+     "ns": 0,
+     "title": "שחרחורת"
+    },
+    {
+     "pageid": 1405331,
+     "ns": 0,
+     "title": "דוד ושאול (שיר)"
+    },
+    {
+     "pageid": 1530376,
+     "ns": 0,
+     "title": "יום בשורה"
+    },
+    {
+     "pageid": 1671382,
+     "ns": 0,
+     "title": "פראג (שיר)"
+    }
+   ]
+  }
+ },
+ "קטגוריה:שירים בעברית|page|page|d790d7a320d790d797d7aa|1757880": {
+  "query": {
+   "categorymembers": [
+    {
+     "pageid": 1760744,
+     "ns": 0,
+     "title": "שדות של אירוסים"
+    },
+    {
+     "pageid": 1771096,
+     "ns": 0,
+     "title": "את לא נשארת לבד"
+    },
+    {
+     "pageid": 1845068,
+     "ns": 0,
+     "title": "עובר מה שעובר"
+    },
+    {
+     "pageid": 2134419,
+     "ns": 0,
+     "title": "קרן שמש מאוחרת"
+    },
+    {
+     "pageid": 2135738,
+     "ns": 0,
+     "title": "17 (שיר של בן ארצי)"
+    },
+    {
+     "pageid": 2314063,
+     "ns": 0,
+     "title": "אם הייתי (שיר של ברי סחרוף)"
+    }
+   ]
+  },
+  "batchcomplete": true
+ },
+ "קטגוריה:שירים בעברית|subcat|": {
+  "batchcomplete": true,
+  "query": {
+   "categorymembers": [
+    {
+     "pageid": 1066691,
+     "ns": 14,
+     "title": "קטגוריה:שירי רוק בעברית"
+    },
+    {
+     "pageid": 1002284,
+     "ns": 14,
+     "title": "קטגוריה:פואמות בעברית"
+    }
+   ]
+  }
+ },
+ "קטגוריה:שירי רוק בעברית|page|": {
+  "batchcomplete": true,
+  "query": {
+   "categorymembers": [
+    {
+     "pageid": 2313950,
+     "ns": 0,
+     "title": "77'"
+    },
+    {
+     "pageid": 2572341,
+     "ns": 0,
+     "title": "אבות ובנים (שיר)"
+    },
+    {
+     "pageid": 2314063,
+     "ns": 0,
+     "title": "אם הייתי (שיר של ברי סחרוף)"
+    }
+   ]
+  }
+ },
+ "קטגוריה:שירי רוק בעברית|subcat|": {
+  "batchcomplete": true,
+  "query": {
+   "categorymembers": [
+    {
+     "pageid": 981610,
+     "ns": 14,
+     "title": "קטגוריה:שירי כוורת"
+    }
+   ]
+  }
+ },
+ "קטגוריה:שירי כוורת|page|": {
+  "batchcomplete": true,
+  "query": {
+   "categorymembers": [
+    {
+     "pageid": 2430027,
+     "ns": 0,
+     "title": "שירים שהוקלטו על ידי כוורת"
+    },
+    {
+     "pageid": 1128676,
+     "ns": 0,
+     "title": "אופרת פוגי"
+    }
+   ]
+  }
+ },
+ "קטגוריה:שירי כוורת|subcat|": {
+  "batchcomplete": true,
+  "query": {
+   "categorymembers": [
+    {
+     "ns": 14,
+     "title": "קטגוריה:שירי רוק בעברית"
+    }
+   ]
+  }
+ }
+}

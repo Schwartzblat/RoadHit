@@ -1,0 +1,40 @@
+# Build outputs
+build/
+*.apk
+*.aab
+
+# Gradle
+.gradle/
+.kotlin/
+
+# Local machine
+local.properties
+.idea/
+*.iml
+captures/
+*.hprof
+
+# Catalog tool working files
+tools/catalog/.cache/
+tools/catalog/work/
+
+# Agent workspace
+.superpowers/
+
+# Voice recordings made with the debug test-set recorder (personal; tests need only lines.json)
+testdata/voice/*.wav
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Signing keys never go into the repository
+*.jks
+*.keystore

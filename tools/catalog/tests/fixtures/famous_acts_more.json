@@ -1,0 +1,2135 @@
+{
+ "deezer_artist_search|אבטיפוס": {
+  "data": [],
+  "total": 0
+ },
+ "deezer_artist_search|Avtipus": {
+  "data": [
+   {
+    "id": 4332864,
+    "name": "Avtipus",
+    "nb_album": 20
+   },
+   {
+    "id": 162739,
+    "name": "Les Astiaous",
+    "nb_album": 1
+   },
+   {
+    "id": 4067814,
+    "name": "Antipas",
+    "nb_album": 33
+   },
+   {
+    "id": 7689038,
+    "name": "Avidus",
+    "nb_album": 13
+   },
+   {
+    "id": 130909642,
+    "name": "Atirus",
+    "nb_album": 51
+   },
+   {
+    "id": 166870677,
+    "name": "AATICUS",
+    "nb_album": 1
+   }
+  ],
+  "total": 56
+ },
+ "deezer_artist_albums|4332864": {
+  "data": [
+   {
+    "id": 795074881,
+    "title": "הפטריקים",
+    "record_type": "album"
+   },
+   {
+    "id": 11730628,
+    "title": "הודעה לנוסעים מחוץ לזמן",
+    "record_type": "album"
+   },
+   {
+    "id": 13529001,
+    "title": "איך עושים מים",
+    "record_type": "album"
+   },
+   {
+    "id": 13529011,
+    "title": "מה החזאי מבין",
+    "record_type": "album"
+   }
+  ],
+  "total": 4
+ },
+ "deezer_album|13529011": {
+  "id": 13529011,
+  "title": "מה החזאי מבין",
+  "genres": {
+   "data": [
+    {
+     "id": 132,
+     "name": "Pop",
+     "picture": "https://api.deezer.com/genre/132/image",
+     "type": "genre"
+    }
+   ]
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 128117853,
+     "title": "מועקה",
+     "title_version": "",
+     "rank": 19877,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117855,
+     "title": "בוקר טוב עולם",
+     "title_version": "",
+     "rank": 105251,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117857,
+     "title": "אשה אשה",
+     "title_version": "",
+     "rank": 70829,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117859,
+     "title": "לילה אהבה",
+     "title_version": "",
+     "rank": 21640,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117861,
+     "title": "איך זה פתאום",
+     "title_version": "",
+     "rank": 20876,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117863,
+     "title": "מה החזאי מבין",
+     "title_version": "",
+     "rank": 21750,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117865,
+     "title": "הנה ההומור שלי",
+     "title_version": "",
+     "rank": 3079,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117867,
+     "title": "כשאין לי דמיון",
+     "title_version": "",
+     "rank": 16018,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117869,
+     "title": "לאן את הולכת",
+     "title_version": "",
+     "rank": 22158,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117871,
+     "title": "תשאירי לי מקום לחבק אותך",
+     "title_version": "",
+     "rank": 73384,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117873,
+     "title": "קצב הזמן",
+     "title_version": "",
+     "rank": 3070,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117875,
+     "title": "אחרי ההתרגשות",
+     "title_version": "",
+     "rank": 21497,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117877,
+     "title": "מועקה?",
+     "title_version": "",
+     "rank": 2007,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    }
+   ]
+  }
+ },
+ "deezer_album|13529001": {
+  "id": 13529001,
+  "title": "איך עושים מים",
+  "genres": {
+   "data": [
+    {
+     "id": 132,
+     "name": "Pop",
+     "picture": "https://api.deezer.com/genre/132/image",
+     "type": "genre"
+    }
+   ]
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 128117715,
+     "title": "איך עושים מים",
+     "title_version": "",
+     "rank": 20991,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117717,
+     "title": "הרצליה",
+     "title_version": "",
+     "rank": 710,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117719,
+     "title": "ציפור",
+     "title_version": "",
+     "rank": 6274,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117721,
+     "title": "משבת לשבת",
+     "title_version": "",
+     "rank": 17944,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117723,
+     "title": "לא היית שם בשבילי",
+     "title_version": "",
+     "rank": 8939,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117725,
+     "title": "כל הסודות שלה",
+     "title_version": "",
+     "rank": 786,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117727,
+     "title": "אוקיאנוס",
+     "title_version": "",
+     "rank": 32689,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117729,
+     "title": "רגע",
+     "title_version": "",
+     "rank": 15650,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117731,
+     "title": "גיל ההתבגרות",
+     "title_version": "",
+     "rank": 2235,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117733,
+     "title": "מה אני עושה",
+     "title_version": "",
+     "rank": 18439,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117735,
+     "title": "נמסים מאהבה",
+     "title_version": "",
+     "rank": 29010,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117737,
+     "title": "עצוב מדי",
+     "title_version": "",
+     "rank": 25587,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117739,
+     "title": "מי אמר למי",
+     "title_version": "",
+     "rank": 30763,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 128117741,
+     "title": "כמה אני אוהב",
+     "title_version": "",
+     "rank": 2482,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    }
+   ]
+  }
+ },
+ "deezer_album|11730628": {
+  "id": 11730628,
+  "title": "הודעה לנוסעים מחוץ לזמן",
+  "genres": {
+   "data": [
+    {
+     "id": 132,
+     "name": "Pop",
+     "picture": "https://api.deezer.com/genre/132/image",
+     "type": "genre"
+    }
+   ]
+  },
+  "tracks": {
+   "data": [
+    {
+     "id": 113251874,
+     "title": "Going Down",
+     "title_version": "",
+     "rank": 21856,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251876,
+     "title": "שלום אדוני המלך",
+     "title_version": "",
+     "rank": 18236,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251878,
+     "title": "שמע אלי",
+     "title_version": "",
+     "rank": 607,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251880,
+     "title": "סולמות וחבלים",
+     "title_version": "",
+     "rank": 26793,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251882,
+     "title": "בואי ונברח מחוץ לזמן",
+     "title_version": "",
+     "rank": 2776,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251884,
+     "title": "מה עכשיו",
+     "title_version": "",
+     "rank": 26102,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251886,
+     "title": "פלאפל אוסלו",
+     "title_version": "",
+     "rank": 27101,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251888,
+     "title": "מתוק ומר",
+     "title_version": "",
+     "rank": 3089,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251890,
+     "title": "אף פעם לא מפסיק לרצות",
+     "title_version": "",
+     "rank": 22278,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251892,
+     "title": "שום דבר רע",
+     "title_version": "",
+     "rank": 27015,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251894,
+     "title": "איך עושים מים",
+     "title_version": "",
+     "rank": 26297,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    },
+    {
+     "id": 113251896,
+     "title": "מה החזאי מבין",
+     "title_version": "",
+     "rank": 28290,
+     "artist": {
+      "id": 4332864,
+      "name": "Avtipus"
+     }
+    }
+   ]
+  }
+ },
+ "mb_artist|אבטיפוס": {
+  "artists": [
+   {
+    "id": "f624cefb-6f0b-43b5-a206-47b44c8599a2",
+    "name": "אבטיפוס",
+    "score": 100,
+    "aliases": [
+     {
+      "name": "Avtipus"
+     }
+    ]
+   }
+  ]
+ },
+ "mb_release_groups|f624cefb-6f0b-43b5-a206-47b44c8599a2|0": {
+  "release-group-count": 3,
+  "release-groups": [
+   {
+    "id": "9fa38b3b-a711-4c9c-b51d-e031e8cf625e",
+    "title": "איך עושים מים",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1997"
+   },
+   {
+    "id": "ceb5f729-b746-4828-a2cf-70e074503a76",
+    "title": "מה החזאי מבין",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1995"
+   },
+   {
+    "id": "cf378dfb-579a-4161-8978-777ab90053ba",
+    "title": "הודעה לנוסעים מחוץ לזמן",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "2015-09-06"
+   }
+  ]
+ },
+ "deezer_artist_albums|11951|0": {
+  "data": [
+   {
+    "id": 980370851,
+    "title": "30",
+    "record_type": "album"
+   },
+   {
+    "id": 952105321,
+    "title": "30 - חלק ג'",
+    "record_type": "album"
+   },
+   {
+    "id": 947883651,
+    "title": "30 - חלק ב'",
+    "record_type": "album"
+   },
+   {
+    "id": 945422291,
+    "title": "30 - חלק א'",
+    "record_type": "album"
+   },
+   {
+    "id": 916614361,
+    "title": "פארק הירקון GOLD 2025 (Live)",
+    "record_type": "album"
+   },
+   {
+    "id": 738475191,
+    "title": "אהבה מנצחת הכל",
+    "record_type": "album"
+   },
+   {
+    "id": 721045741,
+    "title": "בלומפילד GOLD 2024 (Live)",
+    "record_type": "album"
+   },
+   {
+    "id": 573172591,
+    "title": "עם ישראל חי",
+    "record_type": "album"
+   },
+   {
+    "id": 567330201,
+    "title": "GOLD 2022 Live",
+    "record_type": "album"
+   },
+   {
+    "id": 563119532,
+    "title": "2023",
+    "record_type": "album"
+   },
+   {
+    "id": 561689562,
+    "title": "קצת שמח קצת עצוב",
+    "record_type": "album"
+   },
+   {
+    "id": 561636012,
+    "title": "קצב מזרחי",
+    "record_type": "album"
+   },
+   {
+    "id": 561445172,
+    "title": "להיות מאושר",
+    "record_type": "album"
+   },
+   {
+    "id": 561422242,
+    "title": "מכאן ועד הנצח",
+    "record_type": "album"
+   },
+   {
+    "id": 93673282,
+    "title": "הפוך מהיקום חלק 1",
+    "record_type": "album"
+   },
+   {
+    "id": 561649022,
+    "title": "הפוך מהיקום - חלק שני",
+    "record_type": "album"
+   },
+   {
+    "id": 74814142,
+    "title": "נכון לתמיד",
+    "record_type": "album"
+   },
+   {
+    "id": 75057592,
+    "title": "אוסף משולש",
+    "record_type": "album"
+   },
+   {
+    "id": 108310852,
+    "title": "לא פשוט להיות פשוט",
+    "record_type": "album"
+   },
+   {
+    "id": 75924132,
+    "title": "הופעה חיה בקיסריה (Live)",
+    "record_type": "album"
+   },
+   {
+    "id": 74284712,
+    "title": "רחוק מכאן",
+    "record_type": "album"
+   },
+   {
+    "id": 74278732,
+    "title": "בסוף כל יום",
+    "record_type": "album"
+   },
+   {
+    "id": 115165142,
+    "title": "פעם בחיים - הופעה חיה באיצטדיון בלומפילד",
+    "record_type": "album"
+   },
+   {
+    "id": 74277772,
+    "title": "ימים יגידו",
+    "record_type": "album"
+   },
+   {
+    "id": 237547262,
+    "title": "מקסימום שמח - אוסף להיטים",
+    "record_type": "album"
+   },
+   {
+    "id": 75923962,
+    "title": "שירים לתוך הלילה",
+    "record_type": "album"
+   },
+   {
+    "id": 76348202,
+    "title": "הלב על השולחן - הופעה חיה בקיסריה",
+    "record_type": "album"
+   },
+   {
+    "id": 75040712,
+    "title": "נגעת לי בלב - הופעה חיה בקיסריה",
+    "record_type": "album"
+   },
+   {
+    "id": 75923912,
+    "title": "שירי כיף ומצב רוח",
+    "record_type": "album"
+   },
+   {
+    "id": 74277562,
+    "title": "הלב על השולחן",
+    "record_type": "album"
+   },
+   {
+    "id": 74277552,
+    "title": "נגעת לי בלב",
+    "record_type": "album"
+   },
+   {
+    "id": 75923932,
+    "title": "חלק מחיי - הופעה חיה בבריכת הסולטן",
+    "record_type": "album"
+   },
+   {
+    "id": 75924202,
+    "title": "באהבה - אוסף שירי אהבה כפול",
+    "record_type": "album"
+   },
+   {
+    "id": 74277222,
+    "title": "חלק מחיי",
+    "record_type": "album"
+   },
+   {
+    "id": 237549222,
+    "title": "אייל גולן בהיכל נוקיה (Live)",
+    "record_type": "album"
+   },
+   {
+    "id": 108259502,
+    "title": "זר כיסופים",
+    "record_type": "album"
+   },
+   {
+    "id": 74276392,
+    "title": "דרך לחיים",
+    "record_type": "album"
+   },
+   {
+    "id": 75040482,
+    "title": "זה אני",
+    "record_type": "album"
+   },
+   {
+    "id": 75040282,
+    "title": "קיסריה (Live)",
+    "record_type": "album"
+   },
+   {
+    "id": 75909672,
+    "title": "הוזה אותך מולי",
+    "record_type": "album"
+   },
+   {
+    "id": 75040212,
+    "title": "בהיכל התרבות",
+    "record_type": "album"
+   },
+   {
+    "id": 75039722,
+    "title": "בשבילך נוצרתי",
+    "record_type": "album"
+   },
+   {
+    "id": 108232142,
+    "title": "האוסף",
+    "record_type": "album"
+   },
+   {
+    "id": 76346242,
+    "title": "מציאות אחרת",
+    "record_type": "album"
+   },
+   {
+    "id": 164055092,
+    "title": "LIVE - ההופעה",
+    "record_type": "album"
+   },
+   {
+    "id": 236143232,
+    "title": "חלומות",
+    "record_type": "album"
+   },
+   {
+    "id": 108215592,
+    "title": "ואני קורא לך",
+    "record_type": "album"
+   },
+   {
+    "id": 76352002,
+    "title": "צליל מיתר",
+    "record_type": "album"
+   },
+   {
+    "id": 85062922,
+    "title": "המופע המשותף (Live)",
+    "record_type": "album"
+   },
+   {
+    "id": 76332312,
+    "title": "הסתכלי אלי",
+    "record_type": "album"
+   },
+   {
+    "id": 289133502,
+    "title": "חייל של אהבה",
+    "record_type": "album"
+   },
+   {
+    "id": 237584442,
+    "title": "בלעדייך",
+    "record_type": "album"
+   },
+   {
+    "id": 108206752,
+    "title": "הופעה חיה 96",
+    "record_type": "album"
+   },
+   {
+    "id": 74279172,
+    "title": "לחישה בלילה",
+    "record_type": "album"
+   },
+   {
+    "id": 1125227612,
+    "title": "&",
+    "record_type": "ep"
+   },
+   {
+    "id": 919458171,
+    "title": "בדרך ל-30",
+    "record_type": "ep"
+   },
+   {
+    "id": 799580771,
+    "title": "בית מפואר",
+    "record_type": "ep"
+   },
+   {
+    "id": 1122290382,
+    "title": "היה לנו דואט",
+    "record_type": "single"
+   },
+   {
+    "id": 1122342582,
+    "title": "ערב יום שישי",
+    "record_type": "single"
+   },
+   {
+    "id": 1124628202,
+    "title": "מתגעגע לתקופה",
+    "record_type": "single"
+   },
+   {
+    "id": 1126095212,
+    "title": "אני את ואלוהים",
+    "record_type": "single"
+   },
+   {
+    "id": 1070818662,
+    "title": "בודד בעיר הגדולה",
+    "record_type": "single"
+   },
+   {
+    "id": 943181681,
+    "title": "בית מזכוכית",
+    "record_type": "single"
+   },
+   {
+    "id": 872784802,
+    "title": "מדע בדיוני (אקוסטי)",
+    "record_type": "single"
+   },
+   {
+    "id": 854180762,
+    "title": "מדע בדיוני",
+    "record_type": "single"
+   },
+   {
+    "id": 830081171,
+    "title": "תניח את המדים (מתוך פרויקט מנגינת הנצח)",
+    "record_type": "single"
+   },
+   {
+    "id": 827444921,
+    "title": "צעקתי אליך",
+    "record_type": "single"
+   },
+   {
+    "id": 1112265172,
+    "title": "Ayuni",
+    "record_type": "single"
+   },
+   {
+    "id": 729228611,
+    "title": "טק טק",
+    "record_type": "single"
+   },
+   {
+    "id": 729232721,
+    "title": "החדר מסתובב",
+    "record_type": "single"
+   },
+   {
+    "id": 700778081,
+    "title": "נר לכל לילה",
+    "record_type": "single"
+   },
+   {
+    "id": 653270711,
+    "title": "את לי הנצח",
+    "record_type": "single"
+   },
+   {
+    "id": 627979141,
+    "title": "שוב אני בדד",
+    "record_type": "single"
+   },
+   {
+    "id": 586057772,
+    "title": "חתולים שחורים (Dor Gold & Guy Hoss Remix)",
+    "record_type": "single"
+   },
+   {
+    "id": 581064471,
+    "title": "חתולים שחורים",
+    "record_type": "single"
+   },
+   {
+    "id": 571996131,
+    "title": "שכחתי מזמן",
+    "record_type": "single"
+   },
+   {
+    "id": 564397712,
+    "title": "מי עוד יחכה לך",
+    "record_type": "single"
+   },
+   {
+    "id": 564398932,
+    "title": "ילד שלי",
+    "record_type": "single"
+   },
+   {
+    "id": 564405242,
+    "title": "חייל של אהבה & מבקשים חיים & אם יש גן עדן",
+    "record_type": "single"
+   },
+   {
+    "id": 564409422,
+    "title": "עם ישראל חי",
+    "record_type": "single"
+   },
+   {
+    "id": 564653482,
+    "title": "שלום אהובתי",
+    "record_type": "single"
+   },
+   {
+    "id": 460756915,
+    "title": "צליל מיתר (Live)",
+    "record_type": "single"
+   },
+   {
+    "id": 564655472,
+    "title": "עטלף עיוור",
+    "record_type": "single"
+   },
+   {
+    "id": 564655482,
+    "title": "מתי את חוזרת",
+    "record_type": "single"
+   },
+   {
+    "id": 564657382,
+    "title": "ואת אינך",
+    "record_type": "single"
+   },
+   {
+    "id": 564657392,
+    "title": "פנתרה",
+    "record_type": "single"
+   },
+   {
+    "id": 564657402,
+    "title": "בשעות השקטות",
+    "record_type": "single"
+   },
+   {
+    "id": 572059001,
+    "title": "דבר אליו",
+    "record_type": "single"
+   },
+   {
+    "id": 564659802,
+    "title": "מחפשים אהבה",
+    "record_type": "single"
+   },
+   {
+    "id": 564659822,
+    "title": "אלף כוכבים",
+    "record_type": "single"
+   },
+   {
+    "id": 564662422,
+    "title": "בזמן האחרון",
+    "record_type": "single"
+   },
+   {
+    "id": 564663382,
+    "title": "מסיבה עם פפיון",
+    "record_type": "single"
+   },
+   {
+    "id": 564681542,
+    "title": "סוף של כל סיפור",
+    "record_type": "single"
+   },
+   {
+    "id": 564683202,
+    "title": "דפוק עם תעודות",
+    "record_type": "single"
+   },
+   {
+    "id": 564686252,
+    "title": "רסיסים",
+    "record_type": "single"
+   },
+   {
+    "id": 564687642,
+    "title": "תן מילה טובה",
+    "record_type": "single"
+   },
+   {
+    "id": 564689182,
+    "title": "תמיד נשארת",
+    "record_type": "single"
+   },
+   {
+    "id": 564693722,
+    "title": "ארמון בחול",
+    "record_type": "single"
+   },
+   {
+    "id": 564695872,
+    "title": "וי כחול",
+    "record_type": "single"
+   },
+   {
+    "id": 211185162,
+    "title": "בינתי – השיר של אופיר",
+    "record_type": "single"
+   }
+  ],
+  "total": 160,
+  "next": "https://api.deezer.com/artist/11951/albums?limit=100&index=100"
+ },
+ "deezer_artist_albums|11951|100": {
+  "data": [
+   {
+    "id": 564697202,
+    "title": "באור גדול",
+    "record_type": "single"
+   },
+   {
+    "id": 182312182,
+    "title": "מכל הכוכבים בלילה (Mikol Ha'kochavim Ba'Layla)",
+    "record_type": "single"
+   },
+   {
+    "id": 564710912,
+    "title": "טעיתי",
+    "record_type": "single"
+   },
+   {
+    "id": 564718112,
+    "title": "נראתה לאחרונה",
+    "record_type": "single"
+   },
+   {
+    "id": 574369891,
+    "title": "שגרה מפוארת",
+    "record_type": "single"
+   },
+   {
+    "id": 140161792,
+    "title": "ילדי המרפסות",
+    "record_type": "single"
+   },
+   {
+    "id": 564719082,
+    "title": "מכאן ועד הנצח",
+    "record_type": "single"
+   },
+   {
+    "id": 564719072,
+    "title": "לעשות איתך שלום",
+    "record_type": "single"
+   },
+   {
+    "id": 564719992,
+    "title": "קרובה אליי",
+    "record_type": "single"
+   },
+   {
+    "id": 564720002,
+    "title": "עושה עם העיניים",
+    "record_type": "single"
+   },
+   {
+    "id": 514713542,
+    "title": "הוזה אותך מולי (Remix)",
+    "record_type": "single"
+   },
+   {
+    "id": 564721872,
+    "title": "אוסף עוד געגוע",
+    "record_type": "single"
+   },
+   {
+    "id": 93290552,
+    "title": "ממה את מפחדת",
+    "record_type": "single"
+   },
+   {
+    "id": 87877272,
+    "title": "הפוך מהיקום",
+    "record_type": "single"
+   },
+   {
+    "id": 84652102,
+    "title": "אהבה ראשונה",
+    "record_type": "single"
+   },
+   {
+    "id": 82487722,
+    "title": "לא מבינה עברית - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 76397902,
+    "title": "אהיה בכל מקום",
+    "record_type": "single"
+   },
+   {
+    "id": 73319222,
+    "title": "כמה ימים",
+    "record_type": "single"
+   },
+   {
+    "id": 74810762,
+    "title": "אסתדר לבד",
+    "record_type": "single"
+   },
+   {
+    "id": 74809662,
+    "title": "טירוף מתוק",
+    "record_type": "single"
+   },
+   {
+    "id": 63864132,
+    "title": "המילים החסרות",
+    "record_type": "single"
+   },
+   {
+    "id": 74808462,
+    "title": "הולכים להשתגע",
+    "record_type": "single"
+   },
+   {
+    "id": 74807522,
+    "title": "האם להיות בך מאוהב",
+    "record_type": "single"
+   },
+   {
+    "id": 74806722,
+    "title": "עוד דקה את נעלמת",
+    "record_type": "single"
+   },
+   {
+    "id": 74805982,
+    "title": "כמו בספרים ההם",
+    "record_type": "single"
+   },
+   {
+    "id": 74804892,
+    "title": "נכון להיום",
+    "record_type": "single"
+   },
+   {
+    "id": 75045452,
+    "title": "תבואי היום",
+    "record_type": "single"
+   },
+   {
+    "id": 75044192,
+    "title": "מזל - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 268293232,
+    "title": "יפה לך להיות מאושרת",
+    "record_type": "single"
+   },
+   {
+    "id": 74895622,
+    "title": "יפה לך להיות מאושרת - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 75042012,
+    "title": "בלי להתכוון",
+    "record_type": "single"
+   },
+   {
+    "id": 268293712,
+    "title": "Goda Boba (feat. VIVO)",
+    "record_type": "single"
+   },
+   {
+    "id": 75030452,
+    "title": "לאן הגענו - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 74989502,
+    "title": "טוב לך איתו - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 108929832,
+    "title": "אני מבטיח",
+    "record_type": "single"
+   },
+   {
+    "id": 265027602,
+    "title": "עד הסוף",
+    "record_type": "single"
+   },
+   {
+    "id": 75040762,
+    "title": "ימים יגידו - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 75924162,
+    "title": "עד הסוף - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 108287012,
+    "title": "שמור עליו",
+    "record_type": "single"
+   },
+   {
+    "id": 75924042,
+    "title": "סטטוס מאוהב - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 75924142,
+    "title": "בגופיה צמודה - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 76354992,
+    "title": "רצתי אחרייך - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 108289092,
+    "title": "קל כל כך",
+    "record_type": "single"
+   },
+   {
+    "id": 108289112,
+    "title": "בגופיה צמודה",
+    "record_type": "single"
+   },
+   {
+    "id": 108944322,
+    "title": "Always My Number 1",
+    "record_type": "single"
+   },
+   {
+    "id": 76351972,
+    "title": "ממכרת - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 108272342,
+    "title": "ממכרת",
+    "record_type": "single"
+   },
+   {
+    "id": 108957352,
+    "title": "רצתי אחריך",
+    "record_type": "single"
+   },
+   {
+    "id": 75923992,
+    "title": "מנגינה רמיקס - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 76351982,
+    "title": "שבת של כדורגל - סינגל",
+    "record_type": "single"
+   },
+   {
+    "id": 108265202,
+    "title": "מנגינה",
+    "record_type": "single"
+   },
+   {
+    "id": 108265332,
+    "title": "שבת של כדורגל",
+    "record_type": "single"
+   },
+   {
+    "id": 108265372,
+    "title": "נשמע לי טוב",
+    "record_type": "single"
+   },
+   {
+    "id": 108259562,
+    "title": "מי ידע שכך יהיה",
+    "record_type": "single"
+   },
+   {
+    "id": 109009632,
+    "title": "תגידי",
+    "record_type": "single"
+   },
+   {
+    "id": 109009692,
+    "title": "מי שמאמין",
+    "record_type": "single"
+   },
+   {
+    "id": 268292762,
+    "title": "רק מתגעגע",
+    "record_type": "single"
+   },
+   {
+    "id": 603867912,
+    "title": "רגע גדול",
+    "record_type": "single"
+   },
+   {
+    "id": 109272012,
+    "title": "דוניה (פני מלאך)",
+    "record_type": "single"
+   },
+   {
+    "id": 75924002,
+    "title": "מי ידע שכך יהיה - סינגל",
+    "record_type": "single"
+   }
+  ],
+  "total": 160
+ },
+ "mb_release_groups|10385cb9-e45f-4c18-b03e-190c94f5f305|0": {
+  "release-group-count": 104,
+  "release-groups": [
+   {
+    "id": "014a5b1a-e070-4f39-a6c5-e6966e1b3b11",
+    "title": "לא רואה אותך",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2014-02"
+   },
+   {
+    "id": "07ee8a2b-24fc-4fc4-aa25-76c4702e7710",
+    "title": "ילדות: מסע מוסיקלי־תיאטרלי",
+    "primary-type": "Other",
+    "secondary-types": [
+     "Soundtrack"
+    ],
+    "first-release-date": "2004-08"
+   },
+   {
+    "id": "08f31ece-9792-4e27-850e-005fb2a3ffc6",
+    "title": "בלי אור הים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2021-03-07"
+   },
+   {
+    "id": "0d514558-56ba-4dbc-b8ee-9804d6a2b801",
+    "title": "שיר ללא שם",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1980"
+   },
+   {
+    "id": "0e153861-1ada-4559-981d-2839b5491e1e",
+    "title": "אישה בגילך: מופע קיץ 97",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": ""
+   },
+   {
+    "id": "12f348ca-bb9a-4aa7-a4ea-39612c629601",
+    "title": "קהלת פרק ט׳",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2024-11-10"
+   },
+   {
+    "id": "139a1f37-c77a-4c91-9316-0386f51f4203",
+    "title": "בך לא נוגע",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2000-03"
+   },
+   {
+    "id": "14c768fd-4f1c-4481-93bd-0999e767bf0d",
+    "title": "מי לאהבה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1979-02"
+   },
+   {
+    "id": "16670b57-bb62-44fc-8667-18178983100e",
+    "title": "שוב ושוב",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1995"
+   },
+   {
+    "id": "17597caf-8ca9-42b5-95b1-da6c5f7a0079",
+    "title": "כשתבוא אהבה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2007-02"
+   },
+   {
+    "id": "18856789-d3be-45b0-9d12-461a47fc0d98",
+    "title": "מיטב השירים 1 / מיטב השירים 2",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "2007-10"
+   },
+   {
+    "id": "1c0c403f-451c-3ef4-8151-15b843beb3d2",
+    "title": "באה מאהבה: קיסריה 2008",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "2008-09"
+   },
+   {
+    "id": "1ea21f2a-8af0-362f-ae9e-96be21c72e3e",
+    "title": "דרך המשי",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1984-09"
+   },
+   {
+    "id": "2019f204-0029-489f-baf9-2531f8a8e99a",
+    "title": "טיול בשדרה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1990-01"
+   },
+   {
+    "id": "208ee1a6-fa4f-4ca5-ab34-f0f29524c3bb",
+    "title": "שם",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1990-10"
+   },
+   {
+    "id": "20b327b9-817e-4229-aab9-1fd8915db828",
+    "title": "תאר לך",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2020-10-29"
+   },
+   {
+    "id": "246226c7-294a-4e25-8807-7b8470790507",
+    "title": "איילה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2024-06-18"
+   },
+   {
+    "id": "26fd44ed-ced8-424a-89bc-092976a9f67e",
+    "title": "בשעה שאחרי הלילה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2007-07"
+   },
+   {
+    "id": "2c9ff0c7-fea7-4873-afe3-20d49e0eebcd",
+    "title": "תרנגולת כחולה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1992"
+   },
+   {
+    "id": "2e0280d8-2b46-4f65-a4a0-c0cc8a0ddccd",
+    "title": "דבקה רפיח",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1985"
+   },
+   {
+    "id": "2e4753ec-e7ea-4365-a2ae-6e13460adc01",
+    "title": "שוב מתחלפת העונה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2007-05"
+   },
+   {
+    "id": "31d760f7-fbda-44ff-9586-34e26def4115",
+    "title": "דבר איתי באביב",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2015-11-09"
+   },
+   {
+    "id": "32c6bff2-0181-4ee3-8b0e-ccedf2d4a7f0",
+    "title": "ארץ טרופית יפה: שירים מברזיל",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Soundtrack"
+    ],
+    "first-release-date": "1978-05"
+   },
+   {
+    "id": "3c27822b-b870-4a30-9b0b-3ef49e04e779",
+    "title": "בוא לריו",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1983-09"
+   },
+   {
+    "id": "3ce611f8-f5f6-4b90-8d20-fdbb17b19978",
+    "title": "סוף לסיפור",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1987-12"
+   },
+   {
+    "id": "4127a027-cb4a-443d-821a-30b78df6cbc7",
+    "title": "בואי ונסע מכאן",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2026-04-17"
+   },
+   {
+    "id": "474e06fa-889e-4ec5-9441-bd0f745c070a",
+    "title": "ליבי אומר",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1997-07"
+   },
+   {
+    "id": "478ce18c-c9da-42a4-b8a7-2cdc642af1a2",
+    "title": "יהודית ויעקב: שירים מהבית",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "2010-08-24"
+   },
+   {
+    "id": "4832203c-ee60-4407-afdf-8cdfd30ebdbc",
+    "title": "ציפייה לאושר",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2007-03"
+   },
+   {
+    "id": "48490f4e-af75-41e7-bfb8-d4759c837c89",
+    "title": "לו באת: נשים שרות שם טוב לוי",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "2006-03"
+   },
+   {
+    "id": "4a0444fa-1291-4345-b33b-99bba6d2c553",
+    "title": "לקחת את ידי בידך: לייב באולפן",
+    "primary-type": "Single",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "2024-01-09"
+   },
+   {
+    "id": "4a4ada5e-7bef-4c09-8050-a36a0f20e6a6",
+    "title": "שבתות וחגים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1987-10"
+   },
+   {
+    "id": "4a822119-d7f8-4ac8-a979-ad7b34fef0a0",
+    "title": "בוא לריו",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1983"
+   },
+   {
+    "id": "4c532016-1d1e-3319-a1e3-7e05cc3084d4",
+    "title": "עד לאן שהלב לוקח",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "1994-08"
+   },
+   {
+    "id": "4d9e8730-57b1-42e9-848f-73b5bb81110d",
+    "title": "סופות של חול",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "2012-08-26"
+   },
+   {
+    "id": "4fd175fb-b68d-4c9b-aed3-2a48e13c1609",
+    "title": "חוזרת",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1997-04"
+   },
+   {
+    "id": "54ad269e-eb00-49ca-94ea-0734219091be",
+    "title": "לכי אל הים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2012-07-03"
+   },
+   {
+    "id": "54d7c8c3-3f44-46c6-a85a-812d35327fcf",
+    "title": "שני אלבומים מקוריים: דרך המשי, באה מאהבה",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "2001"
+   },
+   {
+    "id": "5567f3c5-6d55-494d-acf0-51872d2d2a09",
+    "title": "עכשיו הכל בסדר / יש אשר שקטים הם השמים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1980-11"
+   },
+   {
+    "id": "55acae3d-bc68-3872-87cf-92b5cd61d2bd",
+    "title": "מיטב השירים",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "1994-08"
+   },
+   {
+    "id": "5c01e24c-4399-41ff-b5ae-9ccd16ed8027",
+    "title": "רעידת אדמה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1990-08"
+   },
+   {
+    "id": "5e1a53a4-943b-4551-806a-bd55668913c9",
+    "title": "לא טוב היות האדם לבדו",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1977"
+   },
+   {
+    "id": "5f333a29-4137-417d-8e59-acd85a31bfbf",
+    "title": "נעמיד פני יתומים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1994-04"
+   },
+   {
+    "id": "62dafefb-9f0f-44b4-a55d-29cfccad23fe",
+    "title": "מיטב השירים 2",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "2002-03"
+   },
+   {
+    "id": "66dc6c84-1df2-4c22-8ca4-c71f92958797",
+    "title": "ציפור מדבר",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2008-04"
+   },
+   {
+    "id": "69f1ea0b-61e0-49db-897e-ca16fbb50ca9",
+    "title": "באה מאהבה",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1987-07-05"
+   },
+   {
+    "id": "6fb8cd22-d549-4ca2-8b7b-018e86b268bb",
+    "title": "אישה בגילך",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1997-03"
+   },
+   {
+    "id": "714434ad-a10c-4e57-a101-ecca3bd3c19e",
+    "title": "רחבת הריקודים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1987-08"
+   },
+   {
+    "id": "7260c8a8-3c51-4eaf-9679-002d162ce26c",
+    "title": "דיזנגוף 99",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Soundtrack"
+    ],
+    "first-release-date": "1979-06"
+   },
+   {
+    "id": "76d10fb8-0d84-3f7d-bbed-aba63f6aa488",
+    "title": "געגוע",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "2000-03-24"
+   },
+   {
+    "id": "792bc98f-eddd-417f-9340-70f19453c5cf",
+    "title": "אפריקה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1990-11"
+   },
+   {
+    "id": "79d3f3fa-c78f-4453-a12b-75e2c9ee2b9a",
+    "title": "בבוקר",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2024-08-19"
+   },
+   {
+    "id": "7d5d985f-3cc4-4f6f-8dbc-43695fe369bc",
+    "title": "גוף אחד",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2010-03"
+   },
+   {
+    "id": "88059056-e51b-450b-b874-48d32f76c7e9",
+    "title": "את עושה אותי אמא",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2002-10"
+   },
+   {
+    "id": "8a52154b-2ec0-4d31-a2f0-b368fc6adf26",
+    "title": "למי שאינו מאמין",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1984"
+   },
+   {
+    "id": "8c3868ac-0899-4a86-8c12-99f7a25e67df",
+    "title": "אני משם",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "2024-02-24"
+   },
+   {
+    "id": "8dc1f2c6-70df-4937-b879-8d2080307e1a",
+    "title": "בשביל אל הבריכות",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2024-09-20"
+   },
+   {
+    "id": "8e7ab432-6b21-4ffb-bf90-d44ef3592e91",
+    "title": "באתי בידיים ריקות",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2012-05"
+   },
+   {
+    "id": "93ff5de1-6106-4e14-9d53-8772459c25d4",
+    "title": "1994: מופע משותף מאוד",
+    "primary-type": "Broadcast",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": ""
+   },
+   {
+    "id": "960e3155-d4a1-4829-8955-a7f930a17867",
+    "title": "אני משם",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1993-10"
+   },
+   {
+    "id": "997cca28-3d99-4456-9bd2-d01ab364ff12",
+    "title": "יהודית רביץ",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1979-10"
+   },
+   {
+    "id": "99d4cd84-b853-4464-a91e-3de528d7b124",
+    "title": "עד קצה המסלול",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1984"
+   },
+   {
+    "id": "9a39bb8c-9180-448b-b778-f9e5f0b802e8",
+    "title": "ומאוד לא פשוט לחכות",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1993-09"
+   },
+   {
+    "id": "9b94ec53-2d39-42b1-bfac-188e51ddec27",
+    "title": "מילה טובה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1981-07"
+   },
+   {
+    "id": "9bdba6ef-4be7-3cbc-8a08-3141a4670ed9",
+    "title": "עיר קטנה",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "2007-03-08"
+   },
+   {
+    "id": "a077931e-597f-4351-9253-9a2bc0b5b50c",
+    "title": "צער לך",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1988"
+   },
+   {
+    "id": "a1654a20-a422-44fa-b16f-102438407830",
+    "title": "שם",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1990-09"
+   },
+   {
+    "id": "a244ecda-73ed-4bb5-ab94-adb3b396e584",
+    "title": "אהבה יומיומית",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1978-08"
+   },
+   {
+    "id": "a2e79679-cb6f-4a73-84c4-02a9e92b50bd",
+    "title": "גלוי ונעלם",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1980-11"
+   },
+   {
+    "id": "a376418c-c14c-3bb9-a14d-da6726d7a074",
+    "title": "באופן קבוע וחד פעמי",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1979-05"
+   },
+   {
+    "id": "a3a60a81-4a54-4de4-aade-84e5d0fe95f3",
+    "title": "טאז׳ מאהאל / יום האינדיאנים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1983"
+   },
+   {
+    "id": "b02df107-66bb-309c-8d26-b4f890f4e3f8",
+    "title": "הכבש הששה־עשר",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1978-11-22"
+   },
+   {
+    "id": "b2bbe6e4-938b-43b4-a4f5-cc62a2ee21fe",
+    "title": "האיש ההוא",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2005-08"
+   },
+   {
+    "id": "baab27f4-fb3e-4c13-a458-8707168f9df7",
+    "title": "ארץ טרופית יפה / לא טוב היות האדם לבדו",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1982-03"
+   },
+   {
+    "id": "c18bca64-df8a-48d3-8c1e-f032b8dd3673",
+    "title": "למחרת",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1993-07"
+   },
+   {
+    "id": "c4a7f3e6-280f-4db4-8271-dad3164eeac2",
+    "title": "אמרת אמרת / דרך המשי",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1984"
+   },
+   {
+    "id": "c8097373-1219-48d8-ac30-fbac0c76ae7b",
+    "title": "איזו מין ילדה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1997-02"
+   },
+   {
+    "id": "c885167b-02cd-4d6b-bd90-78c29bbc5b9b",
+    "title": "מילה טובה ואוסף שירים",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "1982-02"
+   },
+   {
+    "id": "c92cfc95-b9c7-4dc5-9110-0836bc3f3b72",
+    "title": "תפוח חינני / גוונים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2010-09"
+   },
+   {
+    "id": "c942e0f9-a429-4eaf-8d40-ab2d8e15c88c",
+    "title": "בנחל אכזב",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2019-09-18"
+   },
+   {
+    "id": "ceec0d15-e20c-4ab2-8495-df391cff07de",
+    "title": "האלבומים המקוריים",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Compilation"
+    ],
+    "first-release-date": "2016-02"
+   },
+   {
+    "id": "d0d480e2-e09a-4d41-b80d-2ee83d504539",
+    "title": "כשאת בוכה את לא יפה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1988"
+   },
+   {
+    "id": "d24dce67-fcc3-4e5f-9f7c-d2a441df36ce",
+    "title": "עיר קטנה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2006-12"
+   },
+   {
+    "id": "d2f53bf6-11bf-4bd4-af1c-e02b8ad0df50",
+    "title": "1994: הדרן, ”מופע משותף מאוד”",
+    "primary-type": "Broadcast",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "2022-12-24"
+   },
+   {
+    "id": "d5d8cf2e-2d63-46db-8a0a-9e33be4bba5c",
+    "title": "איזו מין ילדה",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "1997-03"
+   },
+   {
+    "id": "d67a9484-ef0b-483a-b5a2-35e890f265e0",
+    "title": "בני פרח",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2021-05-03"
+   },
+   {
+    "id": "da5fff9f-680a-4702-b3d8-7d94fa18ac43",
+    "title": "ילדים אוהבים צעצועים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1985"
+   },
+   {
+    "id": "dc1107a7-ed33-4255-a611-6c4c323c6188",
+    "title": "באה מאהבה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1987-05"
+   },
+   {
+    "id": "de6e4617-eca8-4df1-83a4-439950b91a43",
+    "title": "יהודית רביץ והפילהרמונית",
+    "primary-type": "Album",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "2001-08"
+   },
+   {
+    "id": "e3abfb8c-52d6-44cb-b0ed-06681762e953",
+    "title": "משנה לשנה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1990-09"
+   },
+   {
+    "id": "e3d55d9a-9171-40ab-bf5f-0892c657fdae",
+    "title": "ילדות נשכחת",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2024-07-29"
+   },
+   {
+    "id": "e777c930-658a-4fa2-9fdf-41ee37a0bbac",
+    "title": "הוא הולך ממך",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1987-06-15"
+   },
+   {
+    "id": "e7db696e-0d6c-4168-833f-1c0dad383893",
+    "title": "גם אני רוצה חיבוק: שירים לקטנים",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "2005-03"
+   },
+   {
+    "id": "ea49856d-1eae-49dd-b8ba-4054ab949707",
+    "title": "קרה זה רק הפעם",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1996"
+   },
+   {
+    "id": "ec4873db-68a9-4774-a1e8-32ed503c04f4",
+    "title": "הגננים היום עצובים",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1993-08"
+   },
+   {
+    "id": "ed18f209-7bd8-428d-b763-202a9bd31309",
+    "title": "Hakol Beseder",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2019-01-30"
+   },
+   {
+    "id": "ed7067a2-9e4e-4c13-8ea9-04a2b539bb1f",
+    "title": "ארבע לפנות בוקר",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1980-08"
+   },
+   {
+    "id": "f12836dc-595d-44b1-a821-2a076ad18012",
+    "title": "באהבתנו",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1993-12"
+   },
+   {
+    "id": "f9bd7124-be9b-4d2d-b442-26f66aec82ba",
+    "title": "בללי | רביץ | רביקוביץ׳",
+    "primary-type": "Album",
+    "secondary-types": [],
+    "first-release-date": "2009-03"
+   },
+   {
+    "id": "fe3d81d3-89ef-425a-bbdf-2edf605df0d2",
+    "title": "תמונה",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "1993-06"
+   }
+  ]
+ },
+ "mb_release_groups|10385cb9-e45f-4c18-b03e-190c94f5f305|100": {
+  "release-group-count": 104,
+  "release-groups": [
+   {
+    "id": "322fec9d-e33e-43b9-b964-6fe4943c1ad7",
+    "title": "ברחובות שלנו",
+    "primary-type": "Single",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "1994-06"
+   },
+   {
+    "id": "cab45c96-e49a-4914-8576-745e82e9ed8f",
+    "title": "עם סבי / בנחל אכזב",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": ""
+   },
+   {
+    "id": "d314f2d2-a3f5-456d-b0b3-69f6f0a52edb",
+    "title": "שקט",
+    "primary-type": "Single",
+    "secondary-types": [
+     "Live"
+    ],
+    "first-release-date": "1994-07"
+   },
+   {
+    "id": "e00be465-4ab7-44e6-8400-467a0da70e13",
+    "title": "עד הסוף",
+    "primary-type": "Single",
+    "secondary-types": [],
+    "first-release-date": "2016-07-13"
+   }
+  ]
+ }
+}

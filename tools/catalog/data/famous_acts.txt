@@ -1,0 +1,118 @@
+# Famous acts (stage B): every 1960–1999 song of these acts qualifies whatever its Deezer popularity.
+# Their chart, album-page and famous-acts rows of 1960–1999 skip the floor (a preview is still needed),
+# and the collect stage takes the tracks of their studio albums (source famous-acts).
+# One act per line, spelled as the catalog's artist field writes it; '#' starts a comment;
+# "name | alias" adds another spelling of the same act (punctuation and ו/י spellings match anyway); the
+# collect stage searches Deezer and MusicBrainz for an alias when the name finds no artist there.
+
+# Bands and groups
+כוורת
+גזוז
+דודה
+תיסלם
+אבטיפוס | Avtipus  # Deezer finds the band only by its Latin name
+משינה
+בנזין
+אתניקס | אתניX  # Hebrew Wikipedia's album pages spell it with an X
+החברים של נטאשה
+טיפקס
+מוניקה סקס
+היהודים
+הקליק
+פורטיסחרוף
+נוער שוליים
+תמוז
+אחרית הימים
+הצ'רצ'ילים
+החלונות הגבוהים
+שלישיית גשר הירקון
+התרנגולים
+להקת הנח"ל
+הגשש החיוור
+הכל עובר חביבי
+חלב ודבש
+סקסטה
+צליל מכוון
+שוקולד מנטה מסטיק
+הטוב הרע והנערה
+השלושרים
+כנסיית השכל
+רוקפור
+איפה הילד
+זקני צפת
+נקמת הטרקטור
+שב"ק ס  # given as שב"ק ס'
+היי פייב
+שפתיים
+צלילי הכרם
+הנשמות הטהורות
+
+# Bands added in the stage-B fix round
+אף אוזן גרון
+אילן ואילנית
+המכשפות
+מופע הארנבות של ד"ר קספר
+הפה והטלפיים | Mouth and Foot  # Deezer's name for the band
+פונץ'
+
+# Performers the owner named (their own albums; band albums come through the band's line)
+גידי גוב
+דני סנדרסון
+
+# Not exempt: add a name above to take all of its songs. Their album-page rows stay candidates at
+# the usual floors (stage B round 2).
+# Fix round: these three bands' albums are mostly folk covers, so their songs take the usual floors.
+# הגבעטרון
+# הדודאים
+# הפרברים
+# אריק איינשטיין
+# שלום חנוך
+# שלמה ארצי
+# מתי כספי
+# יהודית רביץ
+# יוני רכטר
+# צביקה פיק
+# אריאל זילבר
+# שלמה גרוניך
+# יצחק קלפטר
+# אפרים שמיר
+# אלון אולארצ'יק
+# מזי כהן
+# יהודה פוליקר
+# ריטה
+# רמי קלינשטיין
+# גלי עטרי
+# עפרה חזה
+# זוהר ארגוב
+# חיים משה
+# בועז שרעבי
+# נורית גלרון
+# חוה אלברשטיין
+# אילנית
+# יגאל בשן
+# יהורם גאון
+# אביב גפן
+# אהוד בנאי
+# מאיר בנאי
+# אביתר בנאי
+# ברי סחרוף
+# רמי פורטיס
+# דני רובס
+# דויד ברוזה  # given as דייויד ברוזה
+# שם טוב לוי
+# קורין אלאל
+# סי היימן
+# ירדנה ארזי
+# עוזי חיטמן
+# מאיר אריאל
+# אריק לביא
+# שמוליק קראוס
+# אושיק לוי
+# ריקי גל
+# אתי אנקרי
+# דנה ברגר
+# זהבה בן
+# אביהו מדינה
+# מרגלית צנעני
+# שימי תבורי
+# אחינועם ניני

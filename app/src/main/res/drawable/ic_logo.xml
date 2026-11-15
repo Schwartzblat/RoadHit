@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The app logo: a white note and a question mark on a purple disc. Media artwork outside the reveal. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#5B2A86"
+        android:pathData="M48,0A48,48 0,1 1,48,96A48,48 0,1 1,48,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,22L62,16L62,60A10,8 0,1 1,56,52.6L56,30L44,33L44,66A10,8 0,1 1,38,58.6Z" />
+    <path
+        android:fillColor="#FFC94D"
+        android:pathData="M70,62a7,7 0,1 1,14,0c0,4 -5,5 -5,9l-4,0c0,-6 5,-6 5,-9a3,3 0,1 0,-6,0zM75,74l4,0l0,4l-4,0z" />
+</vector>

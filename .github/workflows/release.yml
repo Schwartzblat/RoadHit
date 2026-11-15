@@ -1,0 +1,83 @@
+# Builds a signed release APK when a version tag (v1.2 or v1.2.3) is pushed and attaches it to a
+# GitHub Release. The signing key comes only from repository secrets (see README, "Releasing").
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write # create the release; nothing else
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: gradle
+
+      - name: Version from the tag
+        id: version
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          if [[ ! "$TAG" =~ ^v([0-9]+)\.([0-9]+)(\.([0-9]+))?$ ]]; then
+            echo "::error::Tags must look like v1.2 or v1.2.3 (got $TAG)"; exit 1
+          fi
+          major=${BASH_REMATCH[1]} minor=${BASH_REMATCH[2]} patch=${BASH_REMATCH[4]:-0}
+          if (( minor > 99 || patch > 99 )); then
+            echo "::error::Minor and patch numbers must be at most 99"; exit 1
+          fi
+          echo "name=${TAG#v}" >> "$GITHUB_OUTPUT"
+          echo "code=$(( major * 10000 + minor * 100 + patch ))" >> "$GITHUB_OUTPUT"
+
+      - name: Android SDK packages
+        run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --install "platforms;android-37.0" "build-tools;37.0.0" > /dev/null
+
+      - name: Unit tests
+        run: ./gradlew --no-daemon :app:testDebugUnitTest
+
+      - name: Build the signed APK
+        env:
+          SIGNING_KEYSTORE_BASE64: ${{ secrets.SIGNING_KEYSTORE_BASE64 }}
+          SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
+          SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
+          SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
+          VERSION_CODE: ${{ steps.version.outputs.code }}
+          VERSION_NAME: ${{ steps.version.outputs.name }}
+        run: |
+          for s in SIGNING_KEYSTORE_BASE64 SIGNING_STORE_PASSWORD SIGNING_KEY_ALIAS SIGNING_KEY_PASSWORD; do
+            if [ -z "${!s}" ]; then echo "::error::Repository secret $s is not set"; exit 1; fi
+          done
+          export SIGNING_KEYSTORE="$RUNNER_TEMP/release.jks"
+          trap 'rm -f "$SIGNING_KEYSTORE"' EXIT
+          printf '%s' "$SIGNING_KEYSTORE_BASE64" | base64 --decode > "$SIGNING_KEYSTORE"
+          ./gradlew --no-daemon :app:assembleRelease -PversionCode="$VERSION_CODE" -PversionName="$VERSION_NAME"
+          cp app/build/outputs/apk/release/app-release.apk "$RUNNER_TEMP/RoadHit-$VERSION_NAME.apk"
+
+      - name: Check the signature
+        env:
+          VERSION_NAME: ${{ steps.version.outputs.name }}
+        run: |
+          "$ANDROID_HOME/build-tools/37.0.0/apksigner" verify --print-certs "$RUNNER_TEMP/RoadHit-$VERSION_NAME.apk"
+
+      - name: Create the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+          VERSION_NAME: ${{ steps.version.outputs.name }}
+        run: |
+          gh release create "$TAG" "$RUNNER_TEMP/RoadHit-$VERSION_NAME.apk" \
+            --repo "$GITHUB_REPOSITORY" --verify-tag --title "RoadHit $VERSION_NAME" --generate-notes

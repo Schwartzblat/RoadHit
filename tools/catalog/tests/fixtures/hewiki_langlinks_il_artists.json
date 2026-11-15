@@ -1,0 +1,42 @@
+{
+ "batchcomplete": true,
+ "query": {
+  "pages": [
+   {
+    "pageid": 71300,
+    "ns": 0,
+    "title": "שושנה דמארי",
+    "langlinks": [
+     {
+      "lang": "en",
+      "title": "Shoshana Damari"
+     }
+    ]
+   },
+   {
+    "pageid": 168659,
+    "ns": 0,
+    "title": "מאור כהן"
+   },
+   {
+    "pageid": 338456,
+    "ns": 0,
+    "title": "כוורת",
+    "langlinks": [
+     {
+      "lang": "en",
+      "title": "Beehive"
+     }
+    ]
+   },
+   {
+    "pageid": 1862620,
+    "ns": 0,
+    "title": "רביב כנר"
+   }
+  ]
+ },
+ "limits": {
+  "langlinks": 500
+ }
+}

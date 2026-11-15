@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!-- Debug-only lab: adb-driven test hooks and the voice test-set recorder.
+             Never present in release builds. -->
+        <activity
+            android:name=".debug.LabActivity"
+            android:exported="true"
+            android:label="RoadHit Lab"
+            android:launchMode="singleTop"
+            android:taskAffinity="com.roadhit.lab">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

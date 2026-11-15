@@ -1,0 +1,17 @@
+# Songs to keep whatever their Deezer popularity (the floor in floors.toml does
+# not apply to them). One candidate key per line (the sha1 "key" field of
+# work/candidates.json); text after '#' is a comment.
+
+# Famous pre-1970 songs under the before_1970 floor (task 19 fix round 1).
+c09f18372eda19d6f90b27e7da592fb19a1b3a07  # Volare (Nel blu dipinto di blu) – Domenico Modugno (1958)
+6bc5c798a31bfab98ac400f3371bee82e6b18724  # Goodnight Irene – Gordon Jenkins & The Weavers (1950)
+27dcd1ac91bd77740de67c5f703bc670bf9f2f76  # High Noon – Frankie Laine (1952)
+7abdceed81c727e9d82ad6afe119c785ba9bff3a  # School Days – Chuck Berry (1957)
+
+# Famous 2000s hits whose canonical album track is missing from Deezer's results,
+# so their popularity is understated (task 19 fix round 1).
+a58b0306123aa3b599f0f0ebd05d1e2eadbc5321  # Firework – Katy Perry (2011)
+92f4506c72a9720bf21615c6f8d9789e438223a9  # Everytime – בריטני ספירס (2004)
+08df50d7ec9c220b0ed07830e015b6af8e7c16df  # It Wasn't Me – Shaggy featuring Rikrok (2001); the radio edit (track override) ranks under the 2000+ floor
+f665c358a02dfa057024ed5cba9e97ae82f09e4f  # כחולה כחלום – שלישיית גשר הירקון (1966); under 1,000 but the track of its own album התכנית החדשה (stage B round 2)
+ee65f3c35845f898056349a764b244bc145def2e  # גולה גולה – אתניקס עם אג'אר (1997); under 1,000 but the single's own release (stage B round 2)

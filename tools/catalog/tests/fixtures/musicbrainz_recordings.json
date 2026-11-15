@@ -1,0 +1,476 @@
+{
+ "(recording:\"Hound Dog\") AND (artist:\"Elvis Presley\") AND firstreleasedate:[* TO 1957-12-31]": {
+  "count": 3,
+  "recordings": [
+   {
+    "id": "8a2f4707-b9cc-4694-8904-a91e4d7888f0",
+    "score": 100,
+    "title": "Hound Dog",
+    "first-release-date": "1956",
+    "artist-credit": [
+     {
+      "name": "Elvis Presley",
+      "joinphrase": "",
+      "artist": {
+       "name": "Elvis Presley"
+      }
+     }
+    ]
+   },
+   {
+    "id": "94794714-c7c5-4939-8a10-5534bdf70a74",
+    "score": 100,
+    "title": "Hound Dog",
+    "first-release-date": "1957-09",
+    "artist-credit": [
+     {
+      "name": "Elvis Presley",
+      "joinphrase": "",
+      "artist": {
+       "name": "Elvis Presley"
+      }
+     }
+    ]
+   },
+   {
+    "id": "8debe8d9-a657-4a93-b37f-0f5363c71958",
+    "score": 100,
+    "title": "Hound Dog",
+    "first-release-date": "1956-07-13",
+    "artist-credit": [
+     {
+      "name": "Elvis Presley",
+      "joinphrase": "",
+      "artist": {
+       "name": "Elvis Presley"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "(recording:\"Like a Virgin\") AND (artist:\"Madonna\") AND firstreleasedate:[* TO 1985-12-31]": {
+  "count": 4,
+  "recordings": [
+   {
+    "id": "5afbf600-48a7-42db-ac99-123c45e021f0",
+    "score": 100,
+    "title": "Like a Virgin",
+    "first-release-date": "1985",
+    "disambiguation": "live, 1985-05-25: Cobo Center, Detroit, MI, USA",
+    "artist-credit": [
+     {
+      "name": "Madonna",
+      "joinphrase": "",
+      "artist": {
+       "name": "Madonna"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b991edea-a19b-40d7-bcdc-1cb3e7b38e1d",
+    "score": 100,
+    "title": "Like a Virgin",
+    "first-release-date": "1984",
+    "artist-credit": [
+     {
+      "name": "Madonna",
+      "joinphrase": "",
+      "artist": {
+       "name": "Madonna"
+      }
+     }
+    ]
+   },
+   {
+    "id": "9436c9cc-c96d-4296-aa63-1fcea5e91fa3",
+    "score": 100,
+    "title": "Like a Virgin",
+    "first-release-date": "1984-11-05",
+    "artist-credit": [
+     {
+      "name": "Madonna",
+      "joinphrase": "",
+      "artist": {
+       "name": "Madonna"
+      }
+     }
+    ]
+   },
+   {
+    "id": "14f6b7b0-aad1-433e-b120-52ff409fee3e",
+    "score": 84,
+    "title": "Like a Virgin (extended dance remix)",
+    "first-release-date": "1984-11-05",
+    "artist-credit": [
+     {
+      "name": "Madonna",
+      "joinphrase": "",
+      "artist": {
+       "name": "Madonna"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "(recording:\"Big Girls Don't Cry\") AND (artist:\"The Four Seasons\") AND firstreleasedate:[* TO 1985-12-31]": {
+  "count": 5,
+  "recordings": [
+   {
+    "id": "2268230e-e143-47af-a50a-5979feff260c",
+    "score": 100,
+    "title": "Big Girls Don't Cry",
+    "first-release-date": "1964-10-01",
+    "artist-credit": [
+     {
+      "name": "The Four Seasons",
+      "joinphrase": "",
+      "artist": {
+       "name": "The Four Seasons"
+      }
+     }
+    ]
+   },
+   {
+    "id": "9a72dadc-a210-4632-9f0e-9289d9f43258",
+    "score": 100,
+    "title": "Big Girls Don’t Cry",
+    "first-release-date": "1968",
+    "artist-credit": [
+     {
+      "name": "The Four Seasons",
+      "joinphrase": "",
+      "artist": {
+       "name": "The Four Seasons"
+      }
+     }
+    ]
+   },
+   {
+    "id": "6dba88c8-6b74-4fcd-9a7e-dfe468f20aa7",
+    "score": 100,
+    "title": "Big Girls Don't Cry",
+    "first-release-date": "1962-09",
+    "disambiguation": "mono",
+    "artist-credit": [
+     {
+      "name": "The Four Seasons",
+      "joinphrase": "",
+      "artist": {
+       "name": "The Four Seasons"
+      }
+     }
+    ]
+   },
+   {
+    "id": "830ebe2a-1f0e-46a7-9e37-c06967420fed",
+    "score": 87,
+    "title": "Big Girls Don’t Cry",
+    "first-release-date": "1962",
+    "artist-credit": [
+     {
+      "name": "Frankie Valli & The Four Seasons",
+      "joinphrase": "",
+      "artist": {
+       "name": "The Four Seasons"
+      }
+     }
+    ]
+   },
+   {
+    "id": "c568cce2-ae71-40f9-962c-bd051a8e77af",
+    "score": 70,
+    "title": "Sherry/Walk Like a Man/Big Girls Don't Cry/Bye Bye Baby (Baby Good Bye)",
+    "first-release-date": "1981",
+    "artist-credit": [
+     {
+      "name": "The Four Seasons",
+      "joinphrase": "",
+      "artist": {
+       "name": "The Four Seasons"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "(recording:\"Hallelujah\") AND (artist:\"Leonard Cohen\") AND firstreleasedate:[* TO 1994-12-31]": {
+  "count": 8,
+  "recordings": [
+   {
+    "id": "b2bddb9f-5968-43f3-9966-d5179aea8403",
+    "score": 100,
+    "title": "Hallelujah",
+    "first-release-date": "1985",
+    "disambiguation": "live, 1985-07-06: Arkadenhof, Vienna, Austria",
+    "artist-credit": [
+     {
+      "name": "Leonard Cohen",
+      "joinphrase": "",
+      "artist": {
+       "name": "Leonard Cohen"
+      }
+     }
+    ]
+   },
+   {
+    "id": "27a78599-9676-48df-8628-e9062c17cc4b",
+    "score": 100,
+    "title": "Hallelujah",
+    "first-release-date": "1988-06-24",
+    "artist-credit": [
+     {
+      "name": "Leonard Cohen",
+      "joinphrase": "",
+      "artist": {
+       "name": "Leonard Cohen"
+      }
+     }
+    ]
+   },
+   {
+    "id": "ea930127-d06a-4d3b-af94-8cd79e62e837",
+    "score": 100,
+    "title": "Hallelujah",
+    "first-release-date": "1994-06-28",
+    "disambiguation": "live, 1988-10-31: Austin City Limits, Austin, Texas, USA",
+    "artist-credit": [
+     {
+      "name": "Leonard Cohen",
+      "joinphrase": "",
+      "artist": {
+       "name": "Leonard Cohen"
+      }
+     }
+    ]
+   },
+   {
+    "id": "0206d675-5a43-48a1-aad3-6e2015429410",
+    "score": 100,
+    "title": "Hallelujah",
+    "first-release-date": "1993-05-21",
+    "artist-credit": [
+     {
+      "name": "Leonard Cohen",
+      "joinphrase": "",
+      "artist": {
+       "name": "Leonard Cohen"
+      }
+     }
+    ]
+   },
+   {
+    "id": "6cc009a7-7b5f-4a9f-bf3f-424ae32541ee",
+    "score": 100,
+    "title": "Hallelujah",
+    "first-release-date": "1985-07-09",
+    "artist-credit": [
+     {
+      "name": "Leonard Cohen",
+      "joinphrase": "",
+      "artist": {
+       "name": "Leonard Cohen"
+      }
+     }
+    ]
+   },
+   {
+    "id": "64485b18-2e41-453b-8a24-7ceabc5c3cbf",
+    "score": 100,
+    "title": "Hallelujah",
+    "first-release-date": "1992",
+    "disambiguation": "live, 1985-07-09: Montreux Casino, Montreux, CH",
+    "artist-credit": [
+     {
+      "name": "Leonard Cohen",
+      "joinphrase": "",
+      "artist": {
+       "name": "Leonard Cohen"
+      }
+     }
+    ]
+   },
+   {
+    "id": "6d668665-f759-4e3a-93ed-0268bc7f6e3e",
+    "score": 100,
+    "title": "Hallelujah",
+    "first-release-date": "1993-05-21",
+    "artist-credit": [
+     {
+      "name": "Leonard Cohen",
+      "joinphrase": "",
+      "artist": {
+       "name": "Leonard Cohen"
+      }
+     }
+    ]
+   },
+   {
+    "id": "0ef6d5e2-78e3-43e8-a32c-36e28fed4834",
+    "score": 100,
+    "title": "Hallelujah",
+    "first-release-date": "1984-12",
+    "artist-credit": [
+     {
+      "name": "Leonard Cohen",
+      "joinphrase": "",
+      "artist": {
+       "name": "Leonard Cohen"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "(recording:\"כלניות\") AND (artist:\"שושנה דמארי\" OR artist:\"Shoshana Damari\")": {
+  "count": 9,
+  "recordings": [
+   {
+    "id": "fe259fd3-4000-403b-a723-f22ecfdd946e",
+    "score": 100,
+    "title": "כלניות",
+    "first-release-date": "1994-06",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": "",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     }
+    ]
+   },
+   {
+    "id": "1e71cac6-c69e-4715-b713-ef75d4e2b1d1",
+    "score": 100,
+    "title": "כלניות",
+    "first-release-date": "1988-03",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": "",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     }
+    ]
+   },
+   {
+    "id": "311d50ce-a633-4cd8-b87b-e188968ca5bc",
+    "score": 100,
+    "title": "כלניות",
+    "first-release-date": "1995-04",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": "",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     }
+    ]
+   },
+   {
+    "id": "dec3f7a8-5564-4e7b-822e-89b39033d7c5",
+    "score": 100,
+    "title": "כלניות",
+    "first-release-date": "1994",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": "",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     }
+    ]
+   },
+   {
+    "id": "79e6b78a-60bf-4c92-b26d-00784109ac60",
+    "score": 100,
+    "title": "כלניות",
+    "first-release-date": "1994",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": "",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3b54e5e-ecaa-48c7-84c4-34a29154bb7a",
+    "score": 100,
+    "title": "כלניות",
+    "first-release-date": "1988",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": "",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     }
+    ]
+   },
+   {
+    "id": "254c6d73-4388-4020-960f-4275eecab18e",
+    "score": 100,
+    "title": "כלניות",
+    "first-release-date": "2003-02",
+    "disambiguation": "עיבוד וילנסקי",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": "",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     }
+    ]
+   },
+   {
+    "id": "83a560ec-c376-4d25-b355-d502e66ea573",
+    "score": 100,
+    "title": "כלניות",
+    "first-release-date": "2001-03",
+    "disambiguation": "עיבוד גרציאני",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": "",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     }
+    ]
+   },
+   {
+    "id": "1383505c-1d8a-4048-a498-0d5056cf094f",
+    "score": 80,
+    "title": "כלניות",
+    "first-release-date": "2002",
+    "artist-credit": [
+     {
+      "name": "שושנה דמארי",
+      "joinphrase": " ו",
+      "artist": {
+       "name": "שושנה דמארי"
+      }
+     },
+     {
+      "name": "התזמורת הסימפונית חיפה",
+      "joinphrase": "",
+      "artist": {
+       "name": "התזמורת הסימפונית חיפה"
+      }
+     }
+    ]
+   }
+  ]
+ }
+}
